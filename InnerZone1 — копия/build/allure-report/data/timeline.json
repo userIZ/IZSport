@@ -1,0 +1,86 @@
+{
+  "hosts" : [ {
+    "title" : "Lopata.local",
+    "threads" : [ {
+      "title" : "87287@Lopata.local.Test worker(10)",
+      "testCases" : [ {
+        "uid" : "1308464f233c7cd2",
+        "name" : "setUp",
+        "title" : "Set up",
+        "time" : {
+          "start" : 1542807362770,
+          "stop" : 1542807362783,
+          "duration" : 13
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "e0873e8b95a6ddbc",
+        "name" : "testCreateUser",
+        "title" : "Test create user",
+        "time" : {
+          "start" : 1542807363769,
+          "stop" : 1542807363800,
+          "duration" : 31
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "399f1cdd8b7ad742",
+        "name" : "tearDown",
+        "title" : "Tear down",
+        "time" : {
+          "start" : 1542807363813,
+          "stop" : 1542807363814,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "dc08cdd18c558619",
+        "name" : "testIncorrectMail",
+        "title" : "Test incorrect mail",
+        "time" : {
+          "start" : 1542807367736,
+          "stop" : 1542807383476,
+          "duration" : 15740
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "eec3827c9e7ff94d",
+        "name" : "testNonData",
+        "title" : "Test non data",
+        "time" : {
+          "start" : 1542807385581,
+          "stop" : 1542807393142,
+          "duration" : 7561
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "bbaba432ce195db1",
+        "name" : "testRegistration",
+        "title" : "Test registration",
+        "time" : {
+          "start" : 1542807394839,
+          "stop" : 1542807404207,
+          "duration" : 9368
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "a41ae57004fdb710",
+        "name" : "testNonVerify",
+        "title" : "Test non verify",
+        "time" : {
+          "start" : 1542807405904,
+          "stop" : 1542807415663,
+          "duration" : 9759
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}
