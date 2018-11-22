@@ -1,22 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1542807356450" stop="1542807415779" version="1.4.24.RC3" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+<ns2:test-suite start="1542884320940" stop="1542884439145" version="1.4.24.RC3" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
     <name>Gradle suite : Gradle test</name>
     <title>Gradle suite : Gradle test</title>
     <test-cases>
-        <test-case start="1542807362770" stop="1542807362783" status="broken">
+        <test-case start="1542884396908" stop="1542884396922" status="broken">
             <name>setUp</name>
             <description>@BeforeClass</description>
             <failure>
-                <message>WebDriverException: Process unexpectedly closed with status 0
+                <message>WebDriverException: newSession
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'Lopata.local', ip: 'fe80:0:0:0:18af:be51:a605:8b73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_161'
 Driver info: driver.version: FirefoxDriver
-remote stacktrace: </message>
-                <stack-trace>org.openqa.selenium.WebDriverException: Process unexpectedly closed with status 0
+remote stacktrace: WebDriverError@chrome://marionette/content/error.js:178:5
+UnknownCommandError@chrome://marionette/content/error.js:472:5
+despatch@chrome://marionette/content/server.js:290:13
+execute@chrome://marionette/content/server.js:271:11
+onPacket/&lt;@chrome://marionette/content/server.js:246:15
+onPacket@chrome://marionette/content/server.js:245:8
+_onJSONObjectReady/&lt;@chrome://marionette/content/transport.js:490:9
+</message>
+                <stack-trace>org.openqa.selenium.WebDriverException: newSession
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'Lopata.local', ip: 'fe80:0:0:0:18af:be51:a605:8b73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_161'
 Driver info: driver.version: FirefoxDriver
-remote stacktrace: 
+remote stacktrace: WebDriverError@chrome://marionette/content/error.js:178:5
+UnknownCommandError@chrome://marionette/content/error.js:472:5
+despatch@chrome://marionette/content/server.js:290:13
+execute@chrome://marionette/content/server.js:271:11
+onPacket/&lt;@chrome://marionette/content/server.js:246:15
+onPacket@chrome://marionette/content/server.js:245:8
+_onJSONObjectReady/&lt;@chrome://marionette/content/transport.js:490:9
+
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -100,10 +114,10 @@ remote stacktrace:
             <attachments/>
             <labels>
                 <label name="host" value="Lopata.local"/>
-                <label name="thread" value="87287@Lopata.local.Test worker(10)"/>
+                <label name="thread" value="98191@Lopata.local.Test worker(10)"/>
             </labels>
         </test-case>
-        <test-case start="1542807363769" stop="1542807363800" status="canceled">
+        <test-case start="1542884397217" stop="1542884397223" status="canceled">
             <name>testCreateUser</name>
             <failure>
                 <message>: Skipped due to dependency on other skipped or failed test methods</message>
@@ -168,10 +182,10 @@ remote stacktrace:
                 <label name="testClass" value="testframe.tests.CreateUser"/>
                 <label name="testMethod" value="testCreateUser"/>
                 <label name="host" value="Lopata.local"/>
-                <label name="thread" value="87287@Lopata.local.Test worker(10)"/>
+                <label name="thread" value="98191@Lopata.local.Test worker(10)"/>
             </labels>
         </test-case>
-        <test-case start="1542807363813" stop="1542807363814" status="broken">
+        <test-case start="1542884397226" stop="1542884397228" status="broken">
             <name>tearDown</name>
             <description>@AfterClass</description>
             <failure>
@@ -235,10 +249,10 @@ remote stacktrace:
             <attachments/>
             <labels>
                 <label name="host" value="Lopata.local"/>
-                <label name="thread" value="87287@Lopata.local.Test worker(10)"/>
+                <label name="thread" value="98191@Lopata.local.Test worker(10)"/>
             </labels>
         </test-case>
-        <test-case start="1542807367736" stop="1542807383476" status="broken">
+        <test-case start="1542884399921" stop="1542884410910" status="broken">
             <name>testIncorrectMail</name>
             <failure>
                 <message>NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(.//*[normalize-space(text()) and normalize-space(.)='Step Back'])[1]/following::button[1]"}
@@ -250,7 +264,7 @@ Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.2
 System info: host: 'Lopata.local', ip: 'fe80:0:0:0:18af:be51:a605:8b73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/tb/dd6p0sw92fs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: e646617f0fb55fa45ad479ceb27df797
+Session ID: 8f6262355659d216ef14d811c5e3b773
 *** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='Step Back'])[1]/following::button[1]}</message>
                 <stack-trace>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(.//*[normalize-space(text()) and normalize-space(.)='Step Back'])[1]/following::button[1]"}
   (Session info: chrome=70.0.3538.102)
@@ -261,7 +275,7 @@ Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.2
 System info: host: 'Lopata.local', ip: 'fe80:0:0:0:18af:be51:a605:8b73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/tb/dd6p0sw92fs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: e646617f0fb55fa45ad479ceb27df797
+Session ID: 8f6262355659d216ef14d811c5e3b773
 *** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='Step Back'])[1]/following::button[1]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -342,10 +356,10 @@ Session ID: e646617f0fb55fa45ad479ceb27df797
                 <label name="testClass" value="testframe.tests.IncorrectEmail"/>
                 <label name="testMethod" value="testIncorrectMail"/>
                 <label name="host" value="Lopata.local"/>
-                <label name="thread" value="87287@Lopata.local.Test worker(10)"/>
+                <label name="thread" value="98191@Lopata.local.Test worker(10)"/>
             </labels>
         </test-case>
-        <test-case start="1542807385581" stop="1542807393142" status="passed">
+        <test-case start="1542884412549" stop="1542884418998" status="passed">
             <name>testNonData</name>
             <steps/>
             <attachments/>
@@ -355,10 +369,10 @@ Session ID: e646617f0fb55fa45ad479ceb27df797
                 <label name="testClass" value="testframe.tests.NonData"/>
                 <label name="testMethod" value="testNonData"/>
                 <label name="host" value="Lopata.local"/>
-                <label name="thread" value="87287@Lopata.local.Test worker(10)"/>
+                <label name="thread" value="98191@Lopata.local.Test worker(10)"/>
             </labels>
         </test-case>
-        <test-case start="1542807394839" stop="1542807404207" status="broken">
+        <test-case start="1542884420559" stop="1542884429346" status="broken">
             <name>testRegistration</name>
             <failure>
                 <message>NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(.//*[normalize-space(text()) and normalize-space(.)='Step Back'])[1]/following::button[1]"}
@@ -370,7 +384,7 @@ Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.2
 System info: host: 'Lopata.local', ip: 'fe80:0:0:0:18af:be51:a605:8b73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/tb/dd6p0sw92fs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: 5a28689e9c205c824696e73397056be8
+Session ID: faf53c5db7aeb12f02bb04732489b3a3
 *** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='Step Back'])[1]/following::button[1]}</message>
                 <stack-trace>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(.//*[normalize-space(text()) and normalize-space(.)='Step Back'])[1]/following::button[1]"}
   (Session info: chrome=70.0.3538.102)
@@ -381,7 +395,7 @@ Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.2
 System info: host: 'Lopata.local', ip: 'fe80:0:0:0:18af:be51:a605:8b73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/tb/dd6p0sw92fs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: 5a28689e9c205c824696e73397056be8
+Session ID: faf53c5db7aeb12f02bb04732489b3a3
 *** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='Step Back'])[1]/following::button[1]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -462,10 +476,10 @@ Session ID: 5a28689e9c205c824696e73397056be8
                 <label name="testClass" value="testframe.tests.Registration"/>
                 <label name="testMethod" value="testRegistration"/>
                 <label name="host" value="Lopata.local"/>
-                <label name="thread" value="87287@Lopata.local.Test worker(10)"/>
+                <label name="thread" value="98191@Lopata.local.Test worker(10)"/>
             </labels>
         </test-case>
-        <test-case start="1542807405904" stop="1542807415663" status="broken">
+        <test-case start="1542884430803" stop="1542884439031" status="broken">
             <name>testNonVerify</name>
             <failure>
                 <message>NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(.//*[normalize-space(text()) and normalize-space(.)='Step Back'])[1]/following::button[1]"}
@@ -477,7 +491,7 @@ Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.2
 System info: host: 'Lopata.local', ip: 'fe80:0:0:0:18af:be51:a605:8b73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/tb/dd6p0sw92fs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: e0b7056415a2fea727f40531a47c81b5
+Session ID: 56803bb65cda0d40ffc81a51c9556ffc
 *** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='Step Back'])[1]/following::button[1]}</message>
                 <stack-trace>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(.//*[normalize-space(text()) and normalize-space(.)='Step Back'])[1]/following::button[1]"}
   (Session info: chrome=70.0.3538.102)
@@ -488,7 +502,7 @@ Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.2
 System info: host: 'Lopata.local', ip: 'fe80:0:0:0:18af:be51:a605:8b73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/tb/dd6p0sw92fs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: e0b7056415a2fea727f40531a47c81b5
+Session ID: 56803bb65cda0d40ffc81a51c9556ffc
 *** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='Step Back'])[1]/following::button[1]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -569,7 +583,7 @@ Session ID: e0b7056415a2fea727f40531a47c81b5
                 <label name="testClass" value="testframe.tests.noVerify"/>
                 <label name="testMethod" value="testNonVerify"/>
                 <label name="host" value="Lopata.local"/>
-                <label name="thread" value="87287@Lopata.local.Test worker(10)"/>
+                <label name="thread" value="98191@Lopata.local.Test worker(10)"/>
             </labels>
         </test-case>
     </test-cases>

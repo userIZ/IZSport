@@ -67,11 +67,13 @@ public class UserActions extends AssertData{
     }
 
     protected void step3() {
-        nextStep("(.//*[normalize-space(text()) and normalize-space(.)='Step 3'])[1]/following::form[1]");
+        driver.findElement(By.xpath("/html/body/app-root/app-pages/div/app-registration/div/div/app-registration-third-step/form/div[5]/button[2]")).click();
+
     }
 
     protected void step2() {
-        nextStep("(.//*[normalize-space(text()) and normalize-space(.)='Step Back'])[1]/following::button[1]");
+       // nextStep("(.//*[normalize-space(text()) and normalize-space(.)='Step Back'])[1]/following::button[1]");
+        driver.findElement(By.xpath("/html/body/app-root/app-pages/div/app-registration/div/div/app-registration-second-step/form/div[8]/button[2]")).click();
     }
 
     protected void step1() {

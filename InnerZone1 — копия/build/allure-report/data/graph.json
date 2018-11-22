@@ -1,78 +1,78 @@
 {
   "testCases" : [ {
-    "uid" : "1308464f233c7cd2",
+    "uid" : "bfef632b58a0f81c",
     "name" : "setUp",
     "title" : "Set up",
     "time" : {
-      "start" : 1542807362770,
-      "stop" : 1542807362783,
-      "duration" : 13
+      "start" : 1542884396908,
+      "stop" : 1542884396922,
+      "duration" : 14
     },
     "severity" : "NORMAL",
     "status" : "BROKEN"
   }, {
-    "uid" : "e0873e8b95a6ddbc",
+    "uid" : "4dab6a469dd6f83c",
     "name" : "testCreateUser",
     "title" : "Test create user",
     "time" : {
-      "start" : 1542807363769,
-      "stop" : 1542807363800,
-      "duration" : 31
+      "start" : 1542884397217,
+      "stop" : 1542884397223,
+      "duration" : 6
     },
     "severity" : "NORMAL",
     "status" : "CANCELED"
   }, {
-    "uid" : "399f1cdd8b7ad742",
+    "uid" : "88a18f93be6a9044",
     "name" : "tearDown",
     "title" : "Tear down",
     "time" : {
-      "start" : 1542807363813,
-      "stop" : 1542807363814,
-      "duration" : 1
+      "start" : 1542884397226,
+      "stop" : 1542884397228,
+      "duration" : 2
     },
     "severity" : "NORMAL",
     "status" : "BROKEN"
   }, {
-    "uid" : "dc08cdd18c558619",
+    "uid" : "2279f86db1ebe011",
     "name" : "testIncorrectMail",
     "title" : "Test incorrect mail",
     "time" : {
-      "start" : 1542807367736,
-      "stop" : 1542807383476,
-      "duration" : 15740
+      "start" : 1542884399921,
+      "stop" : 1542884410910,
+      "duration" : 10989
     },
     "severity" : "NORMAL",
     "status" : "BROKEN"
   }, {
-    "uid" : "eec3827c9e7ff94d",
+    "uid" : "18ac7f7a2dc98fbc",
     "name" : "testNonData",
     "title" : "Test non data",
     "time" : {
-      "start" : 1542807385581,
-      "stop" : 1542807393142,
-      "duration" : 7561
+      "start" : 1542884412549,
+      "stop" : 1542884418998,
+      "duration" : 6449
     },
     "severity" : "NORMAL",
     "status" : "PASSED"
   }, {
-    "uid" : "bbaba432ce195db1",
+    "uid" : "2f29cf63c036912b",
     "name" : "testRegistration",
     "title" : "Test registration",
     "time" : {
-      "start" : 1542807394839,
-      "stop" : 1542807404207,
-      "duration" : 9368
+      "start" : 1542884420559,
+      "stop" : 1542884429346,
+      "duration" : 8787
     },
     "severity" : "NORMAL",
     "status" : "BROKEN"
   }, {
-    "uid" : "a41ae57004fdb710",
+    "uid" : "c02ae161e524f1e4",
     "name" : "testNonVerify",
     "title" : "Test non verify",
     "time" : {
-      "start" : 1542807405904,
-      "stop" : 1542807415663,
-      "duration" : 9759
+      "start" : 1542884430803,
+      "stop" : 1542884439031,
+      "duration" : 8228
     },
     "severity" : "NORMAL",
     "status" : "BROKEN"

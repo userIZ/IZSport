@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">6.154s</div>
+<div class="counter">1m15.60s</div>
 <p>duration</p>
 </div>
 </td>
@@ -76,11 +76,18 @@
 <a name="setUp"></a>
 <h3 class="failures">setUp</h3>
 <span class="code">
-<pre>org.openqa.selenium.WebDriverException: Process unexpectedly closed with status 0
+<pre>org.openqa.selenium.WebDriverException: newSession
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'Lopata.local', ip: 'fe80:0:0:0:18af:be51:a605:8b73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_161'
 Driver info: driver.version: FirefoxDriver
-remote stacktrace: 
+remote stacktrace: WebDriverError@chrome://marionette/content/error.js:178:5
+UnknownCommandError@chrome://marionette/content/error.js:472:5
+despatch@chrome://marionette/content/server.js:290:13
+execute@chrome://marionette/content/server.js:271:11
+onPacket/&lt;@chrome://marionette/content/server.js:246:15
+onPacket@chrome://marionette/content/server.js:245:8
+_onJSONObjectReady/&lt;@chrome://marionette/content/transport.js:490:9
+
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -234,12 +241,12 @@ remote stacktrace:
 </thead>
 <tr>
 <td class="failures">setUp</td>
-<td class="failures">6.142s</td>
+<td class="failures">1m15.60s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">tearDown</td>
-<td class="failures">0.012s</td>
+<td class="failures">0.001s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
@@ -252,9 +259,40 @@ remote stacktrace:
 <div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>1542807359657	geckodriver	INFO	geckodriver 0.20.1
-1542807359678	geckodriver	INFO	Listening on 127.0.0.1:14620
-1542807361921	mozrunner::runner	INFO	Running command: &quot;/Applications/Firefox.app/Contents/MacOS/firefox-bin&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;/var/folders/tb/dd6p0sw92fs6cg74zfggp4ww0000gp/T/rust_mozprofile.ksAov0UfwR0A&quot;
+<pre>1542884322162	geckodriver	INFO	geckodriver 0.20.1
+1542884322172	geckodriver	INFO	Listening on 127.0.0.1:46168
+1542884323226	mozrunner::runner	INFO	Running command: &quot;/Applications/Firefox.app/Contents/MacOS/firefox-bin&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;/var/folders/tb/dd6p0sw92fs6cg74zfggp4ww0000gp/T/rust_mozprofile.crnOcjq1he9Z&quot;
+1542884324439	Marionette	DEBUG	Received observer notification profile-after-change
+1542884324582	Marionette	DEBUG	Received observer notification command-line-startup
+1542884324582	Marionette	DEBUG	Received observer notification nsPref:changed
+1542884324582	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1542884324902	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1542884326124	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1542884326124	Marionette	DEBUG	Waiting for delayed startup...
+1542884326272	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1542884326272	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1542884326273	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1542884326273	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1542884326274	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1542884326316	Marionette	INFO	Listening on port 55895
+1542884326316	Marionette	DEBUG	Remote service is active
+1542884326357	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:55960
+1542884326360	Marionette	TRACE	0 -&gt; [0,1,&quot;newSession&quot;,{&quot;acceptInsecureCerts&quot;:true,&quot;browserName&quot;:&quot;firefox&quot;,&quot;capabilities&quot;:{&quot;desiredCapabilities&quot;:{&quot;acceptInsecureCerts&quot;:true,&quot;browserName&quot;:&quot;firefox&quot;}}}]
+1542884326360	Marionette	TRACE	0 &lt;- [1,1,{&quot;error&quot;:&quot;unknown command&quot;,&quot;message&quot;:&quot;newSession&quot;,&quot;stacktrace&quot;:&quot;WebDriverError@chrome://marionette/content/error.js:178: ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/&lt;@chrome://marionette/content/transport.js:490:9\n&quot;},null]
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 98196, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+ноя 22, 2018 1:59:56 PM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '404' -&gt; incorrect JSON status mapping for 'unknown error' (500 expected)
 </pre>
 </span>
 </div>
@@ -266,7 +304,7 @@ remote stacktrace:
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.10.2</a> at 21.11.2018 16:36:56</p>
+<a href="http://www.gradle.org">Gradle 4.10.2</a> at 22.11.2018 14:00:39</p>
 </div>
 </div>
 </body>

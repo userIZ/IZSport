@@ -1,11 +1,11 @@
 {
-  "uid" : "e0873e8b95a6ddbc",
+  "uid" : "4dab6a469dd6f83c",
   "name" : "testCreateUser",
   "title" : "Test create user",
   "time" : {
-    "start" : 1542807363769,
-    "stop" : 1542807363800,
-    "duration" : 31
+    "start" : 1542884397217,
+    "stop" : 1542884397223,
+    "duration" : 6
   },
   "summary" : {
     "attachments" : 0,
@@ -20,7 +20,7 @@
   "status" : "CANCELED",
   "testId" : null,
   "suite" : {
-    "uid" : "4dd00c656c7d2708",
+    "uid" : "78d294a625f566f2",
     "name" : "Gradle suite : Gradle test",
     "title" : "Gradle suite : Gradle test"
   },
@@ -49,14 +49,14 @@
     "name" : "testSuite",
     "value" : "Gradle suite"
   }, {
-    "name" : "thread",
-    "value" : "87287@Lopata.local.Test worker(10)"
-  }, {
     "name" : "host",
     "value" : "Lopata.local"
   }, {
     "name" : "suite-title",
     "value" : "Gradle suite : Gradle test"
+  }, {
+    "name" : "thread",
+    "value" : "98191@Lopata.local.Test worker(10)"
   } ],
   "parameters" : [ ]
 }
