@@ -3,6 +3,7 @@ package testframe.tests;
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Wait;
 import org.testng.annotations.*;
 import static org.testng.Assert.*;
@@ -18,7 +19,7 @@ public class CreateUser {
 
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
-    driver = new FirefoxDriver();
+    driver = new ChromeDriver();
     baseUrl = "https://www.katalon.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }

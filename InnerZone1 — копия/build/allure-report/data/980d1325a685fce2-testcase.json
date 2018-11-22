@@ -1,11 +1,11 @@
 {
-  "uid" : "bfef632b58a0f81c",
+  "uid" : "980d1325a685fce2",
   "name" : "setUp",
   "title" : "Set up",
   "time" : {
-    "start" : 1542884396908,
-    "stop" : 1542884396922,
-    "duration" : 14
+    "start" : 1542891342049,
+    "stop" : 1542891342064,
+    "duration" : 15
   },
   "summary" : {
     "attachments" : 0,
@@ -23,7 +23,7 @@
   "status" : "BROKEN",
   "testId" : null,
   "suite" : {
-    "uid" : "78d294a625f566f2",
+    "uid" : "ac6d9e0d98c1de9",
     "name" : "Gradle suite : Gradle test",
     "title" : "Gradle suite : Gradle test"
   },
@@ -37,6 +37,9 @@
     "name" : "language",
     "value" : "JAVA"
   }, {
+    "name" : "thread",
+    "value" : "99818@Lopata.local.Test worker(10)"
+  }, {
     "name" : "framework",
     "value" : "TestNG"
   }, {
@@ -45,9 +48,6 @@
   }, {
     "name" : "suite-title",
     "value" : "Gradle suite : Gradle test"
-  }, {
-    "name" : "thread",
-    "value" : "98191@Lopata.local.Test worker(10)"
   } ],
   "parameters" : [ ]
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testframe.tests.CreateUser" tests="3" skipped="1" failures="2" errors="0" timestamp="2018-11-22T10:58:40" hostname="Lopata.local" time="76.258">
+<testsuite name="testframe.tests.CreateUser" tests="3" skipped="1" failures="2" errors="0" timestamp="2018-11-22T12:54:27" hostname="Lopata.local" time="75.179">
   <properties/>
-  <testcase name="setUp" classname="testframe.tests.CreateUser" time="75.599">
+  <testcase name="setUp" classname="testframe.tests.CreateUser" time="74.75">
     <failure message="org.openqa.selenium.WebDriverException: newSession&#10;Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'&#10;System info: host: 'Lopata.local', ip: 'fe80:0:0:0:18af:be51:a605:8b73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_161'&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: WebDriverError@chrome://marionette/content/error.js:178:5&#10;UnknownCommandError@chrome://marionette/content/error.js:472:5&#10;despatch@chrome://marionette/content/server.js:290:13&#10;execute@chrome://marionette/content/server.js:271:11&#10;onPacket/&lt;@chrome://marionette/content/server.js:246:15&#10;onPacket@chrome://marionette/content/server.js:245:8&#10;_onJSONObjectReady/&lt;@chrome://marionette/content/transport.js:490:9&#10;" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: newSession
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'Lopata.local', ip: 'fe80:0:0:0:18af:be51:a605:8b73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_161'
@@ -153,26 +153,26 @@ _onJSONObjectReady/&lt;@chrome://marionette/content/transport.js:490:9
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[1542884322162	geckodriver	INFO	geckodriver 0.20.1
-1542884322172	geckodriver	INFO	Listening on 127.0.0.1:46168
-1542884323226	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/tb/dd6p0sw92fs6cg74zfggp4ww0000gp/T/rust_mozprofile.crnOcjq1he9Z"
-1542884324439	Marionette	DEBUG	Received observer notification profile-after-change
-1542884324582	Marionette	DEBUG	Received observer notification command-line-startup
-1542884324582	Marionette	DEBUG	Received observer notification nsPref:changed
-1542884324582	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
-1542884324902	Marionette	DEBUG	Received observer notification toplevel-window-ready
-1542884326124	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
-1542884326124	Marionette	DEBUG	Waiting for delayed startup...
-1542884326272	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
-1542884326272	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
-1542884326273	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
-1542884326273	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
-1542884326274	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
-1542884326316	Marionette	INFO	Listening on port 55895
-1542884326316	Marionette	DEBUG	Remote service is active
-1542884326357	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:55960
-1542884326360	Marionette	TRACE	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
-1542884326360	Marionette	TRACE	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:178: ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+  <system-err><![CDATA[1542891268293	geckodriver	INFO	geckodriver 0.20.1
+1542891268303	geckodriver	INFO	Listening on 127.0.0.1:41768
+1542891269135	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/tb/dd6p0sw92fs6cg74zfggp4ww0000gp/T/rust_mozprofile.YOEf0CngKmQf"
+1542891269949	Marionette	DEBUG	Received observer notification profile-after-change
+1542891270077	Marionette	DEBUG	Received observer notification command-line-startup
+1542891270077	Marionette	DEBUG	Received observer notification nsPref:changed
+1542891270078	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1542891270326	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1542891271455	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1542891271456	Marionette	DEBUG	Waiting for delayed startup...
+1542891271575	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1542891271575	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1542891271576	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1542891271577	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1542891271577	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1542891271626	Marionette	INFO	Listening on port 50816
+1542891271626	Marionette	DEBUG	Remote service is active
+1542891271669	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:50876
+1542891271693	Marionette	TRACE	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1542891271693	Marionette	TRACE	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:178: ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
 console.error: BroadcastService: 
   receivedBroadcastMessage: handler for
   remote-settings/monitor_changes
@@ -182,10 +182,7 @@ console.error: BroadcastService:
     remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
 
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
-[Child 98196, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
-[GFX1-]: Receive IPC close with reason=AbnormalShutdown
-[GFX1-]: Receive IPC close with reason=AbnormalShutdown
-ноя 22, 2018 1:59:56 PM org.openqa.selenium.remote.ErrorCodes toStatus
+ноя 22, 2018 3:55:41 PM org.openqa.selenium.remote.ErrorCodes toStatus
 INFO: HTTP Status: '404' -> incorrect JSON status mapping for 'unknown error' (500 expected)
 ]]></system-err>
 </testsuite>

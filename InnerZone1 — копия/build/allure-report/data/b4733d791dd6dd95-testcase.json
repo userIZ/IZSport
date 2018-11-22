@@ -1,11 +1,11 @@
 {
-  "uid" : "88a18f93be6a9044",
+  "uid" : "b4733d791dd6dd95",
   "name" : "tearDown",
   "title" : "Tear down",
   "time" : {
-    "start" : 1542884397226,
-    "stop" : 1542884397228,
-    "duration" : 2
+    "start" : 1542891342395,
+    "stop" : 1542891342396,
+    "duration" : 1
   },
   "summary" : {
     "attachments" : 0,
@@ -23,7 +23,7 @@
   "status" : "BROKEN",
   "testId" : null,
   "suite" : {
-    "uid" : "78d294a625f566f2",
+    "uid" : "ac6d9e0d98c1de9",
     "name" : "Gradle suite : Gradle test",
     "title" : "Gradle suite : Gradle test"
   },
@@ -37,6 +37,9 @@
     "name" : "language",
     "value" : "JAVA"
   }, {
+    "name" : "thread",
+    "value" : "99818@Lopata.local.Test worker(10)"
+  }, {
     "name" : "framework",
     "value" : "TestNG"
   }, {
@@ -45,9 +48,6 @@
   }, {
     "name" : "suite-title",
     "value" : "Gradle suite : Gradle test"
-  }, {
-    "name" : "thread",
-    "value" : "98191@Lopata.local.Test worker(10)"
   } ],
   "parameters" : [ ]
 }

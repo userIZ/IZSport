@@ -1,11 +1,11 @@
 {
-  "uid" : "18ac7f7a2dc98fbc",
-  "name" : "testNonData",
-  "title" : "Test non data",
+  "uid" : "cc258feef4218c8",
+  "name" : "testIncorrectMail",
+  "title" : "Test incorrect mail",
   "time" : {
-    "start" : 1542884412549,
-    "stop" : 1542884418998,
-    "duration" : 6449
+    "start" : 1542891345306,
+    "stop" : 1542891358929,
+    "duration" : 13623
   },
   "summary" : {
     "attachments" : 0,
@@ -17,7 +17,7 @@
   "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "78d294a625f566f2",
+    "uid" : "ac6d9e0d98c1de9",
     "name" : "Gradle suite : Gradle test",
     "title" : "Gradle suite : Gradle test"
   },
@@ -31,14 +31,17 @@
     "name" : "language",
     "value" : "JAVA"
   }, {
+    "name" : "testMethod",
+    "value" : "testIncorrectMail"
+  }, {
+    "name" : "thread",
+    "value" : "99818@Lopata.local.Test worker(10)"
+  }, {
     "name" : "framework",
     "value" : "TestNG"
   }, {
     "name" : "testGroup",
     "value" : "Gradle test"
-  }, {
-    "name" : "testClass",
-    "value" : "testframe.tests.NonData"
   }, {
     "name" : "testSuite",
     "value" : "Gradle suite"
@@ -49,11 +52,8 @@
     "name" : "suite-title",
     "value" : "Gradle suite : Gradle test"
   }, {
-    "name" : "testMethod",
-    "value" : "testNonData"
-  }, {
-    "name" : "thread",
-    "value" : "98191@Lopata.local.Test worker(10)"
+    "name" : "testClass",
+    "value" : "testframe.tests.IncorrectEmail"
   } ],
   "parameters" : [ ]
 }
