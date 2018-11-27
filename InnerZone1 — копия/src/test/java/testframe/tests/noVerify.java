@@ -28,7 +28,6 @@ public class noVerify extends DataBase {
         verifyPassword();
         Thread.sleep(2000);
         step3();
-//        finalStep();
 Assert.assertFalse(noVerify(driver));
     }
 }

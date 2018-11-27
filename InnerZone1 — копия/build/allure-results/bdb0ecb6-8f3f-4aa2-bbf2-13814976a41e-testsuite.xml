@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1543235123723" stop="1543235144851" version="1.4.24.RC3" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+<ns2:test-suite start="1543304637287" stop="1543304659174" version="1.4.24.RC3" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
     <name>Default Suite : InnerZone</name>
     <title>Default Suite : InnerZone</title>
     <test-cases>
-        <test-case start="1543235127680" stop="1543235144692" status="broken">
+        <test-case start="1543304640301" stop="1543304658984" status="broken">
             <name>testRegistration</name>
             <failure>
                 <message>NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/app-root/app-pages/div/app-registration/div/div/app-registration-second-step/form/div[8]/button[2]"}
@@ -15,7 +15,7 @@ Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.2
 System info: host: 'Lopata.local', ip: 'fe80:0:0:0:18af:be51:a605:8b73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/tb/dd6p0sw92fs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: 73a6a8924da1bbcc3762d47835be6ad1
+Session ID: 027eea85ed84de1b92d2f51dd077dcc2
 *** Element info: {Using=xpath, value=/html/body/app-root/app-pages/div/app-registration/div/div/app-registration-second-step/form/div[8]/button[2]}</message>
                 <stack-trace>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/app-root/app-pages/div/app-registration/div/div/app-registration-second-step/form/div[8]/button[2]"}
   (Session info: chrome=70.0.3538.102)
@@ -26,7 +26,7 @@ Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.2
 System info: host: 'Lopata.local', ip: 'fe80:0:0:0:18af:be51:a605:8b73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/tb/dd6p0sw92fs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: 73a6a8924da1bbcc3762d47835be6ad1
+Session ID: 027eea85ed84de1b92d2f51dd077dcc2
 *** Element info: {Using=xpath, value=/html/body/app-root/app-pages/div/app-registration/div/div/app-registration-second-step/form/div[8]/button[2]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -81,7 +81,7 @@ Session ID: 73a6a8924da1bbcc3762d47835be6ad1
                 <label name="testClass" value="testframe.tests.Registration"/>
                 <label name="testMethod" value="testRegistration"/>
                 <label name="host" value="Lopata.local"/>
-                <label name="thread" value="53182@Lopata.local.main(1)"/>
+                <label name="thread" value="62003@Lopata.local.main(1)"/>
             </labels>
         </test-case>
     </test-cases>

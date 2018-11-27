@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testframe.tests.NonData" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-22T13:21:45" hostname="Lopata.local" time="7.135">
+<testsuite name="testframe.tests.NonData" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-27T07:35:18" hostname="Lopata.local" time="10.615">
   <properties/>
-  <testcase name="testNonData" classname="testframe.tests.NonData" time="7.135"/>
+  <testcase name="testNonData" classname="testframe.tests.NonData" time="10.615"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 21315
+  <system-err><![CDATA[Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 22660
 Only local connections are allowed.
-ноя 22, 2018 4:21:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ноя 27, 2018 10:35:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
 </testsuite>
