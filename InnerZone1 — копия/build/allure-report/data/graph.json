@@ -1,56 +1,56 @@
 {
   "testCases" : [ {
-    "uid" : "982f02ef699835d4",
+    "uid" : "665d9b647c6f9d25",
     "name" : "testCreateUser",
     "title" : "Test create user",
     "time" : {
-      "start" : 1543304094449,
-      "stop" : 1543304101847,
-      "duration" : 7398
+      "start" : 1543305470332,
+      "stop" : 1543305501424,
+      "duration" : 31092
     },
     "severity" : "NORMAL",
     "status" : "BROKEN"
   }, {
-    "uid" : "127d45f0ded05318",
+    "uid" : "f0debc2990d20c4c",
     "name" : "testIncorrectMail",
     "title" : "Test incorrect mail",
     "time" : {
-      "start" : 1543304104070,
-      "stop" : 1543304117126,
-      "duration" : 13056
-    },
-    "severity" : "NORMAL",
-    "status" : "PASSED"
-  }, {
-    "uid" : "95dd7b7e678458bd",
-    "name" : "testNonData",
-    "title" : "Test non data",
-    "time" : {
-      "start" : 1543304118949,
-      "stop" : 1543304129557,
-      "duration" : 10608
-    },
-    "severity" : "NORMAL",
-    "status" : "PASSED"
-  }, {
-    "uid" : "f9cd52afae86bf91",
-    "name" : "testRegistration",
-    "title" : "Test registration",
-    "time" : {
-      "start" : 1543304131260,
-      "stop" : 1543304153457,
-      "duration" : 22197
+      "start" : 1543305503108,
+      "stop" : 1543305508824,
+      "duration" : 5716
     },
     "severity" : "NORMAL",
     "status" : "BROKEN"
   }, {
-    "uid" : "67e847fd159951f3",
+    "uid" : "6b3ff1ebc394dbce",
+    "name" : "testNonData",
+    "title" : "Test non data",
+    "time" : {
+      "start" : 1543305510503,
+      "stop" : 1543305524177,
+      "duration" : 13674
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a4fe180257064ebc",
+    "name" : "testRegistration",
+    "title" : "Test registration",
+    "time" : {
+      "start" : 1543305525920,
+      "stop" : 1543305548139,
+      "duration" : 22219
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "1411d35ac257738f",
     "name" : "testNonVerify",
     "title" : "Test non verify",
     "time" : {
-      "start" : 1543304155146,
-      "stop" : 1543304168390,
-      "duration" : 13244
+      "start" : 1543305550443,
+      "stop" : 1543305566403,
+      "duration" : 15960
     },
     "severity" : "NORMAL",
     "status" : "PASSED"

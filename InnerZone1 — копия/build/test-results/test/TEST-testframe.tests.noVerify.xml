@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testframe.tests.noVerify" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-27T07:35:55" hostname="Lopata.local" time="13.248">
+<testsuite name="testframe.tests.noVerify" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-27T07:59:10" hostname="Lopata.local" time="15.966">
   <properties/>
-  <testcase name="testNonVerify" classname="testframe.tests.noVerify" time="13.248"/>
+  <testcase name="testNonVerify" classname="testframe.tests.noVerify" time="15.966"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 25633
+  <system-err><![CDATA[Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 45241
 Only local connections are allowed.
-ноя 27, 2018 10:35:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ноя 27, 2018 10:59:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
 </testsuite>

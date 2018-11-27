@@ -1,11 +1,11 @@
 {
-  "uid" : "95dd7b7e678458bd",
-  "name" : "testNonData",
-  "title" : "Test non data",
+  "uid" : "1411d35ac257738f",
+  "name" : "testNonVerify",
+  "title" : "Test non verify",
   "time" : {
-    "start" : 1543304118949,
-    "stop" : 1543304129557,
-    "duration" : 10608
+    "start" : 1543305550443,
+    "stop" : 1543305566403,
+    "duration" : 15960
   },
   "summary" : {
     "attachments" : 0,
@@ -17,7 +17,7 @@
   "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "27cc8f3507e739b1",
+    "uid" : "6466ec6aef0a61ee",
     "name" : "Gradle suite : Gradle test",
     "title" : "Gradle suite : Gradle test"
   },
@@ -28,8 +28,8 @@
     "name" : "suite-name",
     "value" : "Gradle suite : Gradle test"
   }, {
-    "name" : "thread",
-    "value" : "61735@Lopata.local.Test worker(10)"
+    "name" : "testMethod",
+    "value" : "testNonVerify"
   }, {
     "name" : "language",
     "value" : "JAVA"
@@ -40,20 +40,20 @@
     "name" : "testGroup",
     "value" : "Gradle test"
   }, {
-    "name" : "testClass",
-    "value" : "testframe.tests.NonData"
-  }, {
     "name" : "testSuite",
     "value" : "Gradle suite"
   }, {
     "name" : "host",
     "value" : "Lopata.local"
   }, {
+    "name" : "thread",
+    "value" : "62370@Lopata.local.Test worker(10)"
+  }, {
     "name" : "suite-title",
     "value" : "Gradle suite : Gradle test"
   }, {
-    "name" : "testMethod",
-    "value" : "testNonData"
+    "name" : "testClass",
+    "value" : "testframe.tests.noVerify"
   } ],
   "parameters" : [ ]
 }
