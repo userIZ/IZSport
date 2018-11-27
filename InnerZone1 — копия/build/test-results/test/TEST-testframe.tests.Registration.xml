@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testframe.tests.Registration" tests="1" skipped="0" failures="1" errors="0" timestamp="2018-11-22T12:56:10" hostname="Lopata.local" time="5.969">
+<testsuite name="testframe.tests.Registration" tests="1" skipped="0" failures="1" errors="0" timestamp="2018-11-22T13:21:54" hostname="Lopata.local" time="5.49">
   <properties/>
-  <testcase name="testRegistration" classname="testframe.tests.Registration" time="5.969">
+  <testcase name="testRegistration" classname="testframe.tests.Registration" time="5.49">
     <failure message="java.lang.IllegalMonitorStateException" type="java.lang.IllegalMonitorStateException">java.lang.IllegalMonitorStateException
 	at java.lang.Object.wait(Native Method)
 	at testframe.tests.Registration.testRegistration(Registration.java:29)
@@ -58,9 +58,9 @@
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 29571
+  <system-err><![CDATA[Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 45662
 Only local connections are allowed.
-ноя 22, 2018 3:56:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ноя 22, 2018 4:21:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
 </testsuite>

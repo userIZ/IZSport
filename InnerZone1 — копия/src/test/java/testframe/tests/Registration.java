@@ -25,10 +25,10 @@ public class Registration extends DataBase {
         step2();
         username();
         password();
-        verify();
-        wait(2000);
-        step3();
         verifyPassword();
+        verify();
+        Thread.sleep(3000);
+        step3();
         finalStep();
 
         Assert.assertTrue(login(driver));

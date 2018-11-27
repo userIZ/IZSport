@@ -1,11 +1,11 @@
 {
-  "uid" : "29b7b40b82b36b51",
+  "uid" : "97ef021e6882839c",
   "name" : "testNonData",
   "title" : "Test non data",
   "time" : {
-    "start" : 1542891360615,
-    "stop" : 1542891369016,
-    "duration" : 8401
+    "start" : 1542892905655,
+    "stop" : 1542892912788,
+    "duration" : 7133
   },
   "summary" : {
     "attachments" : 0,
@@ -17,7 +17,7 @@
   "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "ac6d9e0d98c1de9",
+    "uid" : "d8a118038ba4be00",
     "name" : "Gradle suite : Gradle test",
     "title" : "Gradle suite : Gradle test"
   },
@@ -32,7 +32,7 @@
     "value" : "JAVA"
   }, {
     "name" : "thread",
-    "value" : "99818@Lopata.local.Test worker(10)"
+    "value" : "383@Lopata.local.Test worker(10)"
   }, {
     "name" : "framework",
     "value" : "TestNG"

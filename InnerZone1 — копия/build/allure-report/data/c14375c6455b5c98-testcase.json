@@ -1,11 +1,11 @@
 {
-  "uid" : "3ffbf7797e0a2945",
+  "uid" : "c14375c6455b5c98",
   "name" : "testRegistration",
   "title" : "Test registration",
   "time" : {
-    "start" : 1542891370396,
-    "stop" : 1542891376363,
-    "duration" : 5967
+    "start" : 1542892914411,
+    "stop" : 1542892919900,
+    "duration" : 5489
   },
   "summary" : {
     "attachments" : 0,
@@ -20,7 +20,7 @@
   "status" : "BROKEN",
   "testId" : null,
   "suite" : {
-    "uid" : "ac6d9e0d98c1de9",
+    "uid" : "d8a118038ba4be00",
     "name" : "Gradle suite : Gradle test",
     "title" : "Gradle suite : Gradle test"
   },
@@ -38,7 +38,7 @@
     "value" : "JAVA"
   }, {
     "name" : "thread",
-    "value" : "99818@Lopata.local.Test worker(10)"
+    "value" : "383@Lopata.local.Test worker(10)"
   }, {
     "name" : "framework",
     "value" : "TestNG"
