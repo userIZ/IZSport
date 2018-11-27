@@ -2,59 +2,70 @@
   "hosts" : [ {
     "title" : "Lopata.local",
     "threads" : [ {
-      "title" : "63960@Lopata.local.Test worker(10)",
+      "title" : "65579@Lopata.local.Test worker(10)",
       "testCases" : [ {
-        "uid" : "49d6fdc04beccabf",
+        "uid" : "b5129149f7681768",
         "name" : "testCreateUser",
         "title" : "Test create user",
         "time" : {
-          "start" : 1543312792323,
-          "stop" : 1543312798424,
-          "duration" : 6101
+          "start" : 1543321371004,
+          "stop" : 1543321415829,
+          "duration" : 44825
         },
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "6def143a5ae915ed",
+        "uid" : "d8e5f3b3c814c1ac",
         "name" : "testIncorrectMail",
         "title" : "Test incorrect mail",
         "time" : {
-          "start" : 1543312800448,
-          "stop" : 1543312813078,
-          "duration" : 12630
+          "start" : 1543321417714,
+          "stop" : 1543321431065,
+          "duration" : 13351
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "aeca641a6be9ba4a",
+        "uid" : "301ecc9c3f4a9435",
         "name" : "testNonData",
         "title" : "Test non data",
         "time" : {
-          "start" : 1543312814598,
-          "stop" : 1543312821979,
-          "duration" : 7381
+          "start" : 1543321432517,
+          "stop" : 1543321439956,
+          "duration" : 7439
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "65ef7c323f9ed04e",
+        "uid" : "fae66da023b8c857",
         "name" : "testRegistration",
         "title" : "Test registration",
         "time" : {
-          "start" : 1543312823601,
-          "stop" : 1543312837615,
-          "duration" : 14014
+          "start" : 1543321441287,
+          "stop" : 1543321455317,
+          "duration" : 14030
         },
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "fcec984ced7b7236",
+        "uid" : "932d915d1f0f0865",
+        "name" : "testUntitledTestCase",
+        "title" : "Test untitled test case",
+        "time" : {
+          "start" : 1543321456860,
+          "stop" : 1543321464762,
+          "duration" : 7902
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "cb5784ff39992516",
         "name" : "testNonVerify",
         "title" : "Test non verify",
         "time" : {
-          "start" : 1543312839161,
-          "stop" : 1543312852061,
-          "duration" : 12900
+          "start" : 1543321466290,
+          "stop" : 1543321479564,
+          "duration" : 13274
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
