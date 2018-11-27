@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testframe.tests.CreateUser" tests="1" skipped="0" failures="1" errors="0" timestamp="2018-11-27T07:57:49" hostname="Lopata.local" time="31.745">
+<testsuite name="testframe.tests.CreateUser" tests="1" skipped="0" failures="1" errors="0" timestamp="2018-11-27T09:59:51" hostname="Lopata.local" time="6.419">
   <properties/>
-  <testcase name="testCreateUser" classname="testframe.tests.CreateUser" time="31.745">
-    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;inputEmail&quot;}&#10;  (Session info: chrome=70.0.3538.102)&#10;  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'&#10;System info: host: 'Lopata.local', ip: 'fe80:0:0:0:18af:be51:a605:8b73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_161'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/tb/dd6p0sw92fs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}&#10;Session ID: 8b7c678b0b0659aa93ddfc163d2c04ef&#10;*** Element info: {Using=id, value=inputEmail}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;inputEmail&quot;}
+  <testcase name="testCreateUser" classname="testframe.tests.CreateUser" time="6.419">
+    <failure message="org.openqa.selenium.WebDriverException: unknown error: Element &lt;div class=&quot;modal-footer&quot;&gt;...&lt;/div&gt; is not clickable at point (600, 659). Other element would receive the click: &lt;div class=&quot;modal-dialog modal-current-entity&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=70.0.3538.102)&#10;  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'&#10;System info: host: 'Lopata.local', ip: 'fe80:0:0:0:18af:be51:a605:8b73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_161'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/tb/dd6p0sw92fs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}&#10;Session ID: eb7d5e36ee3bec6524aa520054dfedf2" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: Element &lt;div class=&quot;modal-footer&quot;&gt;...&lt;/div&gt; is not clickable at point (600, 659). Other element would receive the click: &lt;div class=&quot;modal-dialog modal-current-entity&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=70.0.3538.102)
   (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'Lopata.local', ip: 'fe80:0:0:0:18af:be51:a605:8b73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/tb/dd6p0sw92fs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: 8b7c678b0b0659aa93ddfc163d2c04ef
-*** Element info: {Using=id, value=inputEmail}
+Session ID: eb7d5e36ee3bec6524aa520054dfedf2
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -25,11 +23,9 @@ Session ID: 8b7c678b0b0659aa93ddfc163d2c04ef
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at testframe.tests.CreateUser.testCreateUser(CreateUser.java:30)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at testframe.tests.CreateUser.testCreateUser(CreateUser.java:37)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -83,9 +79,9 @@ Session ID: 8b7c678b0b0659aa93ddfc163d2c04ef
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 45155
+  <system-err><![CDATA[Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 39258
 Only local connections are allowed.
-ноя 27, 2018 10:57:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ноя 27, 2018 12:59:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
 </testsuite>

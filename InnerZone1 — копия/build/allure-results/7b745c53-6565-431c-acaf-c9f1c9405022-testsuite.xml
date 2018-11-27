@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1543320478702" stop="1543320492156" version="1.4.24.RC3" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : InnerZone</name>
+    <title>Default Suite : InnerZone</title>
+    <test-cases>
+        <test-case start="1543320482164" stop="1543320491952" status="passed">
+            <name>testUntitledTestCase</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="InnerZone"/>
+                <label name="testClass" value="com.example.tests.UntitledTestCase"/>
+                <label name="testMethod" value="testUntitledTestCase"/>
+                <label name="host" value="Lopata.local"/>
+                <label name="thread" value="65257@Lopata.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
