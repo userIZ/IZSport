@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1543321365641" stop="1543321479700" version="1.4.24.RC3" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+<ns2:test-suite start="1543321607231" stop="1543321721983" version="1.4.24.RC3" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
     <name>Gradle suite : Gradle test</name>
     <title>Gradle suite : Gradle test</title>
     <test-cases>
-        <test-case start="1543321371004" stop="1543321415829" status="broken">
+        <test-case start="1543321614115" stop="1543321659026" status="broken">
             <name>testCreateUser</name>
             <failure>
                 <message>NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"app-table-filter.inceremnt &gt; div.table-filter-btn &gt; svg-icon &gt; svg"}
@@ -15,7 +15,7 @@ Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.2
 System info: host: 'Lopata.local', ip: 'fe80:0:0:0:18af:be51:a605:8b73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/tb/dd6p0sw92fs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: 0637d3e3b15357a77a0d7673eea3245a
+Session ID: 30abb4cc751c1c66d00066577b697c90
 *** Element info: {Using=css selector, value=app-table-filter.inceremnt &gt; div.table-filter-btn &gt; svg-icon &gt; svg}</message>
                 <stack-trace>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"app-table-filter.inceremnt &gt; div.table-filter-btn &gt; svg-icon &gt; svg"}
   (Session info: chrome=70.0.3538.102)
@@ -26,7 +26,7 @@ Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.2
 System info: host: 'Lopata.local', ip: 'fe80:0:0:0:18af:be51:a605:8b73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/tb/dd6p0sw92fs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: 0637d3e3b15357a77a0d7673eea3245a
+Session ID: 30abb4cc751c1c66d00066577b697c90
 *** Element info: {Using=css selector, value=app-table-filter.inceremnt &gt; div.table-filter-btn &gt; svg-icon &gt; svg}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -105,10 +105,10 @@ Session ID: 0637d3e3b15357a77a0d7673eea3245a
                 <label name="testClass" value="testframe.tests.CreateUser"/>
                 <label name="testMethod" value="testCreateUser"/>
                 <label name="host" value="Lopata.local"/>
-                <label name="thread" value="65579@Lopata.local.Test worker(10)"/>
+                <label name="thread" value="65814@Lopata.local.Test worker(10)"/>
             </labels>
         </test-case>
-        <test-case start="1543321417714" stop="1543321431065" status="passed">
+        <test-case start="1543321660488" stop="1543321672597" status="passed">
             <name>testIncorrectMail</name>
             <steps/>
             <attachments/>
@@ -118,10 +118,10 @@ Session ID: 0637d3e3b15357a77a0d7673eea3245a
                 <label name="testClass" value="testframe.tests.IncorrectEmail"/>
                 <label name="testMethod" value="testIncorrectMail"/>
                 <label name="host" value="Lopata.local"/>
-                <label name="thread" value="65579@Lopata.local.Test worker(10)"/>
+                <label name="thread" value="65814@Lopata.local.Test worker(10)"/>
             </labels>
         </test-case>
-        <test-case start="1543321432517" stop="1543321439956" status="passed">
+        <test-case start="1543321674112" stop="1543321682876" status="passed">
             <name>testNonData</name>
             <steps/>
             <attachments/>
@@ -131,10 +131,10 @@ Session ID: 0637d3e3b15357a77a0d7673eea3245a
                 <label name="testClass" value="testframe.tests.NonData"/>
                 <label name="testMethod" value="testNonData"/>
                 <label name="host" value="Lopata.local"/>
-                <label name="thread" value="65579@Lopata.local.Test worker(10)"/>
+                <label name="thread" value="65814@Lopata.local.Test worker(10)"/>
             </labels>
         </test-case>
-        <test-case start="1543321441287" stop="1543321455317" status="broken">
+        <test-case start="1543321684201" stop="1543321697830" status="broken">
             <name>testRegistration</name>
             <failure>
                 <message>NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/app-root/app-pages/div/app-registration/div/div/app-registration-second-step/form/div[8]/button[2]"}
@@ -146,7 +146,7 @@ Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.2
 System info: host: 'Lopata.local', ip: 'fe80:0:0:0:18af:be51:a605:8b73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/tb/dd6p0sw92fs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: 994101eec8459e1739c2184494201246
+Session ID: 89dc91b1a8669b4ba4c09b982649847b
 *** Element info: {Using=xpath, value=/html/body/app-root/app-pages/div/app-registration/div/div/app-registration-second-step/form/div[8]/button[2]}</message>
                 <stack-trace>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/app-root/app-pages/div/app-registration/div/div/app-registration-second-step/form/div[8]/button[2]"}
   (Session info: chrome=70.0.3538.102)
@@ -157,7 +157,7 @@ Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.2
 System info: host: 'Lopata.local', ip: 'fe80:0:0:0:18af:be51:a605:8b73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/tb/dd6p0sw92fs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: 994101eec8459e1739c2184494201246
+Session ID: 89dc91b1a8669b4ba4c09b982649847b
 *** Element info: {Using=xpath, value=/html/body/app-root/app-pages/div/app-registration/div/div/app-registration-second-step/form/div[8]/button[2]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -238,10 +238,10 @@ Session ID: 994101eec8459e1739c2184494201246
                 <label name="testClass" value="testframe.tests.Registration"/>
                 <label name="testMethod" value="testRegistration"/>
                 <label name="host" value="Lopata.local"/>
-                <label name="thread" value="65579@Lopata.local.Test worker(10)"/>
+                <label name="thread" value="65814@Lopata.local.Test worker(10)"/>
             </labels>
         </test-case>
-        <test-case start="1543321456860" stop="1543321464762" status="passed">
+        <test-case start="1543321699325" stop="1543321707511" status="passed">
             <name>testUntitledTestCase</name>
             <steps/>
             <attachments/>
@@ -251,10 +251,10 @@ Session ID: 994101eec8459e1739c2184494201246
                 <label name="testClass" value="com.example.tests.UntitledTestCase"/>
                 <label name="testMethod" value="testUntitledTestCase"/>
                 <label name="host" value="Lopata.local"/>
-                <label name="thread" value="65579@Lopata.local.Test worker(10)"/>
+                <label name="thread" value="65814@Lopata.local.Test worker(10)"/>
             </labels>
         </test-case>
-        <test-case start="1543321466290" stop="1543321479564" status="passed">
+        <test-case start="1543321709074" stop="1543321721862" status="passed">
             <name>testNonVerify</name>
             <steps/>
             <attachments/>
@@ -264,7 +264,7 @@ Session ID: 994101eec8459e1739c2184494201246
                 <label name="testClass" value="testframe.tests.noVerify"/>
                 <label name="testMethod" value="testNonVerify"/>
                 <label name="host" value="Lopata.local"/>
-                <label name="thread" value="65579@Lopata.local.Test worker(10)"/>
+                <label name="thread" value="65814@Lopata.local.Test worker(10)"/>
             </labels>
         </test-case>
     </test-cases>

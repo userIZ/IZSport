@@ -1,11 +1,11 @@
 {
-  "uid" : "932d915d1f0f0865",
-  "name" : "testUntitledTestCase",
-  "title" : "Test untitled test case",
+  "uid" : "cdffcd5f4d44321b",
+  "name" : "testNonVerify",
+  "title" : "Test non verify",
   "time" : {
-    "start" : 1543321456860,
-    "stop" : 1543321464762,
-    "duration" : 7902
+    "start" : 1543321709074,
+    "stop" : 1543321721862,
+    "duration" : 12788
   },
   "summary" : {
     "attachments" : 0,
@@ -17,7 +17,7 @@
   "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "dfc1846379c9e305",
+    "uid" : "75f51503eea1e51",
     "name" : "Gradle suite : Gradle test",
     "title" : "Gradle suite : Gradle test"
   },
@@ -28,11 +28,14 @@
     "name" : "suite-name",
     "value" : "Gradle suite : Gradle test"
   }, {
+    "name" : "testMethod",
+    "value" : "testNonVerify"
+  }, {
     "name" : "language",
     "value" : "JAVA"
   }, {
-    "name" : "testClass",
-    "value" : "com.example.tests.UntitledTestCase"
+    "name" : "thread",
+    "value" : "65814@Lopata.local.Test worker(10)"
   }, {
     "name" : "framework",
     "value" : "TestNG"
@@ -49,11 +52,8 @@
     "name" : "suite-title",
     "value" : "Gradle suite : Gradle test"
   }, {
-    "name" : "testMethod",
-    "value" : "testUntitledTestCase"
-  }, {
-    "name" : "thread",
-    "value" : "65579@Lopata.local.Test worker(10)"
+    "name" : "testClass",
+    "value" : "testframe.tests.noVerify"
   } ],
   "parameters" : [ ]
 }

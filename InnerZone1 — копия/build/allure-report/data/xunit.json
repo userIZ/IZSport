@@ -1,17 +1,17 @@
 {
   "time" : {
-    "start" : 1543321371004,
-    "stop" : 1543321479564,
-    "duration" : 108560
+    "start" : 1543321614115,
+    "stop" : 1543321721862,
+    "duration" : 107747
   },
   "testSuites" : [ {
-    "uid" : "dfc1846379c9e305",
+    "uid" : "75f51503eea1e51",
     "name" : "Gradle suite : Gradle test",
     "title" : "Gradle suite : Gradle test",
     "time" : {
-      "start" : 1543321371004,
-      "stop" : 1543321479564,
-      "duration" : 108560
+      "start" : 1543321614115,
+      "stop" : 1543321721862,
+      "duration" : 107747
     },
     "statistic" : {
       "total" : 6,
@@ -23,68 +23,68 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "b5129149f7681768",
+      "uid" : "54df3b7979f665cb",
       "name" : "testCreateUser",
       "title" : "Test create user",
       "time" : {
-        "start" : 1543321371004,
-        "stop" : 1543321415829,
-        "duration" : 44825
+        "start" : 1543321614115,
+        "stop" : 1543321659026,
+        "duration" : 44911
       },
       "severity" : "NORMAL",
       "status" : "BROKEN"
     }, {
-      "uid" : "d8e5f3b3c814c1ac",
+      "uid" : "2ab061953d6984ad",
       "name" : "testIncorrectMail",
       "title" : "Test incorrect mail",
       "time" : {
-        "start" : 1543321417714,
-        "stop" : 1543321431065,
-        "duration" : 13351
+        "start" : 1543321660488,
+        "stop" : 1543321672597,
+        "duration" : 12109
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "301ecc9c3f4a9435",
+      "uid" : "bea732e7d5082a12",
       "name" : "testNonData",
       "title" : "Test non data",
       "time" : {
-        "start" : 1543321432517,
-        "stop" : 1543321439956,
-        "duration" : 7439
+        "start" : 1543321674112,
+        "stop" : 1543321682876,
+        "duration" : 8764
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "fae66da023b8c857",
+      "uid" : "d202c8f786b283ad",
       "name" : "testRegistration",
       "title" : "Test registration",
       "time" : {
-        "start" : 1543321441287,
-        "stop" : 1543321455317,
-        "duration" : 14030
+        "start" : 1543321684201,
+        "stop" : 1543321697830,
+        "duration" : 13629
       },
       "severity" : "NORMAL",
       "status" : "BROKEN"
     }, {
-      "uid" : "932d915d1f0f0865",
+      "uid" : "27aee69298073890",
       "name" : "testUntitledTestCase",
       "title" : "Test untitled test case",
       "time" : {
-        "start" : 1543321456860,
-        "stop" : 1543321464762,
-        "duration" : 7902
+        "start" : 1543321699325,
+        "stop" : 1543321707511,
+        "duration" : 8186
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "cb5784ff39992516",
+      "uid" : "cdffcd5f4d44321b",
       "name" : "testNonVerify",
       "title" : "Test non verify",
       "time" : {
-        "start" : 1543321466290,
-        "stop" : 1543321479564,
-        "duration" : 13274
+        "start" : 1543321709074,
+        "stop" : 1543321721862,
+        "duration" : 12788
       },
       "severity" : "NORMAL",
       "status" : "PASSED"

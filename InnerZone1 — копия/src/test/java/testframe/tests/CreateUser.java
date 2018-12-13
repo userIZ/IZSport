@@ -1,5 +1,6 @@
 package testframe.tests;
 
+import java.lang.annotation.Native;
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
 
