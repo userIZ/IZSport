@@ -499,8 +499,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="2180" />
-    <option name="y" value="824" />
+    <option name="x" value="2025" />
+    <option name="y" value="134" />
     <option name="width" value="1610" />
     <option name="height" value="739" />
   </component>
@@ -972,7 +972,7 @@
     <option name="totallyTimeSpent" value="102222000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2180" y="824" width="1610" height="739" extended-state="0" />
+    <frame x="2025" y="134" width="1610" height="739" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />

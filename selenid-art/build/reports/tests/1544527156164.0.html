@@ -1,0 +1,1002 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta charset="utf-8" /><title>InnerZone Sports</title><base href="/" /><meta name="viewport" content="width=device-width,initial-scale=1" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="icon" type="image/x-icon" href="favicon.ico" /><link href="styles.86a985d35ac8876e9827.bundle.css" rel="stylesheet" /><style>app-old-browser-message[_ngcontent-c0]{z-index:99999}</style><style>.alert[_ngcontent-c1]{max-height:50px}.alert.alert-danger[_ngcontent-c1]{bottom:15px;right:25px;top:70px;opacity:.9;position:fixed;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;height:-webkit-fit-content;height:-moz-fit-content;height:fit-content;z-index:999;background:red;border-radius:5px;-webkit-box-shadow:-4.9px 4.9px 9.7px .3px rgba(0,0,0,.2);box-shadow:-4.9px 4.9px 9.7px .3px rgba(0,0,0,.2);font-family:Din Regular;font-size:14px;letter-spacing:.1px;text-align:left;color:#fff;min-width:290px}.alert.alert-success[_ngcontent-c1]{bottom:15px;right:20px;top:70px;opacity:.9;position:fixed;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;height:-webkit-fit-content;height:-moz-fit-content;height:fit-content;z-index:999;background:#1fba1e;border-radius:5px;-webkit-box-shadow:-4.9px 4.9px 9.7px .3px rgba(0,0,0,.2);box-shadow:-4.9px 4.9px 9.7px .3px rgba(0,0,0,.2);font-family:Din Regular;font-size:14px;letter-spacing:.1px;text-align:left;color:#fff;min-width:290px}.alert.alert-info[_ngcontent-c1]{bottom:15px;right:20px;top:70px;opacity:.9;position:fixed;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;height:-webkit-fit-content;height:-moz-fit-content;height:fit-content;z-index:999;background:#313a4b;border-radius:5px;-webkit-box-shadow:-4.9px 4.9px 9.7px .3px rgba(0,0,0,.2);box-shadow:-4.9px 4.9px 9.7px .3px rgba(0,0,0,.2);font-family:Din Regular;font-size:14px;letter-spacing:.1px;text-align:left;color:#fff;min-width:290px}.alert[_ngcontent-c1]   span.message-title[_ngcontent-c1]{text-align:center;vertical-align:middle;line-height:45px;margin-right:20px;padding-left:20px}.alert[_ngcontent-c1]   span.size-upload[_ngcontent-c1]{float:right;position:relative;margin:14px 60px 0 0;font-size:14px;letter-spacing:.1px}.loader[_ngcontent-c1]{width:400px;margin-bottom:8px}.loader[_ngcontent-c1]   .close[_ngcontent-c1]{height:14px;width:14px;margin-right:14px;cursor:pointer;border:0;padding:0;background-color:transparent;position:absolute;right:10px;top:20px}.loader[_ngcontent-c1]   .slim-loader[_ngcontent-c1]     ng2-slim-loading-bar .slim-loading-bar{position:absolute;padding:0;top:34px;left:0;right:0;z-index:99999;margin-left:20px;width:80%}.loader[_ngcontent-c1]   .slim-loader[_ngcontent-c1]     ng2-slim-loading-bar .slim-loading-bar .slim-loading-bar-progress{color:#fff!important;background-color:#fff!important}</style><style>@-ms-viewport{width:device-width}html[_ngcontent-c4]{-webkit-box-sizing:border-box;box-sizing:border-box;-ms-overflow-style:scrollbar}*[_ngcontent-c4], [_ngcontent-c4]::after, [_ngcontent-c4]::before{-webkit-box-sizing:inherit;box-sizing:inherit}.container[_ngcontent-c4]{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:576px){.container[_ngcontent-c4]{max-width:540px}}@media (min-width:768px){.container[_ngcontent-c4]{max-width:720px}}@media (min-width:992px){.container[_ngcontent-c4]{max-width:960px}}@media (min-width:1200px){.container[_ngcontent-c4]{max-width:1140px}}.container-fluid[_ngcontent-c4]{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}.row[_ngcontent-c4]{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.no-gutters[_ngcontent-c4]{margin-right:0;margin-left:0}.no-gutters[_ngcontent-c4] &gt; .col[_ngcontent-c4], .no-gutters[_ngcontent-c4] &gt; [class*=col-][_ngcontent-c4]{padding-right:0;padding-left:0}.col[_ngcontent-c4], .col-1[_ngcontent-c4], .col-10[_ngcontent-c4], .col-11[_ngcontent-c4], .col-12[_ngcontent-c4], .col-2[_ngcontent-c4], .col-3[_ngcontent-c4], .col-4[_ngcontent-c4], .col-5[_ngcontent-c4], .col-6[_ngcontent-c4], .col-7[_ngcontent-c4], .col-8[_ngcontent-c4], .col-9[_ngcontent-c4], .col-auto[_ngcontent-c4], .col-lg[_ngcontent-c4], .col-lg-1[_ngcontent-c4], .col-lg-10[_ngcontent-c4], .col-lg-11[_ngcontent-c4], .col-lg-12[_ngcontent-c4], .col-lg-2[_ngcontent-c4], .col-lg-3[_ngcontent-c4], .col-lg-4[_ngcontent-c4], .col-lg-5[_ngcontent-c4], .col-lg-6[_ngcontent-c4], .col-lg-7[_ngcontent-c4], .col-lg-8[_ngcontent-c4], .col-lg-9[_ngcontent-c4], .col-lg-auto[_ngcontent-c4], .col-md[_ngcontent-c4], .col-md-1[_ngcontent-c4], .col-md-10[_ngcontent-c4], .col-md-11[_ngcontent-c4], .col-md-12[_ngcontent-c4], .col-md-2[_ngcontent-c4], .col-md-3[_ngcontent-c4], .col-md-4[_ngcontent-c4], .col-md-5[_ngcontent-c4], .col-md-6[_ngcontent-c4], .col-md-7[_ngcontent-c4], .col-md-8[_ngcontent-c4], .col-md-9[_ngcontent-c4], .col-md-auto[_ngcontent-c4], .col-sm[_ngcontent-c4], .col-sm-1[_ngcontent-c4], .col-sm-10[_ngcontent-c4], .col-sm-11[_ngcontent-c4], .col-sm-12[_ngcontent-c4], .col-sm-2[_ngcontent-c4], .col-sm-3[_ngcontent-c4], .col-sm-4[_ngcontent-c4], .col-sm-5[_ngcontent-c4], .col-sm-6[_ngcontent-c4], .col-sm-7[_ngcontent-c4], .col-sm-8[_ngcontent-c4], .col-sm-9[_ngcontent-c4], .col-sm-auto[_ngcontent-c4], .col-xl[_ngcontent-c4], .col-xl-1[_ngcontent-c4], .col-xl-10[_ngcontent-c4], .col-xl-11[_ngcontent-c4], .col-xl-12[_ngcontent-c4], .col-xl-2[_ngcontent-c4], .col-xl-3[_ngcontent-c4], .col-xl-4[_ngcontent-c4], .col-xl-5[_ngcontent-c4], .col-xl-6[_ngcontent-c4], .col-xl-7[_ngcontent-c4], .col-xl-8[_ngcontent-c4], .col-xl-9[_ngcontent-c4], .col-xl-auto[_ngcontent-c4]{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px}.col[_ngcontent-c4]{-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}.col-auto[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:none}.col-1[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 8.33333333%;flex:0 0 8.33333333%;max-width:8.33333333%}.col-2[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 16.66666667%;flex:0 0 16.66666667%;max-width:16.66666667%}.col-3[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-4[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 33.33333333%;flex:0 0 33.33333333%;max-width:33.33333333%}.col-5[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 41.66666667%;flex:0 0 41.66666667%;max-width:41.66666667%}.col-6[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-7[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 58.33333333%;flex:0 0 58.33333333%;max-width:58.33333333%}.col-8[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 66.66666667%;flex:0 0 66.66666667%;max-width:66.66666667%}.col-9[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}.col-10[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 83.33333333%;flex:0 0 83.33333333%;max-width:83.33333333%}.col-11[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 91.66666667%;flex:0 0 91.66666667%;max-width:91.66666667%}.col-12[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.order-first[_ngcontent-c4]{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.order-1[_ngcontent-c4]{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}.order-2[_ngcontent-c4]{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}.order-3[_ngcontent-c4]{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}.order-4[_ngcontent-c4]{-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4}.order-5[_ngcontent-c4]{-webkit-box-ordinal-group:6;-ms-flex-order:5;order:5}.order-6[_ngcontent-c4]{-webkit-box-ordinal-group:7;-ms-flex-order:6;order:6}.order-7[_ngcontent-c4]{-webkit-box-ordinal-group:8;-ms-flex-order:7;order:7}.order-8[_ngcontent-c4]{-webkit-box-ordinal-group:9;-ms-flex-order:8;order:8}.order-9[_ngcontent-c4]{-webkit-box-ordinal-group:10;-ms-flex-order:9;order:9}.order-10[_ngcontent-c4]{-webkit-box-ordinal-group:11;-ms-flex-order:10;order:10}.order-11[_ngcontent-c4]{-webkit-box-ordinal-group:12;-ms-flex-order:11;order:11}.order-12[_ngcontent-c4]{-webkit-box-ordinal-group:13;-ms-flex-order:12;order:12}.offset-1[_ngcontent-c4]{margin-left:8.33333333%}.offset-2[_ngcontent-c4]{margin-left:16.66666667%}.offset-3[_ngcontent-c4]{margin-left:25%}.offset-4[_ngcontent-c4]{margin-left:33.33333333%}.offset-5[_ngcontent-c4]{margin-left:41.66666667%}.offset-6[_ngcontent-c4]{margin-left:50%}.offset-7[_ngcontent-c4]{margin-left:58.33333333%}.offset-8[_ngcontent-c4]{margin-left:66.66666667%}.offset-9[_ngcontent-c4]{margin-left:75%}.offset-10[_ngcontent-c4]{margin-left:83.33333333%}.offset-11[_ngcontent-c4]{margin-left:91.66666667%}@media (min-width:576px){.col-sm[_ngcontent-c4]{-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}.col-sm-auto[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:none}.col-sm-1[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 8.33333333%;flex:0 0 8.33333333%;max-width:8.33333333%}.col-sm-2[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 16.66666667%;flex:0 0 16.66666667%;max-width:16.66666667%}.col-sm-3[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-sm-4[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 33.33333333%;flex:0 0 33.33333333%;max-width:33.33333333%}.col-sm-5[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 41.66666667%;flex:0 0 41.66666667%;max-width:41.66666667%}.col-sm-6[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-sm-7[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 58.33333333%;flex:0 0 58.33333333%;max-width:58.33333333%}.col-sm-8[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 66.66666667%;flex:0 0 66.66666667%;max-width:66.66666667%}.col-sm-9[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}.col-sm-10[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 83.33333333%;flex:0 0 83.33333333%;max-width:83.33333333%}.col-sm-11[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 91.66666667%;flex:0 0 91.66666667%;max-width:91.66666667%}.col-sm-12[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.order-sm-first[_ngcontent-c4]{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.order-sm-1[_ngcontent-c4]{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}.order-sm-2[_ngcontent-c4]{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}.order-sm-3[_ngcontent-c4]{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}.order-sm-4[_ngcontent-c4]{-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4}.order-sm-5[_ngcontent-c4]{-webkit-box-ordinal-group:6;-ms-flex-order:5;order:5}.order-sm-6[_ngcontent-c4]{-webkit-box-ordinal-group:7;-ms-flex-order:6;order:6}.order-sm-7[_ngcontent-c4]{-webkit-box-ordinal-group:8;-ms-flex-order:7;order:7}.order-sm-8[_ngcontent-c4]{-webkit-box-ordinal-group:9;-ms-flex-order:8;order:8}.order-sm-9[_ngcontent-c4]{-webkit-box-ordinal-group:10;-ms-flex-order:9;order:9}.order-sm-10[_ngcontent-c4]{-webkit-box-ordinal-group:11;-ms-flex-order:10;order:10}.order-sm-11[_ngcontent-c4]{-webkit-box-ordinal-group:12;-ms-flex-order:11;order:11}.order-sm-12[_ngcontent-c4]{-webkit-box-ordinal-group:13;-ms-flex-order:12;order:12}.offset-sm-0[_ngcontent-c4]{margin-left:0}.offset-sm-1[_ngcontent-c4]{margin-left:8.33333333%}.offset-sm-2[_ngcontent-c4]{margin-left:16.66666667%}.offset-sm-3[_ngcontent-c4]{margin-left:25%}.offset-sm-4[_ngcontent-c4]{margin-left:33.33333333%}.offset-sm-5[_ngcontent-c4]{margin-left:41.66666667%}.offset-sm-6[_ngcontent-c4]{margin-left:50%}.offset-sm-7[_ngcontent-c4]{margin-left:58.33333333%}.offset-sm-8[_ngcontent-c4]{margin-left:66.66666667%}.offset-sm-9[_ngcontent-c4]{margin-left:75%}.offset-sm-10[_ngcontent-c4]{margin-left:83.33333333%}.offset-sm-11[_ngcontent-c4]{margin-left:91.66666667%}}@media (min-width:768px){.col-md[_ngcontent-c4]{-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}.col-md-auto[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:none}.col-md-1[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 8.33333333%;flex:0 0 8.33333333%;max-width:8.33333333%}.col-md-2[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 16.66666667%;flex:0 0 16.66666667%;max-width:16.66666667%}.col-md-3[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-md-4[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 33.33333333%;flex:0 0 33.33333333%;max-width:33.33333333%}.col-md-5[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 41.66666667%;flex:0 0 41.66666667%;max-width:41.66666667%}.col-md-6[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-md-7[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 58.33333333%;flex:0 0 58.33333333%;max-width:58.33333333%}.col-md-8[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 66.66666667%;flex:0 0 66.66666667%;max-width:66.66666667%}.col-md-9[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}.col-md-10[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 83.33333333%;flex:0 0 83.33333333%;max-width:83.33333333%}.col-md-11[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 91.66666667%;flex:0 0 91.66666667%;max-width:91.66666667%}.col-md-12[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.order-md-first[_ngcontent-c4]{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.order-md-1[_ngcontent-c4]{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}.order-md-2[_ngcontent-c4]{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}.order-md-3[_ngcontent-c4]{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}.order-md-4[_ngcontent-c4]{-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4}.order-md-5[_ngcontent-c4]{-webkit-box-ordinal-group:6;-ms-flex-order:5;order:5}.order-md-6[_ngcontent-c4]{-webkit-box-ordinal-group:7;-ms-flex-order:6;order:6}.order-md-7[_ngcontent-c4]{-webkit-box-ordinal-group:8;-ms-flex-order:7;order:7}.order-md-8[_ngcontent-c4]{-webkit-box-ordinal-group:9;-ms-flex-order:8;order:8}.order-md-9[_ngcontent-c4]{-webkit-box-ordinal-group:10;-ms-flex-order:9;order:9}.order-md-10[_ngcontent-c4]{-webkit-box-ordinal-group:11;-ms-flex-order:10;order:10}.order-md-11[_ngcontent-c4]{-webkit-box-ordinal-group:12;-ms-flex-order:11;order:11}.order-md-12[_ngcontent-c4]{-webkit-box-ordinal-group:13;-ms-flex-order:12;order:12}.offset-md-0[_ngcontent-c4]{margin-left:0}.offset-md-1[_ngcontent-c4]{margin-left:8.33333333%}.offset-md-2[_ngcontent-c4]{margin-left:16.66666667%}.offset-md-3[_ngcontent-c4]{margin-left:25%}.offset-md-4[_ngcontent-c4]{margin-left:33.33333333%}.offset-md-5[_ngcontent-c4]{margin-left:41.66666667%}.offset-md-6[_ngcontent-c4]{margin-left:50%}.offset-md-7[_ngcontent-c4]{margin-left:58.33333333%}.offset-md-8[_ngcontent-c4]{margin-left:66.66666667%}.offset-md-9[_ngcontent-c4]{margin-left:75%}.offset-md-10[_ngcontent-c4]{margin-left:83.33333333%}.offset-md-11[_ngcontent-c4]{margin-left:91.66666667%}}@media (min-width:992px){.col-lg[_ngcontent-c4]{-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}.col-lg-auto[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:none}.col-lg-1[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 8.33333333%;flex:0 0 8.33333333%;max-width:8.33333333%}.col-lg-2[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 16.66666667%;flex:0 0 16.66666667%;max-width:16.66666667%}.col-lg-3[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-lg-4[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 33.33333333%;flex:0 0 33.33333333%;max-width:33.33333333%}.col-lg-5[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 41.66666667%;flex:0 0 41.66666667%;max-width:41.66666667%}.col-lg-6[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-lg-7[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 58.33333333%;flex:0 0 58.33333333%;max-width:58.33333333%}.col-lg-8[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 66.66666667%;flex:0 0 66.66666667%;max-width:66.66666667%}.col-lg-9[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}.col-lg-10[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 83.33333333%;flex:0 0 83.33333333%;max-width:83.33333333%}.col-lg-11[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 91.66666667%;flex:0 0 91.66666667%;max-width:91.66666667%}.col-lg-12[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.order-lg-first[_ngcontent-c4]{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.order-lg-1[_ngcontent-c4]{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}.order-lg-2[_ngcontent-c4]{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}.order-lg-3[_ngcontent-c4]{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}.order-lg-4[_ngcontent-c4]{-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4}.order-lg-5[_ngcontent-c4]{-webkit-box-ordinal-group:6;-ms-flex-order:5;order:5}.order-lg-6[_ngcontent-c4]{-webkit-box-ordinal-group:7;-ms-flex-order:6;order:6}.order-lg-7[_ngcontent-c4]{-webkit-box-ordinal-group:8;-ms-flex-order:7;order:7}.order-lg-8[_ngcontent-c4]{-webkit-box-ordinal-group:9;-ms-flex-order:8;order:8}.order-lg-9[_ngcontent-c4]{-webkit-box-ordinal-group:10;-ms-flex-order:9;order:9}.order-lg-10[_ngcontent-c4]{-webkit-box-ordinal-group:11;-ms-flex-order:10;order:10}.order-lg-11[_ngcontent-c4]{-webkit-box-ordinal-group:12;-ms-flex-order:11;order:11}.order-lg-12[_ngcontent-c4]{-webkit-box-ordinal-group:13;-ms-flex-order:12;order:12}.offset-lg-0[_ngcontent-c4]{margin-left:0}.offset-lg-1[_ngcontent-c4]{margin-left:8.33333333%}.offset-lg-2[_ngcontent-c4]{margin-left:16.66666667%}.offset-lg-3[_ngcontent-c4]{margin-left:25%}.offset-lg-4[_ngcontent-c4]{margin-left:33.33333333%}.offset-lg-5[_ngcontent-c4]{margin-left:41.66666667%}.offset-lg-6[_ngcontent-c4]{margin-left:50%}.offset-lg-7[_ngcontent-c4]{margin-left:58.33333333%}.offset-lg-8[_ngcontent-c4]{margin-left:66.66666667%}.offset-lg-9[_ngcontent-c4]{margin-left:75%}.offset-lg-10[_ngcontent-c4]{margin-left:83.33333333%}.offset-lg-11[_ngcontent-c4]{margin-left:91.66666667%}}@media (min-width:1200px){.col-xl[_ngcontent-c4]{-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}.col-xl-auto[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:none}.col-xl-1[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 8.33333333%;flex:0 0 8.33333333%;max-width:8.33333333%}.col-xl-2[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 16.66666667%;flex:0 0 16.66666667%;max-width:16.66666667%}.col-xl-3[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-xl-4[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 33.33333333%;flex:0 0 33.33333333%;max-width:33.33333333%}.col-xl-5[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 41.66666667%;flex:0 0 41.66666667%;max-width:41.66666667%}.col-xl-6[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-xl-7[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 58.33333333%;flex:0 0 58.33333333%;max-width:58.33333333%}.col-xl-8[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 66.66666667%;flex:0 0 66.66666667%;max-width:66.66666667%}.col-xl-9[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}.col-xl-10[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 83.33333333%;flex:0 0 83.33333333%;max-width:83.33333333%}.col-xl-11[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 91.66666667%;flex:0 0 91.66666667%;max-width:91.66666667%}.col-xl-12[_ngcontent-c4]{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.order-xl-first[_ngcontent-c4]{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.order-xl-1[_ngcontent-c4]{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}.order-xl-2[_ngcontent-c4]{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}.order-xl-3[_ngcontent-c4]{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}.order-xl-4[_ngcontent-c4]{-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4}.order-xl-5[_ngcontent-c4]{-webkit-box-ordinal-group:6;-ms-flex-order:5;order:5}.order-xl-6[_ngcontent-c4]{-webkit-box-ordinal-group:7;-ms-flex-order:6;order:6}.order-xl-7[_ngcontent-c4]{-webkit-box-ordinal-group:8;-ms-flex-order:7;order:7}.order-xl-8[_ngcontent-c4]{-webkit-box-ordinal-group:9;-ms-flex-order:8;order:8}.order-xl-9[_ngcontent-c4]{-webkit-box-ordinal-group:10;-ms-flex-order:9;order:9}.order-xl-10[_ngcontent-c4]{-webkit-box-ordinal-group:11;-ms-flex-order:10;order:10}.order-xl-11[_ngcontent-c4]{-webkit-box-ordinal-group:12;-ms-flex-order:11;order:11}.order-xl-12[_ngcontent-c4]{-webkit-box-ordinal-group:13;-ms-flex-order:12;order:12}.offset-xl-0[_ngcontent-c4]{margin-left:0}.offset-xl-1[_ngcontent-c4]{margin-left:8.33333333%}.offset-xl-2[_ngcontent-c4]{margin-left:16.66666667%}.offset-xl-3[_ngcontent-c4]{margin-left:25%}.offset-xl-4[_ngcontent-c4]{margin-left:33.33333333%}.offset-xl-5[_ngcontent-c4]{margin-left:41.66666667%}.offset-xl-6[_ngcontent-c4]{margin-left:50%}.offset-xl-7[_ngcontent-c4]{margin-left:58.33333333%}.offset-xl-8[_ngcontent-c4]{margin-left:66.66666667%}.offset-xl-9[_ngcontent-c4]{margin-left:75%}.offset-xl-10[_ngcontent-c4]{margin-left:83.33333333%}.offset-xl-11[_ngcontent-c4]{margin-left:91.66666667%}}.flex-row[_ngcontent-c4]{-webkit-box-orient:horizontal!important;-webkit-box-direction:normal!important;-ms-flex-direction:row!important;flex-direction:row!important}.flex-column[_ngcontent-c4]{-webkit-box-orient:vertical!important;-webkit-box-direction:normal!important;-ms-flex-direction:column!important;flex-direction:column!important}.flex-row-reverse[_ngcontent-c4]{-webkit-box-orient:horizontal!important;-webkit-box-direction:reverse!important;-ms-flex-direction:row-reverse!important;flex-direction:row-reverse!important}.flex-column-reverse[_ngcontent-c4]{-webkit-box-orient:vertical!important;-webkit-box-direction:reverse!important;-ms-flex-direction:column-reverse!important;flex-direction:column-reverse!important}.flex-wrap[_ngcontent-c4]{-ms-flex-wrap:wrap!important;flex-wrap:wrap!important}.flex-nowrap[_ngcontent-c4]{-ms-flex-wrap:nowrap!important;flex-wrap:nowrap!important}.flex-wrap-reverse[_ngcontent-c4]{-ms-flex-wrap:wrap-reverse!important;flex-wrap:wrap-reverse!important}.justify-content-start[_ngcontent-c4]{-webkit-box-pack:start!important;-ms-flex-pack:start!important;justify-content:flex-start!important}.justify-content-end[_ngcontent-c4]{-webkit-box-pack:end!important;-ms-flex-pack:end!important;justify-content:flex-end!important}.justify-content-center[_ngcontent-c4]{-webkit-box-pack:center!important;-ms-flex-pack:center!important;justify-content:center!important}.justify-content-between[_ngcontent-c4]{-webkit-box-pack:justify!important;-ms-flex-pack:justify!important;justify-content:space-between!important}.justify-content-around[_ngcontent-c4]{-ms-flex-pack:distribute!important;justify-content:space-around!important}.align-items-start[_ngcontent-c4]{-webkit-box-align:start!important;-ms-flex-align:start!important;align-items:flex-start!important}.align-items-end[_ngcontent-c4]{-webkit-box-align:end!important;-ms-flex-align:end!important;align-items:flex-end!important}.align-items-center[_ngcontent-c4]{-webkit-box-align:center!important;-ms-flex-align:center!important;align-items:center!important}.align-items-baseline[_ngcontent-c4]{-webkit-box-align:baseline!important;-ms-flex-align:baseline!important;align-items:baseline!important}.align-items-stretch[_ngcontent-c4]{-webkit-box-align:stretch!important;-ms-flex-align:stretch!important;align-items:stretch!important}.align-content-start[_ngcontent-c4]{-ms-flex-line-pack:start!important;align-content:flex-start!important}.align-content-end[_ngcontent-c4]{-ms-flex-line-pack:end!important;align-content:flex-end!important}.align-content-center[_ngcontent-c4]{-ms-flex-line-pack:center!important;align-content:center!important}.align-content-between[_ngcontent-c4]{-ms-flex-line-pack:justify!important;align-content:space-between!important}.align-content-around[_ngcontent-c4]{-ms-flex-line-pack:distribute!important;align-content:space-around!important}.align-content-stretch[_ngcontent-c4]{-ms-flex-line-pack:stretch!important;align-content:stretch!important}.align-self-auto[_ngcontent-c4]{-ms-flex-item-align:auto!important;-ms-grid-row-align:auto!important;align-self:auto!important}.align-self-start[_ngcontent-c4]{-ms-flex-item-align:start!important;align-self:flex-start!important}.align-self-end[_ngcontent-c4]{-ms-flex-item-align:end!important;align-self:flex-end!important}.align-self-center[_ngcontent-c4]{-ms-flex-item-align:center!important;-ms-grid-row-align:center!important;align-self:center!important}.align-self-baseline[_ngcontent-c4]{-ms-flex-item-align:baseline!important;align-self:baseline!important}.align-self-stretch[_ngcontent-c4]{-ms-flex-item-align:stretch!important;-ms-grid-row-align:stretch!important;align-self:stretch!important}@media (min-width:576px){.flex-sm-row[_ngcontent-c4]{-webkit-box-orient:horizontal!important;-webkit-box-direction:normal!important;-ms-flex-direction:row!important;flex-direction:row!important}.flex-sm-column[_ngcontent-c4]{-webkit-box-orient:vertical!important;-webkit-box-direction:normal!important;-ms-flex-direction:column!important;flex-direction:column!important}.flex-sm-row-reverse[_ngcontent-c4]{-webkit-box-orient:horizontal!important;-webkit-box-direction:reverse!important;-ms-flex-direction:row-reverse!important;flex-direction:row-reverse!important}.flex-sm-column-reverse[_ngcontent-c4]{-webkit-box-orient:vertical!important;-webkit-box-direction:reverse!important;-ms-flex-direction:column-reverse!important;flex-direction:column-reverse!important}.flex-sm-wrap[_ngcontent-c4]{-ms-flex-wrap:wrap!important;flex-wrap:wrap!important}.flex-sm-nowrap[_ngcontent-c4]{-ms-flex-wrap:nowrap!important;flex-wrap:nowrap!important}.flex-sm-wrap-reverse[_ngcontent-c4]{-ms-flex-wrap:wrap-reverse!important;flex-wrap:wrap-reverse!important}.justify-content-sm-start[_ngcontent-c4]{-webkit-box-pack:start!important;-ms-flex-pack:start!important;justify-content:flex-start!important}.justify-content-sm-end[_ngcontent-c4]{-webkit-box-pack:end!important;-ms-flex-pack:end!important;justify-content:flex-end!important}.justify-content-sm-center[_ngcontent-c4]{-webkit-box-pack:center!important;-ms-flex-pack:center!important;justify-content:center!important}.justify-content-sm-between[_ngcontent-c4]{-webkit-box-pack:justify!important;-ms-flex-pack:justify!important;justify-content:space-between!important}.justify-content-sm-around[_ngcontent-c4]{-ms-flex-pack:distribute!important;justify-content:space-around!important}.align-items-sm-start[_ngcontent-c4]{-webkit-box-align:start!important;-ms-flex-align:start!important;align-items:flex-start!important}.align-items-sm-end[_ngcontent-c4]{-webkit-box-align:end!important;-ms-flex-align:end!important;align-items:flex-end!important}.align-items-sm-center[_ngcontent-c4]{-webkit-box-align:center!important;-ms-flex-align:center!important;align-items:center!important}.align-items-sm-baseline[_ngcontent-c4]{-webkit-box-align:baseline!important;-ms-flex-align:baseline!important;align-items:baseline!important}.align-items-sm-stretch[_ngcontent-c4]{-webkit-box-align:stretch!important;-ms-flex-align:stretch!important;align-items:stretch!important}.align-content-sm-start[_ngcontent-c4]{-ms-flex-line-pack:start!important;align-content:flex-start!important}.align-content-sm-end[_ngcontent-c4]{-ms-flex-line-pack:end!important;align-content:flex-end!important}.align-content-sm-center[_ngcontent-c4]{-ms-flex-line-pack:center!important;align-content:center!important}.align-content-sm-between[_ngcontent-c4]{-ms-flex-line-pack:justify!important;align-content:space-between!important}.align-content-sm-around[_ngcontent-c4]{-ms-flex-line-pack:distribute!important;align-content:space-around!important}.align-content-sm-stretch[_ngcontent-c4]{-ms-flex-line-pack:stretch!important;align-content:stretch!important}.align-self-sm-auto[_ngcontent-c4]{-ms-flex-item-align:auto!important;-ms-grid-row-align:auto!important;align-self:auto!important}.align-self-sm-start[_ngcontent-c4]{-ms-flex-item-align:start!important;align-self:flex-start!important}.align-self-sm-end[_ngcontent-c4]{-ms-flex-item-align:end!important;align-self:flex-end!important}.align-self-sm-center[_ngcontent-c4]{-ms-flex-item-align:center!important;-ms-grid-row-align:center!important;align-self:center!important}.align-self-sm-baseline[_ngcontent-c4]{-ms-flex-item-align:baseline!important;align-self:baseline!important}.align-self-sm-stretch[_ngcontent-c4]{-ms-flex-item-align:stretch!important;-ms-grid-row-align:stretch!important;align-self:stretch!important}}@media (min-width:768px){.flex-md-row[_ngcontent-c4]{-webkit-box-orient:horizontal!important;-webkit-box-direction:normal!important;-ms-flex-direction:row!important;flex-direction:row!important}.flex-md-column[_ngcontent-c4]{-webkit-box-orient:vertical!important;-webkit-box-direction:normal!important;-ms-flex-direction:column!important;flex-direction:column!important}.flex-md-row-reverse[_ngcontent-c4]{-webkit-box-orient:horizontal!important;-webkit-box-direction:reverse!important;-ms-flex-direction:row-reverse!important;flex-direction:row-reverse!important}.flex-md-column-reverse[_ngcontent-c4]{-webkit-box-orient:vertical!important;-webkit-box-direction:reverse!important;-ms-flex-direction:column-reverse!important;flex-direction:column-reverse!important}.flex-md-wrap[_ngcontent-c4]{-ms-flex-wrap:wrap!important;flex-wrap:wrap!important}.flex-md-nowrap[_ngcontent-c4]{-ms-flex-wrap:nowrap!important;flex-wrap:nowrap!important}.flex-md-wrap-reverse[_ngcontent-c4]{-ms-flex-wrap:wrap-reverse!important;flex-wrap:wrap-reverse!important}.justify-content-md-start[_ngcontent-c4]{-webkit-box-pack:start!important;-ms-flex-pack:start!important;justify-content:flex-start!important}.justify-content-md-end[_ngcontent-c4]{-webkit-box-pack:end!important;-ms-flex-pack:end!important;justify-content:flex-end!important}.justify-content-md-center[_ngcontent-c4]{-webkit-box-pack:center!important;-ms-flex-pack:center!important;justify-content:center!important}.justify-content-md-between[_ngcontent-c4]{-webkit-box-pack:justify!important;-ms-flex-pack:justify!important;justify-content:space-between!important}.justify-content-md-around[_ngcontent-c4]{-ms-flex-pack:distribute!important;justify-content:space-around!important}.align-items-md-start[_ngcontent-c4]{-webkit-box-align:start!important;-ms-flex-align:start!important;align-items:flex-start!important}.align-items-md-end[_ngcontent-c4]{-webkit-box-align:end!important;-ms-flex-align:end!important;align-items:flex-end!important}.align-items-md-center[_ngcontent-c4]{-webkit-box-align:center!important;-ms-flex-align:center!important;align-items:center!important}.align-items-md-baseline[_ngcontent-c4]{-webkit-box-align:baseline!important;-ms-flex-align:baseline!important;align-items:baseline!important}.align-items-md-stretch[_ngcontent-c4]{-webkit-box-align:stretch!important;-ms-flex-align:stretch!important;align-items:stretch!important}.align-content-md-start[_ngcontent-c4]{-ms-flex-line-pack:start!important;align-content:flex-start!important}.align-content-md-end[_ngcontent-c4]{-ms-flex-line-pack:end!important;align-content:flex-end!important}.align-content-md-center[_ngcontent-c4]{-ms-flex-line-pack:center!important;align-content:center!important}.align-content-md-between[_ngcontent-c4]{-ms-flex-line-pack:justify!important;align-content:space-between!important}.align-content-md-around[_ngcontent-c4]{-ms-flex-line-pack:distribute!important;align-content:space-around!important}.align-content-md-stretch[_ngcontent-c4]{-ms-flex-line-pack:stretch!important;align-content:stretch!important}.align-self-md-auto[_ngcontent-c4]{-ms-flex-item-align:auto!important;-ms-grid-row-align:auto!important;align-self:auto!important}.align-self-md-start[_ngcontent-c4]{-ms-flex-item-align:start!important;align-self:flex-start!important}.align-self-md-end[_ngcontent-c4]{-ms-flex-item-align:end!important;align-self:flex-end!important}.align-self-md-center[_ngcontent-c4]{-ms-flex-item-align:center!important;-ms-grid-row-align:center!important;align-self:center!important}.align-self-md-baseline[_ngcontent-c4]{-ms-flex-item-align:baseline!important;align-self:baseline!important}.align-self-md-stretch[_ngcontent-c4]{-ms-flex-item-align:stretch!important;-ms-grid-row-align:stretch!important;align-self:stretch!important}}@media (min-width:992px){.flex-lg-row[_ngcontent-c4]{-webkit-box-orient:horizontal!important;-webkit-box-direction:normal!important;-ms-flex-direction:row!important;flex-direction:row!important}.flex-lg-column[_ngcontent-c4]{-webkit-box-orient:vertical!important;-webkit-box-direction:normal!important;-ms-flex-direction:column!important;flex-direction:column!important}.flex-lg-row-reverse[_ngcontent-c4]{-webkit-box-orient:horizontal!important;-webkit-box-direction:reverse!important;-ms-flex-direction:row-reverse!important;flex-direction:row-reverse!important}.flex-lg-column-reverse[_ngcontent-c4]{-webkit-box-orient:vertical!important;-webkit-box-direction:reverse!important;-ms-flex-direction:column-reverse!important;flex-direction:column-reverse!important}.flex-lg-wrap[_ngcontent-c4]{-ms-flex-wrap:wrap!important;flex-wrap:wrap!important}.flex-lg-nowrap[_ngcontent-c4]{-ms-flex-wrap:nowrap!important;flex-wrap:nowrap!important}.flex-lg-wrap-reverse[_ngcontent-c4]{-ms-flex-wrap:wrap-reverse!important;flex-wrap:wrap-reverse!important}.justify-content-lg-start[_ngcontent-c4]{-webkit-box-pack:start!important;-ms-flex-pack:start!important;justify-content:flex-start!important}.justify-content-lg-end[_ngcontent-c4]{-webkit-box-pack:end!important;-ms-flex-pack:end!important;justify-content:flex-end!important}.justify-content-lg-center[_ngcontent-c4]{-webkit-box-pack:center!important;-ms-flex-pack:center!important;justify-content:center!important}.justify-content-lg-between[_ngcontent-c4]{-webkit-box-pack:justify!important;-ms-flex-pack:justify!important;justify-content:space-between!important}.justify-content-lg-around[_ngcontent-c4]{-ms-flex-pack:distribute!important;justify-content:space-around!important}.align-items-lg-start[_ngcontent-c4]{-webkit-box-align:start!important;-ms-flex-align:start!important;align-items:flex-start!important}.align-items-lg-end[_ngcontent-c4]{-webkit-box-align:end!important;-ms-flex-align:end!important;align-items:flex-end!important}.align-items-lg-center[_ngcontent-c4]{-webkit-box-align:center!important;-ms-flex-align:center!important;align-items:center!important}.align-items-lg-baseline[_ngcontent-c4]{-webkit-box-align:baseline!important;-ms-flex-align:baseline!important;align-items:baseline!important}.align-items-lg-stretch[_ngcontent-c4]{-webkit-box-align:stretch!important;-ms-flex-align:stretch!important;align-items:stretch!important}.align-content-lg-start[_ngcontent-c4]{-ms-flex-line-pack:start!important;align-content:flex-start!important}.align-content-lg-end[_ngcontent-c4]{-ms-flex-line-pack:end!important;align-content:flex-end!important}.align-content-lg-center[_ngcontent-c4]{-ms-flex-line-pack:center!important;align-content:center!important}.align-content-lg-between[_ngcontent-c4]{-ms-flex-line-pack:justify!important;align-content:space-between!important}.align-content-lg-around[_ngcontent-c4]{-ms-flex-line-pack:distribute!important;align-content:space-around!important}.align-content-lg-stretch[_ngcontent-c4]{-ms-flex-line-pack:stretch!important;align-content:stretch!important}.align-self-lg-auto[_ngcontent-c4]{-ms-flex-item-align:auto!important;-ms-grid-row-align:auto!important;align-self:auto!important}.align-self-lg-start[_ngcontent-c4]{-ms-flex-item-align:start!important;align-self:flex-start!important}.align-self-lg-end[_ngcontent-c4]{-ms-flex-item-align:end!important;align-self:flex-end!important}.align-self-lg-center[_ngcontent-c4]{-ms-flex-item-align:center!important;-ms-grid-row-align:center!important;align-self:center!important}.align-self-lg-baseline[_ngcontent-c4]{-ms-flex-item-align:baseline!important;align-self:baseline!important}.align-self-lg-stretch[_ngcontent-c4]{-ms-flex-item-align:stretch!important;-ms-grid-row-align:stretch!important;align-self:stretch!important}}@media (min-width:1200px){.flex-xl-row[_ngcontent-c4]{-webkit-box-orient:horizontal!important;-webkit-box-direction:normal!important;-ms-flex-direction:row!important;flex-direction:row!important}.flex-xl-column[_ngcontent-c4]{-webkit-box-orient:vertical!important;-webkit-box-direction:normal!important;-ms-flex-direction:column!important;flex-direction:column!important}.flex-xl-row-reverse[_ngcontent-c4]{-webkit-box-orient:horizontal!important;-webkit-box-direction:reverse!important;-ms-flex-direction:row-reverse!important;flex-direction:row-reverse!important}.flex-xl-column-reverse[_ngcontent-c4]{-webkit-box-orient:vertical!important;-webkit-box-direction:reverse!important;-ms-flex-direction:column-reverse!important;flex-direction:column-reverse!important}.flex-xl-wrap[_ngcontent-c4]{-ms-flex-wrap:wrap!important;flex-wrap:wrap!important}.flex-xl-nowrap[_ngcontent-c4]{-ms-flex-wrap:nowrap!important;flex-wrap:nowrap!important}.flex-xl-wrap-reverse[_ngcontent-c4]{-ms-flex-wrap:wrap-reverse!important;flex-wrap:wrap-reverse!important}.justify-content-xl-start[_ngcontent-c4]{-webkit-box-pack:start!important;-ms-flex-pack:start!important;justify-content:flex-start!important}.justify-content-xl-end[_ngcontent-c4]{-webkit-box-pack:end!important;-ms-flex-pack:end!important;justify-content:flex-end!important}.justify-content-xl-center[_ngcontent-c4]{-webkit-box-pack:center!important;-ms-flex-pack:center!important;justify-content:center!important}.justify-content-xl-between[_ngcontent-c4]{-webkit-box-pack:justify!important;-ms-flex-pack:justify!important;justify-content:space-between!important}.justify-content-xl-around[_ngcontent-c4]{-ms-flex-pack:distribute!important;justify-content:space-around!important}.align-items-xl-start[_ngcontent-c4]{-webkit-box-align:start!important;-ms-flex-align:start!important;align-items:flex-start!important}.align-items-xl-end[_ngcontent-c4]{-webkit-box-align:end!important;-ms-flex-align:end!important;align-items:flex-end!important}.align-items-xl-center[_ngcontent-c4]{-webkit-box-align:center!important;-ms-flex-align:center!important;align-items:center!important}.align-items-xl-baseline[_ngcontent-c4]{-webkit-box-align:baseline!important;-ms-flex-align:baseline!important;align-items:baseline!important}.align-items-xl-stretch[_ngcontent-c4]{-webkit-box-align:stretch!important;-ms-flex-align:stretch!important;align-items:stretch!important}.align-content-xl-start[_ngcontent-c4]{-ms-flex-line-pack:start!important;align-content:flex-start!important}.align-content-xl-end[_ngcontent-c4]{-ms-flex-line-pack:end!important;align-content:flex-end!important}.align-content-xl-center[_ngcontent-c4]{-ms-flex-line-pack:center!important;align-content:center!important}.align-content-xl-between[_ngcontent-c4]{-ms-flex-line-pack:justify!important;align-content:space-between!important}.align-content-xl-around[_ngcontent-c4]{-ms-flex-line-pack:distribute!important;align-content:space-around!important}.align-content-xl-stretch[_ngcontent-c4]{-ms-flex-line-pack:stretch!important;align-content:stretch!important}.align-self-xl-auto[_ngcontent-c4]{-ms-flex-item-align:auto!important;-ms-grid-row-align:auto!important;align-self:auto!important}.align-self-xl-start[_ngcontent-c4]{-ms-flex-item-align:start!important;align-self:flex-start!important}.align-self-xl-end[_ngcontent-c4]{-ms-flex-item-align:end!important;align-self:flex-end!important}.align-self-xl-center[_ngcontent-c4]{-ms-flex-item-align:center!important;-ms-grid-row-align:center!important;align-self:center!important}.align-self-xl-baseline[_ngcontent-c4]{-ms-flex-item-align:baseline!important;align-self:baseline!important}.align-self-xl-stretch[_ngcontent-c4]{-ms-flex-item-align:stretch!important;-ms-grid-row-align:stretch!important;align-self:stretch!important}}h1[_ngcontent-c4]{-o-object-fit:contain;object-fit:contain;font-size:24px;letter-spacing:.2px;text-align:left;font-weight:100;margin:0 0 8px 50px}h2[_ngcontent-c4]{-o-object-fit:contain;object-fit:contain;text-align:left;margin:0 0 27px 50px;font-weight:100}.margin-bottom-20[_ngcontent-c4]{margin-bottom:20px}.auth-block[_ngcontent-c4]{margin-top:46px;max-width:520px;width:520px;-o-object-fit:contain;object-fit:contain;border-radius:5px;background-color:#fff;-webkit-box-shadow:-2.8px 2.8px 9.7px .3px rgba(0,0,0,.2);box-shadow:-2.8px 2.8px 9.7px .3px rgba(0,0,0,.2);padding:25px 23px 32px;-webkit-box-sizing:border-box;box-sizing:border-box}.auth-block[_ngcontent-c4]   .password[_ngcontent-c4]{margin-bottom:0!important}@media (max-width:550px){.auth-block[_ngcontent-c4]{max-width:unset;min-width:unset;width:auto}}.form-group[_ngcontent-c4]   .input-group[_ngcontent-c4]{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;height:35px}.form-group[_ngcontent-c4]   .input-group[_ngcontent-c4]   input[_ngcontent-c4]{border-radius:0 5px 5px 0}.form-group[_ngcontent-c4]   .input-group[_ngcontent-c4]   span.addon-left[_ngcontent-c4]{border-radius:5px 0 0 5px;text-align:left;color:#fff;background-color:#5d5d5d;width:163px}.form-group[_ngcontent-c4]   .input-group[_ngcontent-c4]   .input-group-addon[_ngcontent-c4]{padding:.5rem 14px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.25;color:#5d5d5d;text-align:center;border:1px solid #5d5d5d;border-radius:0 5px 5px 0;white-space:nowrap;vertical-align:middle}.form-group[_ngcontent-c4]   .input-group[_ngcontent-c4]   .form-control[_ngcontent-c4]{display:block;width:100%;padding:.5rem 14px;font-size:12px;line-height:1.25;color:#8a8989;background-color:#e8e8e8;background-clip:padding-box;border:1px solid #e8e8e8;border-radius:0 5px 5px 0;-webkit-transition:border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out}.input-group[_ngcontent-c4]   .form-control[_ngcontent-c4], .input-group-addon[_ngcontent-c4]{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.input-group[_ngcontent-c4]   .form-control[_ngcontent-c4]{position:relative;z-index:2;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;width:1%;margin-bottom:0}.forgot[_ngcontent-c4]{display:inline-block;vertical-align:middle;color:#1e1e1e;float:right;margin-top:5px;margin-bottom:5px;font-size:12px}.forgot[_ngcontent-c4]   a[_ngcontent-c4]{font-size:12px;text-align:left;color:#ba0014}.forgot[_ngcontent-c4]   a[_ngcontent-c4]:hover{text-decoration:underline}@media (max-width:390px){h1[_ngcontent-c4]{font-size:20px}.forgot[_ngcontent-c4]{float:left;margin-left:34px}}.ng-validation[_ngcontent-c4]   .ng-valid[_ngcontent-c4]{border:1px solid rgba(11,169,2,.54)!important;border-left:0!important;position:relative}.ng-validation[_ngcontent-c4]   .ng-invalid[_ngcontent-c4]{border:1px solid red!important;border-left:0!important;position:relative}.ng-validation[_ngcontent-c4]   .selected[_ngcontent-c4]{border:1px solid rgba(11,169,2,.54)!important;border-radius:4px;position:absolute}.ng-validation[_ngcontent-c4]   .unselected[_ngcontent-c4]{border:1px solid red!important;border-radius:4px;position:absolute}input[_ngcontent-c4]::-webkit-input-placeholder{color:#ab0015}.background[_ngcontent-c4]{background-image:url(/assets/images/background/background.png);background-repeat:no-repeat;background-color:#e8e8e8;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-flow:column;flex-flow:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:100%;width:100%}@media (max-width:400px){.background[_ngcontent-c4]{background-image:url(/assets/images/background/bg--mobile.png)}}.logo[_ngcontent-c4]{width:280px;height:40px}.label-checkbox[_ngcontent-c4]{margin-left:-6px}.label-checkbox[_ngcontent-c4]   .checkbox[_ngcontent-c4]{display:none}.label-checkbox[_ngcontent-c4]   .checkbox-custom[_ngcontent-c4]{position:relative;width:20px;height:20px;border:1px solid #1e1e1e;border-radius:5px;margin-left:-1px}.label-checkbox[_ngcontent-c4]   .checkbox-custom.disabled[_ngcontent-c4]{border-color:#e8e8e8}.label-checkbox[_ngcontent-c4]   .checkbox-custom[_ngcontent-c4], .label-checkbox[_ngcontent-c4]   .label[_ngcontent-c4]{display:inline-block;vertical-align:middle;color:#1e1e1e;margin-right:8px}.label-checkbox[_ngcontent-c4]   .checkbox-custom[_ngcontent-c4]   a[_ngcontent-c4], .label-checkbox[_ngcontent-c4]   .label[_ngcontent-c4]   a[_ngcontent-c4]{text-align:left;color:#1e1e1e}.label-checkbox[_ngcontent-c4]   .checkbox-custom[_ngcontent-c4]   a[_ngcontent-c4]:hover, .label-checkbox[_ngcontent-c4]   .label[_ngcontent-c4]   a[_ngcontent-c4]:hover{text-decoration:underline;cursor:pointer}.label-checkbox[_ngcontent-c4]     svg-icon svg{width:10px;height:13px;margin-left:4px;margin-top:5px}</style><style>.container[_ngcontent-c5]{margin-top:38px;padding:24px;width:25%;max-width:481px;min-width:380px;-o-object-fit:contain;object-fit:contain;border-radius:5px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-flow:column;flex-flow:column;background-color:#fff;-webkit-box-shadow:-2.8px 2.8px 9.7px .3px rgba(0,0,0,.2);box-shadow:-2.8px 2.8px 9.7px .3px rgba(0,0,0,.2)}app-registration-steps[_ngcontent-c5]{margin-top:19px}[_ngcontent-c5]:root   .logo[_ngcontent-c5]{margin-top:100px}.modal-terms-of-use[_ngcontent-c5]{position:absolute;top:calc(50% - 330px);left:calc(50% - 383px)}</style><style>h1[_ngcontent-c6]{-o-object-fit:contain;object-fit:contain;font-size:24px;letter-spacing:.2px;text-align:left;font-weight:100}h2[_ngcontent-c6]{-o-object-fit:contain;object-fit:contain;text-align:left;font-weight:100;font-size:14px;margin-top:7px}@media (max-width:390px){h2[_ngcontent-c6]{font-size:12px}}.container[_ngcontent-c6]{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row;flex-flow:row}.title[_ngcontent-c6]{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-flow:column;flex-flow:column;margin-left:10px}</style><style>.container[_ngcontent-c7]{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row;flex-flow:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;border-radius:5px;border:1px solid #5d5d5d}.step[_ngcontent-c7]{height:35px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-o-object-fit:contain;object-fit:contain;position:relative;width:34%}.container[_ngcontent-c7]   .step[_ngcontent-c7]:not(:first-of-type):before{content:'';border-left:16px solid #5d5d5d;border-top:18px solid transparent;border-bottom:18px solid transparent;position:absolute;top:0;left:1px}.container[_ngcontent-c7]   .step[_ngcontent-c7]:not(:last-of-type):after{content:'';border-left:16px solid #fff;border-top:18px solid transparent;border-bottom:18px solid transparent;position:absolute;top:0;left:100%;z-index:20}.container[_ngcontent-c7]   .step.active[_ngcontent-c7]{background:#5d5d5d}.container[_ngcontent-c7]   .step.active[_ngcontent-c7]:after{border-left-color:#5d5d5d}.active[_ngcontent-c7]{background-color:#5d5d5d;color:#fff}</style><style>[_nghost-c12]{width:100%;height:100%;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.container[_ngcontent-c12]{width:765px;height:80vh;margin-top:42px;-o-object-fit:contain;object-fit:contain;border-radius:5px;display:block;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-flow:column;flex-flow:column;background-color:#fff;-webkit-box-shadow:-2.8px 2.8px 9.7px .3px rgba(0,0,0,.2);box-shadow:-2.8px 2.8px 9.7px .3px rgba(0,0,0,.2)}@media (max-width:765px){.container[_ngcontent-c12]{margin-top:0;border-radius:0;width:100%;height:100%}}.header[_ngcontent-c12]{height:53px;width:calc(100% - 19px);display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-left:19px;background-color:#1e1e1e;color:#fff;font-size:18px;border-top-left-radius:8px;border-top-right-radius:8px}.accept-group[_ngcontent-c12]{overflow:auto;overflow-x:hidden}.content[_ngcontent-c12]{height:calc(100% - 101px);max-height:calc(100% - 150px);width:calc(100% - 38px);padding:0 38px 19px 0;font-size:14px}.decline[_ngcontent-c12]{height:34px;width:108px}.close[_ngcontent-c12]{margin:0 19px}.accept[_ngcontent-c12]{margin:0 19px;height:34px;width:108px}.button-group[_ngcontent-c12]{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row;flex-flow:row;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;margin-bottom:30px;margin-top:30px}@media (max-width:765px){.header[_ngcontent-c12]{border-radius:0}.button-group[_ngcontent-c12]{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}}</style><style>.next[_ngcontent-c8]{width:100%;height:35px;margin-top:19px;-o-object-fit:contain;object-fit:contain}.back[_ngcontent-c8]{margin-right:17px;width:100%;height:35px;margin-top:38px;-o-object-fit:contain;object-fit:contain}.select-group[_ngcontent-c8]   label[_ngcontent-c8]{width:126px}.invalid-entity[_ngcontent-c8]{border:1px solid red}</style><style>@-ms-viewport{width:device-width}html[_ngcontent-c14]{-webkit-box-sizing:border-box;box-sizing:border-box;-ms-overflow-style:scrollbar}*[_ngcontent-c14], [_ngcontent-c14]::after, [_ngcontent-c14]::before{-webkit-box-sizing:inherit;box-sizing:inherit}.container[_ngcontent-c14]{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:576px){.container[_ngcontent-c14]{max-width:540px}}@media (min-width:768px){.container[_ngcontent-c14]{max-width:720px}}@media (min-width:992px){.container[_ngcontent-c14]{max-width:960px}}@media (min-width:1200px){.container[_ngcontent-c14]{max-width:1140px}}.container-fluid[_ngcontent-c14]{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}.row[_ngcontent-c14]{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.no-gutters[_ngcontent-c14]{margin-right:0;margin-left:0}.no-gutters[_ngcontent-c14] &gt; .col[_ngcontent-c14], .no-gutters[_ngcontent-c14] &gt; [class*=col-][_ngcontent-c14]{padding-right:0;padding-left:0}.col[_ngcontent-c14], .col-1[_ngcontent-c14], .col-10[_ngcontent-c14], .col-11[_ngcontent-c14], .col-12[_ngcontent-c14], .col-2[_ngcontent-c14], .col-3[_ngcontent-c14], .col-4[_ngcontent-c14], .col-5[_ngcontent-c14], .col-6[_ngcontent-c14], .col-7[_ngcontent-c14], .col-8[_ngcontent-c14], .col-9[_ngcontent-c14], .col-auto[_ngcontent-c14], .col-lg[_ngcontent-c14], .col-lg-1[_ngcontent-c14], .col-lg-10[_ngcontent-c14], .col-lg-11[_ngcontent-c14], .col-lg-12[_ngcontent-c14], .col-lg-2[_ngcontent-c14], .col-lg-3[_ngcontent-c14], .col-lg-4[_ngcontent-c14], .col-lg-5[_ngcontent-c14], .col-lg-6[_ngcontent-c14], .col-lg-7[_ngcontent-c14], .col-lg-8[_ngcontent-c14], .col-lg-9[_ngcontent-c14], .col-lg-auto[_ngcontent-c14], .col-md[_ngcontent-c14], .col-md-1[_ngcontent-c14], .col-md-10[_ngcontent-c14], .col-md-11[_ngcontent-c14], .col-md-12[_ngcontent-c14], .col-md-2[_ngcontent-c14], .col-md-3[_ngcontent-c14], .col-md-4[_ngcontent-c14], .col-md-5[_ngcontent-c14], .col-md-6[_ngcontent-c14], .col-md-7[_ngcontent-c14], .col-md-8[_ngcontent-c14], .col-md-9[_ngcontent-c14], .col-md-auto[_ngcontent-c14], .col-sm[_ngcontent-c14], .col-sm-1[_ngcontent-c14], .col-sm-10[_ngcontent-c14], .col-sm-11[_ngcontent-c14], .col-sm-12[_ngcontent-c14], .col-sm-2[_ngcontent-c14], .col-sm-3[_ngcontent-c14], .col-sm-4[_ngcontent-c14], .col-sm-5[_ngcontent-c14], .col-sm-6[_ngcontent-c14], .col-sm-7[_ngcontent-c14], .col-sm-8[_ngcontent-c14], .col-sm-9[_ngcontent-c14], .col-sm-auto[_ngcontent-c14], .col-xl[_ngcontent-c14], .col-xl-1[_ngcontent-c14], .col-xl-10[_ngcontent-c14], .col-xl-11[_ngcontent-c14], .col-xl-12[_ngcontent-c14], .col-xl-2[_ngcontent-c14], .col-xl-3[_ngcontent-c14], .col-xl-4[_ngcontent-c14], .col-xl-5[_ngcontent-c14], .col-xl-6[_ngcontent-c14], .col-xl-7[_ngcontent-c14], .col-xl-8[_ngcontent-c14], .col-xl-9[_ngcontent-c14], .col-xl-auto[_ngcontent-c14]{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px}.col[_ngcontent-c14]{-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}.col-auto[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:none}.col-1[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 8.33333333%;flex:0 0 8.33333333%;max-width:8.33333333%}.col-2[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 16.66666667%;flex:0 0 16.66666667%;max-width:16.66666667%}.col-3[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-4[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 33.33333333%;flex:0 0 33.33333333%;max-width:33.33333333%}.col-5[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 41.66666667%;flex:0 0 41.66666667%;max-width:41.66666667%}.col-6[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-7[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 58.33333333%;flex:0 0 58.33333333%;max-width:58.33333333%}.col-8[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 66.66666667%;flex:0 0 66.66666667%;max-width:66.66666667%}.col-9[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}.col-10[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 83.33333333%;flex:0 0 83.33333333%;max-width:83.33333333%}.col-11[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 91.66666667%;flex:0 0 91.66666667%;max-width:91.66666667%}.col-12[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.order-first[_ngcontent-c14]{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.order-1[_ngcontent-c14]{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}.order-2[_ngcontent-c14]{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}.order-3[_ngcontent-c14]{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}.order-4[_ngcontent-c14]{-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4}.order-5[_ngcontent-c14]{-webkit-box-ordinal-group:6;-ms-flex-order:5;order:5}.order-6[_ngcontent-c14]{-webkit-box-ordinal-group:7;-ms-flex-order:6;order:6}.order-7[_ngcontent-c14]{-webkit-box-ordinal-group:8;-ms-flex-order:7;order:7}.order-8[_ngcontent-c14]{-webkit-box-ordinal-group:9;-ms-flex-order:8;order:8}.order-9[_ngcontent-c14]{-webkit-box-ordinal-group:10;-ms-flex-order:9;order:9}.order-10[_ngcontent-c14]{-webkit-box-ordinal-group:11;-ms-flex-order:10;order:10}.order-11[_ngcontent-c14]{-webkit-box-ordinal-group:12;-ms-flex-order:11;order:11}.order-12[_ngcontent-c14]{-webkit-box-ordinal-group:13;-ms-flex-order:12;order:12}.offset-1[_ngcontent-c14]{margin-left:8.33333333%}.offset-2[_ngcontent-c14]{margin-left:16.66666667%}.offset-3[_ngcontent-c14]{margin-left:25%}.offset-4[_ngcontent-c14]{margin-left:33.33333333%}.offset-5[_ngcontent-c14]{margin-left:41.66666667%}.offset-6[_ngcontent-c14]{margin-left:50%}.offset-7[_ngcontent-c14]{margin-left:58.33333333%}.offset-8[_ngcontent-c14]{margin-left:66.66666667%}.offset-9[_ngcontent-c14]{margin-left:75%}.offset-10[_ngcontent-c14]{margin-left:83.33333333%}.offset-11[_ngcontent-c14]{margin-left:91.66666667%}@media (min-width:576px){.col-sm[_ngcontent-c14]{-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}.col-sm-auto[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:none}.col-sm-1[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 8.33333333%;flex:0 0 8.33333333%;max-width:8.33333333%}.col-sm-2[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 16.66666667%;flex:0 0 16.66666667%;max-width:16.66666667%}.col-sm-3[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-sm-4[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 33.33333333%;flex:0 0 33.33333333%;max-width:33.33333333%}.col-sm-5[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 41.66666667%;flex:0 0 41.66666667%;max-width:41.66666667%}.col-sm-6[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-sm-7[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 58.33333333%;flex:0 0 58.33333333%;max-width:58.33333333%}.col-sm-8[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 66.66666667%;flex:0 0 66.66666667%;max-width:66.66666667%}.col-sm-9[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}.col-sm-10[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 83.33333333%;flex:0 0 83.33333333%;max-width:83.33333333%}.col-sm-11[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 91.66666667%;flex:0 0 91.66666667%;max-width:91.66666667%}.col-sm-12[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.order-sm-first[_ngcontent-c14]{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.order-sm-1[_ngcontent-c14]{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}.order-sm-2[_ngcontent-c14]{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}.order-sm-3[_ngcontent-c14]{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}.order-sm-4[_ngcontent-c14]{-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4}.order-sm-5[_ngcontent-c14]{-webkit-box-ordinal-group:6;-ms-flex-order:5;order:5}.order-sm-6[_ngcontent-c14]{-webkit-box-ordinal-group:7;-ms-flex-order:6;order:6}.order-sm-7[_ngcontent-c14]{-webkit-box-ordinal-group:8;-ms-flex-order:7;order:7}.order-sm-8[_ngcontent-c14]{-webkit-box-ordinal-group:9;-ms-flex-order:8;order:8}.order-sm-9[_ngcontent-c14]{-webkit-box-ordinal-group:10;-ms-flex-order:9;order:9}.order-sm-10[_ngcontent-c14]{-webkit-box-ordinal-group:11;-ms-flex-order:10;order:10}.order-sm-11[_ngcontent-c14]{-webkit-box-ordinal-group:12;-ms-flex-order:11;order:11}.order-sm-12[_ngcontent-c14]{-webkit-box-ordinal-group:13;-ms-flex-order:12;order:12}.offset-sm-0[_ngcontent-c14]{margin-left:0}.offset-sm-1[_ngcontent-c14]{margin-left:8.33333333%}.offset-sm-2[_ngcontent-c14]{margin-left:16.66666667%}.offset-sm-3[_ngcontent-c14]{margin-left:25%}.offset-sm-4[_ngcontent-c14]{margin-left:33.33333333%}.offset-sm-5[_ngcontent-c14]{margin-left:41.66666667%}.offset-sm-6[_ngcontent-c14]{margin-left:50%}.offset-sm-7[_ngcontent-c14]{margin-left:58.33333333%}.offset-sm-8[_ngcontent-c14]{margin-left:66.66666667%}.offset-sm-9[_ngcontent-c14]{margin-left:75%}.offset-sm-10[_ngcontent-c14]{margin-left:83.33333333%}.offset-sm-11[_ngcontent-c14]{margin-left:91.66666667%}}@media (min-width:768px){.col-md[_ngcontent-c14]{-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}.col-md-auto[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:none}.col-md-1[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 8.33333333%;flex:0 0 8.33333333%;max-width:8.33333333%}.col-md-2[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 16.66666667%;flex:0 0 16.66666667%;max-width:16.66666667%}.col-md-3[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-md-4[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 33.33333333%;flex:0 0 33.33333333%;max-width:33.33333333%}.col-md-5[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 41.66666667%;flex:0 0 41.66666667%;max-width:41.66666667%}.col-md-6[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-md-7[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 58.33333333%;flex:0 0 58.33333333%;max-width:58.33333333%}.col-md-8[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 66.66666667%;flex:0 0 66.66666667%;max-width:66.66666667%}.col-md-9[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}.col-md-10[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 83.33333333%;flex:0 0 83.33333333%;max-width:83.33333333%}.col-md-11[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 91.66666667%;flex:0 0 91.66666667%;max-width:91.66666667%}.col-md-12[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.order-md-first[_ngcontent-c14]{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.order-md-1[_ngcontent-c14]{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}.order-md-2[_ngcontent-c14]{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}.order-md-3[_ngcontent-c14]{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}.order-md-4[_ngcontent-c14]{-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4}.order-md-5[_ngcontent-c14]{-webkit-box-ordinal-group:6;-ms-flex-order:5;order:5}.order-md-6[_ngcontent-c14]{-webkit-box-ordinal-group:7;-ms-flex-order:6;order:6}.order-md-7[_ngcontent-c14]{-webkit-box-ordinal-group:8;-ms-flex-order:7;order:7}.order-md-8[_ngcontent-c14]{-webkit-box-ordinal-group:9;-ms-flex-order:8;order:8}.order-md-9[_ngcontent-c14]{-webkit-box-ordinal-group:10;-ms-flex-order:9;order:9}.order-md-10[_ngcontent-c14]{-webkit-box-ordinal-group:11;-ms-flex-order:10;order:10}.order-md-11[_ngcontent-c14]{-webkit-box-ordinal-group:12;-ms-flex-order:11;order:11}.order-md-12[_ngcontent-c14]{-webkit-box-ordinal-group:13;-ms-flex-order:12;order:12}.offset-md-0[_ngcontent-c14]{margin-left:0}.offset-md-1[_ngcontent-c14]{margin-left:8.33333333%}.offset-md-2[_ngcontent-c14]{margin-left:16.66666667%}.offset-md-3[_ngcontent-c14]{margin-left:25%}.offset-md-4[_ngcontent-c14]{margin-left:33.33333333%}.offset-md-5[_ngcontent-c14]{margin-left:41.66666667%}.offset-md-6[_ngcontent-c14]{margin-left:50%}.offset-md-7[_ngcontent-c14]{margin-left:58.33333333%}.offset-md-8[_ngcontent-c14]{margin-left:66.66666667%}.offset-md-9[_ngcontent-c14]{margin-left:75%}.offset-md-10[_ngcontent-c14]{margin-left:83.33333333%}.offset-md-11[_ngcontent-c14]{margin-left:91.66666667%}}@media (min-width:992px){.col-lg[_ngcontent-c14]{-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}.col-lg-auto[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:none}.col-lg-1[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 8.33333333%;flex:0 0 8.33333333%;max-width:8.33333333%}.col-lg-2[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 16.66666667%;flex:0 0 16.66666667%;max-width:16.66666667%}.col-lg-3[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-lg-4[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 33.33333333%;flex:0 0 33.33333333%;max-width:33.33333333%}.col-lg-5[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 41.66666667%;flex:0 0 41.66666667%;max-width:41.66666667%}.col-lg-6[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-lg-7[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 58.33333333%;flex:0 0 58.33333333%;max-width:58.33333333%}.col-lg-8[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 66.66666667%;flex:0 0 66.66666667%;max-width:66.66666667%}.col-lg-9[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}.col-lg-10[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 83.33333333%;flex:0 0 83.33333333%;max-width:83.33333333%}.col-lg-11[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 91.66666667%;flex:0 0 91.66666667%;max-width:91.66666667%}.col-lg-12[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.order-lg-first[_ngcontent-c14]{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.order-lg-1[_ngcontent-c14]{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}.order-lg-2[_ngcontent-c14]{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}.order-lg-3[_ngcontent-c14]{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}.order-lg-4[_ngcontent-c14]{-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4}.order-lg-5[_ngcontent-c14]{-webkit-box-ordinal-group:6;-ms-flex-order:5;order:5}.order-lg-6[_ngcontent-c14]{-webkit-box-ordinal-group:7;-ms-flex-order:6;order:6}.order-lg-7[_ngcontent-c14]{-webkit-box-ordinal-group:8;-ms-flex-order:7;order:7}.order-lg-8[_ngcontent-c14]{-webkit-box-ordinal-group:9;-ms-flex-order:8;order:8}.order-lg-9[_ngcontent-c14]{-webkit-box-ordinal-group:10;-ms-flex-order:9;order:9}.order-lg-10[_ngcontent-c14]{-webkit-box-ordinal-group:11;-ms-flex-order:10;order:10}.order-lg-11[_ngcontent-c14]{-webkit-box-ordinal-group:12;-ms-flex-order:11;order:11}.order-lg-12[_ngcontent-c14]{-webkit-box-ordinal-group:13;-ms-flex-order:12;order:12}.offset-lg-0[_ngcontent-c14]{margin-left:0}.offset-lg-1[_ngcontent-c14]{margin-left:8.33333333%}.offset-lg-2[_ngcontent-c14]{margin-left:16.66666667%}.offset-lg-3[_ngcontent-c14]{margin-left:25%}.offset-lg-4[_ngcontent-c14]{margin-left:33.33333333%}.offset-lg-5[_ngcontent-c14]{margin-left:41.66666667%}.offset-lg-6[_ngcontent-c14]{margin-left:50%}.offset-lg-7[_ngcontent-c14]{margin-left:58.33333333%}.offset-lg-8[_ngcontent-c14]{margin-left:66.66666667%}.offset-lg-9[_ngcontent-c14]{margin-left:75%}.offset-lg-10[_ngcontent-c14]{margin-left:83.33333333%}.offset-lg-11[_ngcontent-c14]{margin-left:91.66666667%}}@media (min-width:1200px){.col-xl[_ngcontent-c14]{-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}.col-xl-auto[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:none}.col-xl-1[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 8.33333333%;flex:0 0 8.33333333%;max-width:8.33333333%}.col-xl-2[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 16.66666667%;flex:0 0 16.66666667%;max-width:16.66666667%}.col-xl-3[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-xl-4[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 33.33333333%;flex:0 0 33.33333333%;max-width:33.33333333%}.col-xl-5[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 41.66666667%;flex:0 0 41.66666667%;max-width:41.66666667%}.col-xl-6[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-xl-7[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 58.33333333%;flex:0 0 58.33333333%;max-width:58.33333333%}.col-xl-8[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 66.66666667%;flex:0 0 66.66666667%;max-width:66.66666667%}.col-xl-9[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}.col-xl-10[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 83.33333333%;flex:0 0 83.33333333%;max-width:83.33333333%}.col-xl-11[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 91.66666667%;flex:0 0 91.66666667%;max-width:91.66666667%}.col-xl-12[_ngcontent-c14]{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.order-xl-first[_ngcontent-c14]{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.order-xl-1[_ngcontent-c14]{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}.order-xl-2[_ngcontent-c14]{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}.order-xl-3[_ngcontent-c14]{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}.order-xl-4[_ngcontent-c14]{-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4}.order-xl-5[_ngcontent-c14]{-webkit-box-ordinal-group:6;-ms-flex-order:5;order:5}.order-xl-6[_ngcontent-c14]{-webkit-box-ordinal-group:7;-ms-flex-order:6;order:6}.order-xl-7[_ngcontent-c14]{-webkit-box-ordinal-group:8;-ms-flex-order:7;order:7}.order-xl-8[_ngcontent-c14]{-webkit-box-ordinal-group:9;-ms-flex-order:8;order:8}.order-xl-9[_ngcontent-c14]{-webkit-box-ordinal-group:10;-ms-flex-order:9;order:9}.order-xl-10[_ngcontent-c14]{-webkit-box-ordinal-group:11;-ms-flex-order:10;order:10}.order-xl-11[_ngcontent-c14]{-webkit-box-ordinal-group:12;-ms-flex-order:11;order:11}.order-xl-12[_ngcontent-c14]{-webkit-box-ordinal-group:13;-ms-flex-order:12;order:12}.offset-xl-0[_ngcontent-c14]{margin-left:0}.offset-xl-1[_ngcontent-c14]{margin-left:8.33333333%}.offset-xl-2[_ngcontent-c14]{margin-left:16.66666667%}.offset-xl-3[_ngcontent-c14]{margin-left:25%}.offset-xl-4[_ngcontent-c14]{margin-left:33.33333333%}.offset-xl-5[_ngcontent-c14]{margin-left:41.66666667%}.offset-xl-6[_ngcontent-c14]{margin-left:50%}.offset-xl-7[_ngcontent-c14]{margin-left:58.33333333%}.offset-xl-8[_ngcontent-c14]{margin-left:66.66666667%}.offset-xl-9[_ngcontent-c14]{margin-left:75%}.offset-xl-10[_ngcontent-c14]{margin-left:83.33333333%}.offset-xl-11[_ngcontent-c14]{margin-left:91.66666667%}}.flex-row[_ngcontent-c14]{-webkit-box-orient:horizontal!important;-webkit-box-direction:normal!important;-ms-flex-direction:row!important;flex-direction:row!important}.flex-column[_ngcontent-c14]{-webkit-box-orient:vertical!important;-webkit-box-direction:normal!important;-ms-flex-direction:column!important;flex-direction:column!important}.flex-row-reverse[_ngcontent-c14]{-webkit-box-orient:horizontal!important;-webkit-box-direction:reverse!important;-ms-flex-direction:row-reverse!important;flex-direction:row-reverse!important}.flex-column-reverse[_ngcontent-c14]{-webkit-box-orient:vertical!important;-webkit-box-direction:reverse!important;-ms-flex-direction:column-reverse!important;flex-direction:column-reverse!important}.flex-wrap[_ngcontent-c14]{-ms-flex-wrap:wrap!important;flex-wrap:wrap!important}.flex-nowrap[_ngcontent-c14]{-ms-flex-wrap:nowrap!important;flex-wrap:nowrap!important}.flex-wrap-reverse[_ngcontent-c14]{-ms-flex-wrap:wrap-reverse!important;flex-wrap:wrap-reverse!important}.justify-content-start[_ngcontent-c14]{-webkit-box-pack:start!important;-ms-flex-pack:start!important;justify-content:flex-start!important}.justify-content-end[_ngcontent-c14]{-webkit-box-pack:end!important;-ms-flex-pack:end!important;justify-content:flex-end!important}.justify-content-center[_ngcontent-c14]{-webkit-box-pack:center!important;-ms-flex-pack:center!important;justify-content:center!important}.justify-content-between[_ngcontent-c14]{-webkit-box-pack:justify!important;-ms-flex-pack:justify!important;justify-content:space-between!important}.justify-content-around[_ngcontent-c14]{-ms-flex-pack:distribute!important;justify-content:space-around!important}.align-items-start[_ngcontent-c14]{-webkit-box-align:start!important;-ms-flex-align:start!important;align-items:flex-start!important}.align-items-end[_ngcontent-c14]{-webkit-box-align:end!important;-ms-flex-align:end!important;align-items:flex-end!important}.align-items-center[_ngcontent-c14]{-webkit-box-align:center!important;-ms-flex-align:center!important;align-items:center!important}.align-items-baseline[_ngcontent-c14]{-webkit-box-align:baseline!important;-ms-flex-align:baseline!important;align-items:baseline!important}.align-items-stretch[_ngcontent-c14]{-webkit-box-align:stretch!important;-ms-flex-align:stretch!important;align-items:stretch!important}.align-content-start[_ngcontent-c14]{-ms-flex-line-pack:start!important;align-content:flex-start!important}.align-content-end[_ngcontent-c14]{-ms-flex-line-pack:end!important;align-content:flex-end!important}.align-content-center[_ngcontent-c14]{-ms-flex-line-pack:center!important;align-content:center!important}.align-content-between[_ngcontent-c14]{-ms-flex-line-pack:justify!important;align-content:space-between!important}.align-content-around[_ngcontent-c14]{-ms-flex-line-pack:distribute!important;align-content:space-around!important}.align-content-stretch[_ngcontent-c14]{-ms-flex-line-pack:stretch!important;align-content:stretch!important}.align-self-auto[_ngcontent-c14]{-ms-flex-item-align:auto!important;-ms-grid-row-align:auto!important;align-self:auto!important}.align-self-start[_ngcontent-c14]{-ms-flex-item-align:start!important;align-self:flex-start!important}.align-self-end[_ngcontent-c14]{-ms-flex-item-align:end!important;align-self:flex-end!important}.align-self-center[_ngcontent-c14]{-ms-flex-item-align:center!important;-ms-grid-row-align:center!important;align-self:center!important}.align-self-baseline[_ngcontent-c14]{-ms-flex-item-align:baseline!important;align-self:baseline!important}.align-self-stretch[_ngcontent-c14]{-ms-flex-item-align:stretch!important;-ms-grid-row-align:stretch!important;align-self:stretch!important}@media (min-width:576px){.flex-sm-row[_ngcontent-c14]{-webkit-box-orient:horizontal!important;-webkit-box-direction:normal!important;-ms-flex-direction:row!important;flex-direction:row!important}.flex-sm-column[_ngcontent-c14]{-webkit-box-orient:vertical!important;-webkit-box-direction:normal!important;-ms-flex-direction:column!important;flex-direction:column!important}.flex-sm-row-reverse[_ngcontent-c14]{-webkit-box-orient:horizontal!important;-webkit-box-direction:reverse!important;-ms-flex-direction:row-reverse!important;flex-direction:row-reverse!important}.flex-sm-column-reverse[_ngcontent-c14]{-webkit-box-orient:vertical!important;-webkit-box-direction:reverse!important;-ms-flex-direction:column-reverse!important;flex-direction:column-reverse!important}.flex-sm-wrap[_ngcontent-c14]{-ms-flex-wrap:wrap!important;flex-wrap:wrap!important}.flex-sm-nowrap[_ngcontent-c14]{-ms-flex-wrap:nowrap!important;flex-wrap:nowrap!important}.flex-sm-wrap-reverse[_ngcontent-c14]{-ms-flex-wrap:wrap-reverse!important;flex-wrap:wrap-reverse!important}.justify-content-sm-start[_ngcontent-c14]{-webkit-box-pack:start!important;-ms-flex-pack:start!important;justify-content:flex-start!important}.justify-content-sm-end[_ngcontent-c14]{-webkit-box-pack:end!important;-ms-flex-pack:end!important;justify-content:flex-end!important}.justify-content-sm-center[_ngcontent-c14]{-webkit-box-pack:center!important;-ms-flex-pack:center!important;justify-content:center!important}.justify-content-sm-between[_ngcontent-c14]{-webkit-box-pack:justify!important;-ms-flex-pack:justify!important;justify-content:space-between!important}.justify-content-sm-around[_ngcontent-c14]{-ms-flex-pack:distribute!important;justify-content:space-around!important}.align-items-sm-start[_ngcontent-c14]{-webkit-box-align:start!important;-ms-flex-align:start!important;align-items:flex-start!important}.align-items-sm-end[_ngcontent-c14]{-webkit-box-align:end!important;-ms-flex-align:end!important;align-items:flex-end!important}.align-items-sm-center[_ngcontent-c14]{-webkit-box-align:center!important;-ms-flex-align:center!important;align-items:center!important}.align-items-sm-baseline[_ngcontent-c14]{-webkit-box-align:baseline!important;-ms-flex-align:baseline!important;align-items:baseline!important}.align-items-sm-stretch[_ngcontent-c14]{-webkit-box-align:stretch!important;-ms-flex-align:stretch!important;align-items:stretch!important}.align-content-sm-start[_ngcontent-c14]{-ms-flex-line-pack:start!important;align-content:flex-start!important}.align-content-sm-end[_ngcontent-c14]{-ms-flex-line-pack:end!important;align-content:flex-end!important}.align-content-sm-center[_ngcontent-c14]{-ms-flex-line-pack:center!important;align-content:center!important}.align-content-sm-between[_ngcontent-c14]{-ms-flex-line-pack:justify!important;align-content:space-between!important}.align-content-sm-around[_ngcontent-c14]{-ms-flex-line-pack:distribute!important;align-content:space-around!important}.align-content-sm-stretch[_ngcontent-c14]{-ms-flex-line-pack:stretch!important;align-content:stretch!important}.align-self-sm-auto[_ngcontent-c14]{-ms-flex-item-align:auto!important;-ms-grid-row-align:auto!important;align-self:auto!important}.align-self-sm-start[_ngcontent-c14]{-ms-flex-item-align:start!important;align-self:flex-start!important}.align-self-sm-end[_ngcontent-c14]{-ms-flex-item-align:end!important;align-self:flex-end!important}.align-self-sm-center[_ngcontent-c14]{-ms-flex-item-align:center!important;-ms-grid-row-align:center!important;align-self:center!important}.align-self-sm-baseline[_ngcontent-c14]{-ms-flex-item-align:baseline!important;align-self:baseline!important}.align-self-sm-stretch[_ngcontent-c14]{-ms-flex-item-align:stretch!important;-ms-grid-row-align:stretch!important;align-self:stretch!important}}@media (min-width:768px){.flex-md-row[_ngcontent-c14]{-webkit-box-orient:horizontal!important;-webkit-box-direction:normal!important;-ms-flex-direction:row!important;flex-direction:row!important}.flex-md-column[_ngcontent-c14]{-webkit-box-orient:vertical!important;-webkit-box-direction:normal!important;-ms-flex-direction:column!important;flex-direction:column!important}.flex-md-row-reverse[_ngcontent-c14]{-webkit-box-orient:horizontal!important;-webkit-box-direction:reverse!important;-ms-flex-direction:row-reverse!important;flex-direction:row-reverse!important}.flex-md-column-reverse[_ngcontent-c14]{-webkit-box-orient:vertical!important;-webkit-box-direction:reverse!important;-ms-flex-direction:column-reverse!important;flex-direction:column-reverse!important}.flex-md-wrap[_ngcontent-c14]{-ms-flex-wrap:wrap!important;flex-wrap:wrap!important}.flex-md-nowrap[_ngcontent-c14]{-ms-flex-wrap:nowrap!important;flex-wrap:nowrap!important}.flex-md-wrap-reverse[_ngcontent-c14]{-ms-flex-wrap:wrap-reverse!important;flex-wrap:wrap-reverse!important}.justify-content-md-start[_ngcontent-c14]{-webkit-box-pack:start!important;-ms-flex-pack:start!important;justify-content:flex-start!important}.justify-content-md-end[_ngcontent-c14]{-webkit-box-pack:end!important;-ms-flex-pack:end!important;justify-content:flex-end!important}.justify-content-md-center[_ngcontent-c14]{-webkit-box-pack:center!important;-ms-flex-pack:center!important;justify-content:center!important}.justify-content-md-between[_ngcontent-c14]{-webkit-box-pack:justify!important;-ms-flex-pack:justify!important;justify-content:space-between!important}.justify-content-md-around[_ngcontent-c14]{-ms-flex-pack:distribute!important;justify-content:space-around!important}.align-items-md-start[_ngcontent-c14]{-webkit-box-align:start!important;-ms-flex-align:start!important;align-items:flex-start!important}.align-items-md-end[_ngcontent-c14]{-webkit-box-align:end!important;-ms-flex-align:end!important;align-items:flex-end!important}.align-items-md-center[_ngcontent-c14]{-webkit-box-align:center!important;-ms-flex-align:center!important;align-items:center!important}.align-items-md-baseline[_ngcontent-c14]{-webkit-box-align:baseline!important;-ms-flex-align:baseline!important;align-items:baseline!important}.align-items-md-stretch[_ngcontent-c14]{-webkit-box-align:stretch!important;-ms-flex-align:stretch!important;align-items:stretch!important}.align-content-md-start[_ngcontent-c14]{-ms-flex-line-pack:start!important;align-content:flex-start!important}.align-content-md-end[_ngcontent-c14]{-ms-flex-line-pack:end!important;align-content:flex-end!important}.align-content-md-center[_ngcontent-c14]{-ms-flex-line-pack:center!important;align-content:center!important}.align-content-md-between[_ngcontent-c14]{-ms-flex-line-pack:justify!important;align-content:space-between!important}.align-content-md-around[_ngcontent-c14]{-ms-flex-line-pack:distribute!important;align-content:space-around!important}.align-content-md-stretch[_ngcontent-c14]{-ms-flex-line-pack:stretch!important;align-content:stretch!important}.align-self-md-auto[_ngcontent-c14]{-ms-flex-item-align:auto!important;-ms-grid-row-align:auto!important;align-self:auto!important}.align-self-md-start[_ngcontent-c14]{-ms-flex-item-align:start!important;align-self:flex-start!important}.align-self-md-end[_ngcontent-c14]{-ms-flex-item-align:end!important;align-self:flex-end!important}.align-self-md-center[_ngcontent-c14]{-ms-flex-item-align:center!important;-ms-grid-row-align:center!important;align-self:center!important}.align-self-md-baseline[_ngcontent-c14]{-ms-flex-item-align:baseline!important;align-self:baseline!important}.align-self-md-stretch[_ngcontent-c14]{-ms-flex-item-align:stretch!important;-ms-grid-row-align:stretch!important;align-self:stretch!important}}@media (min-width:992px){.flex-lg-row[_ngcontent-c14]{-webkit-box-orient:horizontal!important;-webkit-box-direction:normal!important;-ms-flex-direction:row!important;flex-direction:row!important}.flex-lg-column[_ngcontent-c14]{-webkit-box-orient:vertical!important;-webkit-box-direction:normal!important;-ms-flex-direction:column!important;flex-direction:column!important}.flex-lg-row-reverse[_ngcontent-c14]{-webkit-box-orient:horizontal!important;-webkit-box-direction:reverse!important;-ms-flex-direction:row-reverse!important;flex-direction:row-reverse!important}.flex-lg-column-reverse[_ngcontent-c14]{-webkit-box-orient:vertical!important;-webkit-box-direction:reverse!important;-ms-flex-direction:column-reverse!important;flex-direction:column-reverse!important}.flex-lg-wrap[_ngcontent-c14]{-ms-flex-wrap:wrap!important;flex-wrap:wrap!important}.flex-lg-nowrap[_ngcontent-c14]{-ms-flex-wrap:nowrap!important;flex-wrap:nowrap!important}.flex-lg-wrap-reverse[_ngcontent-c14]{-ms-flex-wrap:wrap-reverse!important;flex-wrap:wrap-reverse!important}.justify-content-lg-start[_ngcontent-c14]{-webkit-box-pack:start!important;-ms-flex-pack:start!important;justify-content:flex-start!important}.justify-content-lg-end[_ngcontent-c14]{-webkit-box-pack:end!important;-ms-flex-pack:end!important;justify-content:flex-end!important}.justify-content-lg-center[_ngcontent-c14]{-webkit-box-pack:center!important;-ms-flex-pack:center!important;justify-content:center!important}.justify-content-lg-between[_ngcontent-c14]{-webkit-box-pack:justify!important;-ms-flex-pack:justify!important;justify-content:space-between!important}.justify-content-lg-around[_ngcontent-c14]{-ms-flex-pack:distribute!important;justify-content:space-around!important}.align-items-lg-start[_ngcontent-c14]{-webkit-box-align:start!important;-ms-flex-align:start!important;align-items:flex-start!important}.align-items-lg-end[_ngcontent-c14]{-webkit-box-align:end!important;-ms-flex-align:end!important;align-items:flex-end!important}.align-items-lg-center[_ngcontent-c14]{-webkit-box-align:center!important;-ms-flex-align:center!important;align-items:center!important}.align-items-lg-baseline[_ngcontent-c14]{-webkit-box-align:baseline!important;-ms-flex-align:baseline!important;align-items:baseline!important}.align-items-lg-stretch[_ngcontent-c14]{-webkit-box-align:stretch!important;-ms-flex-align:stretch!important;align-items:stretch!important}.align-content-lg-start[_ngcontent-c14]{-ms-flex-line-pack:start!important;align-content:flex-start!important}.align-content-lg-end[_ngcontent-c14]{-ms-flex-line-pack:end!important;align-content:flex-end!important}.align-content-lg-center[_ngcontent-c14]{-ms-flex-line-pack:center!important;align-content:center!important}.align-content-lg-between[_ngcontent-c14]{-ms-flex-line-pack:justify!important;align-content:space-between!important}.align-content-lg-around[_ngcontent-c14]{-ms-flex-line-pack:distribute!important;align-content:space-around!important}.align-content-lg-stretch[_ngcontent-c14]{-ms-flex-line-pack:stretch!important;align-content:stretch!important}.align-self-lg-auto[_ngcontent-c14]{-ms-flex-item-align:auto!important;-ms-grid-row-align:auto!important;align-self:auto!important}.align-self-lg-start[_ngcontent-c14]{-ms-flex-item-align:start!important;align-self:flex-start!important}.align-self-lg-end[_ngcontent-c14]{-ms-flex-item-align:end!important;align-self:flex-end!important}.align-self-lg-center[_ngcontent-c14]{-ms-flex-item-align:center!important;-ms-grid-row-align:center!important;align-self:center!important}.align-self-lg-baseline[_ngcontent-c14]{-ms-flex-item-align:baseline!important;align-self:baseline!important}.align-self-lg-stretch[_ngcontent-c14]{-ms-flex-item-align:stretch!important;-ms-grid-row-align:stretch!important;align-self:stretch!important}}@media (min-width:1200px){.flex-xl-row[_ngcontent-c14]{-webkit-box-orient:horizontal!important;-webkit-box-direction:normal!important;-ms-flex-direction:row!important;flex-direction:row!important}.flex-xl-column[_ngcontent-c14]{-webkit-box-orient:vertical!important;-webkit-box-direction:normal!important;-ms-flex-direction:column!important;flex-direction:column!important}.flex-xl-row-reverse[_ngcontent-c14]{-webkit-box-orient:horizontal!important;-webkit-box-direction:reverse!important;-ms-flex-direction:row-reverse!important;flex-direction:row-reverse!important}.flex-xl-column-reverse[_ngcontent-c14]{-webkit-box-orient:vertical!important;-webkit-box-direction:reverse!important;-ms-flex-direction:column-reverse!important;flex-direction:column-reverse!important}.flex-xl-wrap[_ngcontent-c14]{-ms-flex-wrap:wrap!important;flex-wrap:wrap!important}.flex-xl-nowrap[_ngcontent-c14]{-ms-flex-wrap:nowrap!important;flex-wrap:nowrap!important}.flex-xl-wrap-reverse[_ngcontent-c14]{-ms-flex-wrap:wrap-reverse!important;flex-wrap:wrap-reverse!important}.justify-content-xl-start[_ngcontent-c14]{-webkit-box-pack:start!important;-ms-flex-pack:start!important;justify-content:flex-start!important}.justify-content-xl-end[_ngcontent-c14]{-webkit-box-pack:end!important;-ms-flex-pack:end!important;justify-content:flex-end!important}.justify-content-xl-center[_ngcontent-c14]{-webkit-box-pack:center!important;-ms-flex-pack:center!important;justify-content:center!important}.justify-content-xl-between[_ngcontent-c14]{-webkit-box-pack:justify!important;-ms-flex-pack:justify!important;justify-content:space-between!important}.justify-content-xl-around[_ngcontent-c14]{-ms-flex-pack:distribute!important;justify-content:space-around!important}.align-items-xl-start[_ngcontent-c14]{-webkit-box-align:start!important;-ms-flex-align:start!important;align-items:flex-start!important}.align-items-xl-end[_ngcontent-c14]{-webkit-box-align:end!important;-ms-flex-align:end!important;align-items:flex-end!important}.align-items-xl-center[_ngcontent-c14]{-webkit-box-align:center!important;-ms-flex-align:center!important;align-items:center!important}.align-items-xl-baseline[_ngcontent-c14]{-webkit-box-align:baseline!important;-ms-flex-align:baseline!important;align-items:baseline!important}.align-items-xl-stretch[_ngcontent-c14]{-webkit-box-align:stretch!important;-ms-flex-align:stretch!important;align-items:stretch!important}.align-content-xl-start[_ngcontent-c14]{-ms-flex-line-pack:start!important;align-content:flex-start!important}.align-content-xl-end[_ngcontent-c14]{-ms-flex-line-pack:end!important;align-content:flex-end!important}.align-content-xl-center[_ngcontent-c14]{-ms-flex-line-pack:center!important;align-content:center!important}.align-content-xl-between[_ngcontent-c14]{-ms-flex-line-pack:justify!important;align-content:space-between!important}.align-content-xl-around[_ngcontent-c14]{-ms-flex-line-pack:distribute!important;align-content:space-around!important}.align-content-xl-stretch[_ngcontent-c14]{-ms-flex-line-pack:stretch!important;align-content:stretch!important}.align-self-xl-auto[_ngcontent-c14]{-ms-flex-item-align:auto!important;-ms-grid-row-align:auto!important;align-self:auto!important}.align-self-xl-start[_ngcontent-c14]{-ms-flex-item-align:start!important;align-self:flex-start!important}.align-self-xl-end[_ngcontent-c14]{-ms-flex-item-align:end!important;align-self:flex-end!important}.align-self-xl-center[_ngcontent-c14]{-ms-flex-item-align:center!important;-ms-grid-row-align:center!important;align-self:center!important}.align-self-xl-baseline[_ngcontent-c14]{-ms-flex-item-align:baseline!important;align-self:baseline!important}.align-self-xl-stretch[_ngcontent-c14]{-ms-flex-item-align:stretch!important;-ms-grid-row-align:stretch!important;align-self:stretch!important}}h1[_ngcontent-c14]{-o-object-fit:contain;object-fit:contain;font-size:24px;letter-spacing:.2px;text-align:left;font-weight:100;margin:0 0 8px 50px}h2[_ngcontent-c14]{-o-object-fit:contain;object-fit:contain;text-align:left;margin:0 0 27px 50px;font-weight:100}.margin-bottom-20[_ngcontent-c14]{margin-bottom:20px}.auth-block[_ngcontent-c14]{margin-top:46px;max-width:520px;width:520px;-o-object-fit:contain;object-fit:contain;border-radius:5px;background-color:#fff;-webkit-box-shadow:-2.8px 2.8px 9.7px .3px rgba(0,0,0,.2);box-shadow:-2.8px 2.8px 9.7px .3px rgba(0,0,0,.2);padding:25px 23px 32px;-webkit-box-sizing:border-box;box-sizing:border-box}.auth-block[_ngcontent-c14]   .password[_ngcontent-c14]{margin-bottom:0!important}@media (max-width:550px){.auth-block[_ngcontent-c14]{max-width:unset;min-width:unset;width:auto}}.form-group[_ngcontent-c14]   .input-group[_ngcontent-c14]{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;height:35px}.form-group[_ngcontent-c14]   .input-group[_ngcontent-c14]   input[_ngcontent-c14]{border-radius:0 5px 5px 0}.form-group[_ngcontent-c14]   .input-group[_ngcontent-c14]   span.addon-left[_ngcontent-c14]{border-radius:5px 0 0 5px;text-align:left;color:#fff;background-color:#5d5d5d;width:163px}.form-group[_ngcontent-c14]   .input-group[_ngcontent-c14]   .input-group-addon[_ngcontent-c14]{padding:.5rem 14px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.25;color:#5d5d5d;text-align:center;border:1px solid #5d5d5d;border-radius:0 5px 5px 0;white-space:nowrap;vertical-align:middle}.form-group[_ngcontent-c14]   .input-group[_ngcontent-c14]   .form-control[_ngcontent-c14]{display:block;width:100%;padding:.5rem 14px;font-size:12px;line-height:1.25;color:#8a8989;background-color:#e8e8e8;background-clip:padding-box;border:1px solid #e8e8e8;border-radius:0 5px 5px 0;-webkit-transition:border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out}.input-group[_ngcontent-c14]   .form-control[_ngcontent-c14], .input-group-addon[_ngcontent-c14]{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.input-group[_ngcontent-c14]   .form-control[_ngcontent-c14]{position:relative;z-index:2;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;width:1%;margin-bottom:0}.forgot[_ngcontent-c14]{display:inline-block;vertical-align:middle;color:#1e1e1e;float:right;margin-top:5px;margin-bottom:5px;font-size:12px}.forgot[_ngcontent-c14]   a[_ngcontent-c14]{font-size:12px;text-align:left;color:#ba0014}.forgot[_ngcontent-c14]   a[_ngcontent-c14]:hover{text-decoration:underline}@media (max-width:390px){h1[_ngcontent-c14]{font-size:20px}.forgot[_ngcontent-c14]{float:left;margin-left:34px}}.ng-validation[_ngcontent-c14]   .ng-valid[_ngcontent-c14]{border:1px solid rgba(11,169,2,.54)!important;border-left:0!important;position:relative}.ng-validation[_ngcontent-c14]   .ng-invalid[_ngcontent-c14]{border:1px solid red!important;border-left:0!important;position:relative}.ng-validation[_ngcontent-c14]   .selected[_ngcontent-c14]{border:1px solid rgba(11,169,2,.54)!important;border-radius:4px;position:absolute}.ng-validation[_ngcontent-c14]   .unselected[_ngcontent-c14]{border:1px solid red!important;border-radius:4px;position:absolute}input[_ngcontent-c14]::-webkit-input-placeholder{color:#ab0015}.dropdown[_ngcontent-c14]{position:relative;-webkit-box-sizing:inherit;box-sizing:inherit;width:100%;height:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;color:#fff;border-radius:5px;background-color:#e8e8e8;cursor:pointer}.dropdown[_ngcontent-c14]   .dropdown-input[_ngcontent-c14]{font-family:'DIN Pro';-o-object-fit:contain;object-fit:contain;color:#8a8989;padding:0 1px 0 10px;-ms-flex-positive:1;flex-grow:1;-webkit-box-flex:1;border:none;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background-color:#e8e8e8;white-space:normal;overflow:hidden;text-overflow:ellipsis;display:block;line-height:35px;width:1px}.dropdown[_ngcontent-c14]   .dropdown-content[_ngcontent-c14]{-webkit-overflow-scrolling:touch;z-index:10!important;width:inherit;position:absolute;top:calc(100%);opacity:.8;background-color:#1e1e1e;-webkit-box-shadow:-4.9px 4.9px 9.7px .3px rgba(0,0,0,.2);box-shadow:-4.9px 4.9px 9.7px .3px rgba(0,0,0,.2);border-radius:0 0 5px 5px;max-height:200px;overflow-x:auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;left:0}.dropdown[_ngcontent-c14]   .dropdown-content[_ngcontent-c14]   .dropdown-content-item[_ngcontent-c14]{border-bottom:1px solid #626262;display:-webkit-box;display:-ms-flexbox;display:flex;height:33px;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;cursor:pointer;color:#fff;padding-left:13px;-webkit-box-align:center;-ms-flex-align:center;align-items:center;line-height:2em;padding-right:5px;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%}.dropdown[_ngcontent-c14]   .dropdown-content[_ngcontent-c14]   .dropdown-content-item[_ngcontent-c14]   .dropdown-content-item-row[_ngcontent-c14]{width:100%;height:100%;display:-webkit-box;display:-ms-flexbox;display:flex}.dropdown[_ngcontent-c14]   .dropdown-content[_ngcontent-c14]   .dropdown-content-item[_ngcontent-c14]   .ellipsis_box[_ngcontent-c14]{width:calc(100% - 37px);display:inline-block;height:100%}.dropdown[_ngcontent-c14]   .dropdown-content[_ngcontent-c14]   .dropdown-content-item[_ngcontent-c14]   .padding-item[_ngcontent-c14]{padding:5px 0 5px 10px}.dropdown[_ngcontent-c14]   .dropdown-content[_ngcontent-c14]   .dropdown-content-item[_ngcontent-c14]   .dropdown-content-item__text[_ngcontent-c14]{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;height:100%;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.dropdown[_ngcontent-c14]   .dropdown-content[_ngcontent-c14]   .dropdown-content-item[_ngcontent-c14]:hover{background:#ffffff1f}.dropdown[_ngcontent-c14]   .dropdown-content[_ngcontent-c14]   .dropdown-content-item[_ngcontent-c14]:hover   .checkbox-custom[_ngcontent-c14]{border-color:#fff}.dropdown[_ngcontent-c14]   .dropdown-content[_ngcontent-c14]   .dropdown-content-item[_ngcontent-c14]   label[_ngcontent-c14]{background-color:transparent;margin:0;padding:0;width:37px;border:0;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;cursor:pointer}.dropdown[_ngcontent-c14]   .dropdown-content[_ngcontent-c14]   .dropdown-content-item[_ngcontent-c14]   span[_ngcontent-c14]{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.dropdown[_ngcontent-c14]   .dropdown-icon[_ngcontent-c14]{float:right;margin:0 13px 5px 0;background:0 0;border:none}.dropdown[_ngcontent-c14]   .dropdown-icon[_ngcontent-c14]:before{content:url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%229%22 height%3D%226%22%3E    %3Cpath fill%3D%22%238A8989%22 fill-rule%3D%22evenodd%22 d%3D%22M4.586 5.893l4.329-4.337a.272.272 0 0 0 .008-.374.249.249 0 0 0-.361-.005L4.417 5.329.436 1.052a.248.248 0 0 0-.36-.005.27.27 0 0 0-.008.372l4.159 4.467a.248.248 0 0 0 .359.007z%22%2F%3E%3C%2Fsvg%3E")}.dropdown[_ngcontent-c14]   .dropdown-icon[_ngcontent-c14]:hover{cursor:pointer}.dropdown-input[_ngcontent-c14]{font-size:14px;line-height:1.25;color:#8a8989;white-space:nowrap;overflow:hidden;position:relative;text-overflow:ellipsis}@media (max-width:520px){.dropdown-input[_ngcontent-c14]{font-size:12px}}.label-checkbox[_ngcontent-c14]{z-index:0}.label-checkbox[_ngcontent-c14]   .checkbox[_ngcontent-c14]{display:none}.label-checkbox[_ngcontent-c14]   .checkbox-custom[_ngcontent-c14]{position:relative;width:20px;height:20px;border:1px solid #414141;border-radius:5px}.label-checkbox[_ngcontent-c14]   .checkbox-custom[_ngcontent-c14], .label-checkbox[_ngcontent-c14]   .label[_ngcontent-c14]{display:inline-block;vertical-align:middle;color:#1e1e1e;margin-right:8px}.label-checkbox[_ngcontent-c14]   .checkbox-custom[_ngcontent-c14]   a[_ngcontent-c14], .label-checkbox[_ngcontent-c14]   .label[_ngcontent-c14]   a[_ngcontent-c14]{text-align:left;color:#ba0014}.label-checkbox[_ngcontent-c14]   .checkbox-custom[_ngcontent-c14]   a[_ngcontent-c14]:hover, .label-checkbox[_ngcontent-c14]   .label[_ngcontent-c14]   a[_ngcontent-c14]:hover{text-decoration:underline;cursor:pointer}.label-checkbox[_ngcontent-c14]     svg-icon svg{width:10px;height:13px;margin:0 0 3px 4px}.label-checkbox[_ngcontent-c14]     svg-icon svg path{fill:#fff}@media all and (-ms-high-contrast:none){.label-checkbox[_ngcontent-c14]   [_ngcontent-c14]::-ms-backdrop   svg[_ngcontent-c14], .label-checkbox[_ngcontent-c14]     svg-icon svg{margin:42px 0 1px 59px!important}}.changed-btn[_ngcontent-c14]{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row;flex-flow:row;-ms-flex-negative:0;flex-shrink:0;display:none}.changed-btn[_ngcontent-c14]   button[_ngcontent-c14]{background:0 0;cursor:pointer;width:29px;height:29px;-webkit-box-flex:0;-ms-flex:0 0 29px;flex:0 0 29px;padding:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border:0;border-radius:5px;margin-right:2px}.changed-btn[_ngcontent-c14]   svg[_ngcontent-c14]   rect[_ngcontent-c14]{fill:#000}.dropdown-content-item[_ngcontent-c14]:hover   .changed-btn[_ngcontent-c14]{display:-webkit-box;display:-ms-flexbox;display:flex}.dropdown-content-item[_ngcontent-c14]:hover   .changed-btn[_ngcontent-c14]   button[_ngcontent-c14]{background:rgba(30,30,30,.8)}.dropdown-content-item[_ngcontent-c14]:hover   svg[_ngcontent-c14]   rect[_ngcontent-c14]{fill:#fff}  .ng-submitted .ng-valid dropdown,   .ng-submitted dropdown.ng-valid{border:1px solid rgba(11,169,2,.54);color:rgba(11,169,2,.54);box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}  .ng-submitted .ng-invalid dropdown,   .ng-submitted dropdown.ng-invalid{border:1px solid red;color:red;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}.cleared[_ngcontent-c14]{border-right:1px solid rgba(138,137,137,.2);border-radius:0}.disabled[_ngcontent-c14]{cursor:not-allowed;opacity:.8}.sub-title[_ngcontent-c14]{color:#b3b3b3;margin-bottom:0;margin-top:-8px;font-size:12px}.dropdown-content-item__text[_ngcontent-c14]{font-size:14px}@media (max-width:520px){.dropdown-content-item__text[_ngcontent-c14]{font-size:12px}}</style><style>[_nghost-c13]{-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transition:.3s;transition:.3s;border-radius:5px;cursor:pointer;font-family:'DIN Regular';display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.icon[_ngcontent-c13], svg-icon[_ngcontent-c13]{display:-webkit-box;display:-ms-flexbox;display:flex}.icon[_ngcontent-c13]{max-height:60%}.icon[_ngcontent-c13] + .content[_ngcontent-c13], svg-icon[_ngcontent-c13] + .content[_ngcontent-c13]{margin-left:5px}.icon_position--right[_nghost-c13]{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}.icon_position--right[_nghost-c13]   .icon[_ngcontent-c13] + .content[_ngcontent-c13], .icon_position--right[_nghost-c13]   svg-icon[_ngcontent-c13] + .content[_ngcontent-c13]{margin-right:5px;margin-left:0}.theme--default[_nghost-c13]{background:#fff;border:1px solid #ba0014;color:#1e1e1e}.theme--default[_nghost-c13]     svg-icon svg path{fill:#1e1e1e;-webkit-transition:.3s;transition:.3s}.theme--default.active[_nghost-c13], .theme--default[_nghost-c13]:not([disabled]):hover{background:#ba0014;border:1px solid #ba0014;color:#fff}.theme--default.active[_nghost-c13]     svg-icon svg path, .theme--default[_nghost-c13]:not([disabled]):hover     svg-icon svg path{fill:#fff}.theme--default[disabled][_nghost-c13]{opacity:.8;cursor:not-allowed;background:#fff;border:1px solid #dadada;color:#dadada}.theme--low_priority_black[_nghost-c13]{background:0 0;border:1px solid #b9c8cb;color:#8a8989}.theme--low_priority_black[_nghost-c13]     svg-icon svg path{fill:#8a8989;-webkit-transition:.3s;transition:.3s}.theme--low_priority_black.active[_nghost-c13], .theme--low_priority_black[_nghost-c13]:not([disabled]):hover{background:#1e1e1e;border:1px solid #1e1e1e;color:#fff}.theme--low_priority_black.active[_nghost-c13]     svg-icon svg path, .theme--low_priority_black[_nghost-c13]:not([disabled]):hover     svg-icon svg path{fill:#fff}.theme--low_priority_black[disabled][_nghost-c13]{opacity:.8;cursor:not-allowed;background:#fff;border:1px solid #dadada;color:#dadada}.theme--link[_nghost-c13]{background:0 0;border:none;color:#ba0014}.theme--link[_nghost-c13]     svg-icon svg path{fill:#ba0014;-webkit-transition:.3s;transition:.3s}.theme--link.active[_nghost-c13], .theme--link[_nghost-c13]:not([disabled]):hover{background:0 0;border:none;color:#ba0014}.theme--link.active[_nghost-c13]     svg-icon svg path, .theme--link[_nghost-c13]:not([disabled]):hover     svg-icon svg path{fill:#ba0014}.theme--link[disabled][_nghost-c13]{opacity:.8;cursor:not-allowed}.theme--low_priority_grey[_nghost-c13]{background:0 0;border:1px solid #b9c8cb;color:#8a8989}.theme--low_priority_grey[_nghost-c13]     svg-icon svg path{fill:#8a8989;-webkit-transition:.3s;transition:.3s}.theme--low_priority_grey.active[_nghost-c13], .theme--low_priority_grey[_nghost-c13]:not([disabled]):hover{background:#b9c8cb;border:1px solid #b9c8cb;color:#fff}.theme--low_priority_grey.active[_nghost-c13]     svg-icon svg path, .theme--low_priority_grey[_nghost-c13]:not([disabled]):hover     svg-icon svg path{fill:#fff}.theme--low_priority_grey[disabled][_nghost-c13]{opacity:.8;cursor:not-allowed;background:0 0;border:1px solid #8a8989;color:#8a8989}.theme--low_priority_light_grey[_nghost-c13]{background:0 0;border:1px solid #e8e8e8;color:#8a8989}.theme--low_priority_light_grey[_nghost-c13]     svg-icon svg path{fill:#8a8989;-webkit-transition:.3s;transition:.3s}.theme--low_priority_light_grey.active[_nghost-c13], .theme--low_priority_light_grey[_nghost-c13]:not([disabled]):hover{background:#e8e8e8;border:1px solid #e8e8e8;color:#8a8989}.theme--low_priority_light_grey.active[_nghost-c13]     svg-icon svg path, .theme--low_priority_light_grey[_nghost-c13]:not([disabled]):hover     svg-icon svg path{fill:#8a8989}.theme--low_priority_light_grey[disabled][_nghost-c13]{opacity:.8;cursor:not-allowed;background:0 0;border:1px solid #e8e8e8;color:#e8e8e8}.theme--icon[_nghost-c13]{background:0 0;border:none;color:#1e1e1e}.theme--icon[_nghost-c13]     svg-icon svg path{fill:#1e1e1e;-webkit-transition:.3s;transition:.3s}.theme--icon.active[_nghost-c13], .theme--icon[_nghost-c13]:not([disabled]):hover{background:0 0;border:none;color:#1e1e1e}.theme--icon.active[_nghost-c13]     svg-icon svg path, .theme--icon[_nghost-c13]:not([disabled]):hover     svg-icon svg path{fill:#1e1e1e}.theme--icon[disabled][_nghost-c13]{opacity:.8;cursor:not-allowed}.theme--low_priority_icon[_nghost-c13]{background:0 0;border:none;color:#1e1e1e}.theme--low_priority_icon[_nghost-c13]     svg-icon svg path{fill:#1e1e1e;-webkit-transition:.3s;transition:.3s}.theme--low_priority_icon.active[_nghost-c13], .theme--low_priority_icon[_nghost-c13]:not([disabled]):hover{background:#b9c8cb;border:1px solid #b9c8cb;color:#fff}.theme--low_priority_icon.active[_nghost-c13]     svg-icon svg path, .theme--low_priority_icon[_nghost-c13]:not([disabled]):hover     svg-icon svg path{fill:#fff}.theme--low_priority_icon[disabled][_nghost-c13]{opacity:.8;cursor:not-allowed;background:#fff;border:1px solid #dadada;color:#dadada}.theme--white_icon[_nghost-c13]{background:0 0;border:none;color:#fff}.theme--white_icon[_nghost-c13]     svg-icon svg path{fill:#fff;-webkit-transition:.3s;transition:.3s}.theme--white_icon.active[_nghost-c13], .theme--white_icon[_nghost-c13]:not([disabled]):hover{background:0 0;border:none;color:#fff}.theme--white_icon.active[_nghost-c13]     svg-icon svg path, .theme--white_icon[_nghost-c13]:not([disabled]):hover     svg-icon svg path{fill:#fff}.theme--white_icon[disabled][_nghost-c13]{opacity:.8;cursor:not-allowed}.theme--simple_dark[_nghost-c13]{background:rgba(49,58,75,.3);border:none;color:#fff}.theme--simple_dark[_nghost-c13]     svg-icon svg path{fill:#fff;-webkit-transition:.3s;transition:.3s}.theme--simple_dark.active[_nghost-c13], .theme--simple_dark[_nghost-c13]:not([disabled]):hover{background:rgba(49,58,75,.8);border:none;color:#fff}.theme--simple_dark.active[_nghost-c13]     svg-icon svg path, .theme--simple_dark[_nghost-c13]:not([disabled]):hover     svg-icon svg path{fill:#fff}.theme--simple_dark[disabled][_nghost-c13]{opacity:.8;cursor:not-allowed;background:#fff;border:1px solid #dadada;color:#dadada}.theme--light_gray[_nghost-c13]{background:0 0;border:1px solid #e8e8e8;color:#8a8989}.theme--light_gray[_nghost-c13]     svg-icon svg path{fill:#8a8989;-webkit-transition:.3s;transition:.3s}.theme--light_gray.active[_nghost-c13], .theme--light_gray[_nghost-c13]:not([disabled]):hover{background:#e8e8e8;border:1px solid #e8e8e8;color:#313a4b}.theme--light_gray.active[_nghost-c13]     svg-icon svg path, .theme--light_gray[_nghost-c13]:not([disabled]):hover     svg-icon svg path{fill:#313a4b}.theme--light_gray[disabled][_nghost-c13]{opacity:.8;cursor:not-allowed;background:#fff;border:1px solid #dadada;color:#dadada}.theme--gray[_nghost-c13]{background:0 0;border:1px solid #b9c8cb;color:#8a8989}.theme--gray[_nghost-c13]     svg-icon svg path{fill:#8a8989;-webkit-transition:.3s;transition:.3s}.theme--gray.active[_nghost-c13], .theme--gray[_nghost-c13]:not([disabled]):hover{background:#b9c8cb;color:#fff}.theme--gray.active[_nghost-c13]     svg-icon svg path, .theme--gray[_nghost-c13]:not([disabled]):hover     svg-icon svg path{fill:#fff}.theme--gray[disabled][_nghost-c13]{opacity:.8;cursor:not-allowed;background:#fff;border:1px solid #dadada;color:#dadada}.theme--gray_icon[_nghost-c13]{background:#b9c8cb;border:1px solid #b9c8cb}.theme--gray_icon[_nghost-c13]     svg-icon svg path{-webkit-transition:.3s;transition:.3s}.theme--gray_icon[disabled][_nghost-c13]{opacity:.8;cursor:not-allowed}.theme--light_gray_icon[_nghost-c13]{border:1px solid #e8e8e8;color:#313a4b}.theme--light_gray_icon[_nghost-c13]     svg-icon svg path{fill:#313a4b;-webkit-transition:.3s;transition:.3s}.theme--light_gray_icon.active[_nghost-c13], .theme--light_gray_icon[_nghost-c13]:not([disabled]):hover{border:1px solid #1e1e1e}.theme--light_gray_icon[disabled][_nghost-c13]{opacity:.8;cursor:not-allowed}.theme--icon_opacity[_nghost-c13]{background:0 0;border:1px solid #fff;color:#fff}.theme--icon_opacity[_nghost-c13]     svg-icon svg path{fill:#fff;-webkit-transition:.3s;transition:.3s}.theme--icon_opacity[disabled][_nghost-c13]{opacity:.8;cursor:not-allowed}.theme--clear[_nghost-c13]{background:#b9c8cb;border:1px solid #b9c8cb;color:#fff}.theme--clear[_nghost-c13]     svg-icon svg path{fill:#fff;-webkit-transition:.3s;transition:.3s}.theme--clear.active[_nghost-c13], .theme--clear[_nghost-c13]:not([disabled]):hover{background:#fff;border:1px solid #b9c8cb;color:#b9c8cb}.theme--clear.active[_nghost-c13]     svg-icon svg path, .theme--clear[_nghost-c13]:not([disabled]):hover     svg-icon svg path{fill:#b9c8cb}.theme--clear[disabled][_nghost-c13]{opacity:.8;cursor:not-allowed}.theme--black[_nghost-c13]{background:#fff;border:1px solid #1e1e1e;color:#1e1e1e}.theme--black[_nghost-c13]     svg-icon svg path{fill:#1e1e1e;-webkit-transition:.3s;transition:.3s}.theme--black[disabled][_nghost-c13]{opacity:.8;cursor:not-allowed;background:#fff;border:1px solid #dadada;color:#dadada}.theme--dark_gray[_nghost-c13]{border:1px solid #5d5d5d;color:#5d5d5d}.theme--dark_gray[_nghost-c13]     svg-icon svg path{fill:#5d5d5d;-webkit-transition:.3s;transition:.3s}.theme--dark_gray.active[_nghost-c13], .theme--dark_gray[_nghost-c13]:not([disabled]):hover{background:#5d5d5d;color:#fff}.theme--dark_gray.active[_nghost-c13]     svg-icon svg path, .theme--dark_gray[_nghost-c13]:not([disabled]):hover     svg-icon svg path{fill:#fff}.theme--dark_gray[disabled][_nghost-c13]{opacity:.8;cursor:not-allowed;background:#fff;border:1px solid #dadada;color:#dadada}.size--default[_nghost-c13]{height:35px;min-width:35px;font-size:14px;padding:1px 7px 2px}.size--default_bold[_nghost-c13]{height:35px;min-width:35px;font-size:14px;padding:1px 7px 2px;font-family:DIN Pro}.size--small[_nghost-c13]{height:29px;min-width:29px;font-size:14px;padding:1px 7px 2px}.size--extra_small[_nghost-c13]{height:24px;min-width:24px;font-size:14px;padding:1px 7px 2px}.size--small_text[_nghost-c13]{height:35px;min-width:35px;font-size:11px;padding:1px 7px 2px}.size--small_text_bold[_nghost-c13]{height:35px;min-width:35px;font-size:11px;padding:1px 7px 2px;font-family:DIN Pro}.size--icon[_nghost-c13]{padding:0}.onlyIcon[_nghost-c13]{padding:0}</style><style>.next[_ngcontent-c9]{width:100%;height:35px;margin-top:19px;-o-object-fit:contain;object-fit:contain}.back[_ngcontent-c9]{margin-right:17px;width:100%;height:35px;margin-top:19px;-o-object-fit:contain;object-fit:contain}</style><style>.next[_ngcontent-c10]{width:100%;height:35px;margin-top:19px;-o-object-fit:contain;object-fit:contain}.back[_ngcontent-c10]{margin-right:17px;width:100%;height:35px;margin-top:19px;-o-object-fit:contain;object-fit:contain}.invalid[_ngcontent-c10]{border:1px solid red;color:red}</style></head><body class=" modal-open"><app-root _nghost-c0="" ng-version="5.2.11"><app-toast _ngcontent-c0="" _nghost-c1=""><!---->
+<!---->
+</app-toast>
+<app-toast _ngcontent-c0="" _nghost-c1=""><!---->
+<!---->
+</app-toast>
+<router-outlet _ngcontent-c0=""></router-outlet><app-pages _nghost-c4=""><div _ngcontent-c4="" class="background">
+  <!----><img _ngcontent-c4="" alt="logo" class="logo" src="assets/images/logo/logo.png" srcset="assets/images/logo/logo@2x.png 2x, assets/images/logo/logo@3x.png 3x" />
+  <router-outlet _ngcontent-c4=""></router-outlet><app-registration _nghost-c5=""><div _ngcontent-c5="" class="container">
+  <app-title _ngcontent-c5="" _nghost-c6=""><div _ngcontent-c6="" class="container">
+  <img _ngcontent-c6="" src="assets/images/registration/registration.png" srcset="assets/images/registration/registration@2x.png 2x, assets/images/registration/registration@3x.png 3x" />
+  <div _ngcontent-c6="" class="title">
+    <h1 _ngcontent-c6="">REGISTRATION</h1>
+    <h2 _ngcontent-c6="">Please enter your data to register</h2>
+  </div>
+</div>
+</app-title>
+
+  <app-registration-steps _ngcontent-c5="" _nghost-c7=""><div _ngcontent-c7="" class="container">
+  <div _ngcontent-c7="" class="step">Step 1</div>
+
+  <div _ngcontent-c7="" class="step">Step 2</div>
+
+  <div _ngcontent-c7="" class="step active">Step 3</div>
+</div></app-registration-steps>
+
+  <div _ngcontent-c5="">
+    <!---->
+
+    <!---->
+
+    <!----><app-registration-third-step _ngcontent-c5="" _nghost-c10=""><!----><form _ngcontent-c10="" novalidate="" class="ng-invalid ng-touched ng-dirty">
+
+  <div _ngcontent-c10="" class="input-group">
+    <label _ngcontent-c10="">Username</label>
+    <input _ngcontent-c10="" minlength="6" name="username" required="" class="ng-valid ng-pristine ng-touched" />
+    </div>
+
+    <!---->
+
+    <div _ngcontent-c10="" class="input-group">
+      <label _ngcontent-c10="">Password</label>
+      <input _ngcontent-c10="" minlength="6" name="password" required="" type="password" class="ng-dirty ng-valid ng-touched" />
+    </div>
+
+    <div _ngcontent-c10="" class="input-group">
+      <label _ngcontent-c10="">Verify Password</label>
+      <input _ngcontent-c10="" minlength="6" name="verifyPassword" required="" type="password" class="ng-valid ng-pristine ng-touched" />
+  </div>
+
+  <!---->
+
+  <div _ngcontent-c10="" class="checkbox-group">
+    <input _ngcontent-c10="" name="verify" required="" type="checkbox" class="ng-untouched ng-pristine ng-invalid" />I agree to the
+    <a _ngcontent-c10="">Terms of Use</a>
+  </div>
+
+  <div _ngcontent-c10="" class="button-group">
+    <button _ngcontent-c10="" class="theme--gray size--default icon_position--left back" izbutton="" theme="gray" type="button" _nghost-c13=""><!---->
+<!---->
+<!----><div _ngcontent-c13="" class="content">
+  STEP BACK
+</div>
+</button>
+
+    <button _ngcontent-c10="" class="theme--default size--default icon_position--left next" izbutton="" type="submit" _nghost-c13=""><!---->
+<!---->
+<!----><div _ngcontent-c13="" class="content">
+  REGISTER
+</div>
+</button>
+  </div>
+</form>
+</app-registration-third-step>
+
+    <!---->
+  </div>
+</div>
+
+<modal _ngcontent-c5="" class="modal-terms-of-use" modalclass="modal-terms-of-use">
+<div class="modal in fade" role="dialog" tabindex="-1" style="display: block;">
+    <div class="modal-dialog modal-terms-of-use">
+        <!----><div class="modal-content" tabindex="0">
+            <div class="modal-header">
+                <!---->
+                <!---->
+                
+            </div>
+            <div class="modal-body">
+                <modal-content _ngcontent-c5="">
+    <app-terms-of-service _ngcontent-c5="" _nghost-c12=""><div _ngcontent-c12="" class="container">
+  <label _ngcontent-c12="" class="header">TERMS OF USE</label>
+    <div _ngcontent-c12="" class="content accept-group">
+
+    
+
+
+<ol>
+  <li>Acceptance of the Terms of Use</li>
+  <p>These terms of use are entered into by and between You and The New Grant Company, LLC ("<b>Company</b>", "<b>we</b>"
+    or "<b>us</b>"). The following terms and conditions (these "<b>Terms of Use</b>"), govern your access to and use of
+    www.innerzone.com (the "Website "), and the InnerZone<sup>®</sup> mobile applications for iOS, Android, and
+    the Web (individually and collectively the "App"), including any content, functionality and services offered on or
+    through the Software, whether as a coach, player, parent/legal guardian, staff, other registered user, or guest
+    (collectively, a “<b>User</b>”).The Website and the App are collectively referred to as the “Software.” The Software
+    is licensed, not sold, to You.</p>
+
+  <p>Please read the Terms of Use carefully before you start to use the Software. <b>By using the Software or by
+    clicking to accept or agree to the Terms of Use when this option is made available to you, you accept and agree to
+    be bound and abide by these Terms of Use, our Privacy Policy (found below on this page), and, if you are under the
+    age of 18 or if you use or intend to use the Software for, with or on behalf of anyone under the age of 18, our
+    Youth Privacy Policy (found below on this page), each incorporated herein by reference.</b> If you do not agree to
+    or want to be bound by these Terms of Use, the Privacy Policy, or the Youth Privacy Policy, you must not access or
+    use the Software. </p>
+
+  <p>This Software is offered and available to Users who reside in the United States or any of its territories or
+    possessions. By using this Software, you represent and warrant that you are of legal age to form a binding contract
+    with the Company and meet all of the foregoing eligibility requirements. If you use or intend to use this Software
+    for, with or on behalf of anyone who is younger than 18 years of age, you represent and warrant that you and your
+    Users younger than 18 years of age accept and agree to be bound and abide by our Youth Privacy Policy (found below
+    on this page). If you do not meet all of these requirements, you must not access or use the Software, whether on
+    your own behalf or on behalf of anyone else.</p>
+
+  <li>Changes to the Terms of Use</li>
+
+  <p>We may revise and update these Terms of Use from time to time in our sole discretion. All changes are effective
+    immediately when we post them. Your continued use of the Software following the posting of revised Terms of Use
+    means that you accept and agree to the changes. You are expected to check this page each time you access this
+    Software so you are aware of any changes, as they are binding on you. If you do not agree with or agree to be bound
+    by any modifications to the Terms of use, you must cease use of the Software. </p>
+
+  <li>Accessing the Software and Account Security</li>
+
+  <p>We reserve the right to withdraw or amend the Software, and any service or material we provide on the Software, in
+    our sole discretion without notice. We will not be liable if for any reason all or any part of the Software is
+    unavailable at any time or for any period. From time to time, we may restrict access to some parts of the Software,
+    or the entire Software, to Users.</p>
+
+  <li>You are responsible for:</li>
+  <p>
+    </p><ul>
+      <li>Making all arrangements necessary for you to have access to the Software, including Internet or cloud
+        connectivity.
+      </li>
+      <li>Ensuring that all persons who access the Software through your Internet connection are aware of these Terms of
+        Use and comply with them.
+      </li>
+    </ul>
+  <p></p>
+
+  <p>To access the Software or certain of the resources or portions of the functionality it offers, you may be asked to
+    provide certain registration details or other information. It is a condition of your use of the Software that all
+    the information you provide on the Software is correct, current and complete. You agree that all information you
+    provide to register with this Software or otherwise is governed by our Privacy Policy (found below on this page) and
+    Youth Privacy Policy (found below on this page), and you consent to all actions we take with respect to your
+    information consistent with our Privacy Policy and Youth Privacy Policy.</p>
+
+  <p>If you choose, or are provided with, a user name, password or any other piece of information as part of our
+    security procedures, you must treat such information as confidential, and you must not disclose it to any other
+    person or entity, except if you are under the age of 18, you (and we) may share such information with your parent or
+    legal guardian. You also acknowledge that your account is personal to you and agree not to provide any other person
+    with access to this Software or portions of it using your user name, password, or other security information. You
+    agree to notify us immediately of any unauthorized access to or use of your username or password or any other breach
+    of security. You also agree to ensure that you exit from your account at the end of each session. You should use
+    particular caution when accessing your account from a public or shared computer so that others are not able to view
+    or record your password or other personal information.</p>
+
+  <p>We have the right to disable any username, password or other identifier, whether chosen by you or provided by us,
+    at any time in our sole discretion for any or no reason, including if, in our opinion, you have violated any
+    provision of these Terms of Use.</p>
+
+  <li>Intellectual Property Rights</li>
+
+  <p>The Software and its entire contents, features and functionality (including but not limited to all information,
+    computer programs, text, displays, images, video and audio, and the design, selection and arrangement thereof), are
+    owned by the Company, its licensors or other providers of such material and are protected by United States and
+    international copyright, trademark, patent, trade secret and other intellectual property or proprietary rights
+    laws.</p>
+
+  <p>These Terms of Use permit you to use the Software for your personal, non-commercial use only. You must not
+    reproduce, distribute, modify, create derivative works of, publicly display, publicly perform, republish, download,
+    store or transmit any of the material in the Software or on our Website, except as follows:</p>
+
+  <ul>
+    <li>Your computer may temporarily store copies of such materials in RAM incidental to your accessing and viewing
+      those materials.
+    </li>
+    <li>You may store files that are automatically cached by your Web browser for display enhancement purposes.</li>
+    <li>You may print or download one copy of a reasonable number of pages of the Software for your own use (as
+      permitted in the applicable agreements) and not for further reproduction, publication or distribution.
+    </li>
+    <li>If we provide desktop, mobile or other applications for download, you may download a single copy to your
+      computer or mobile device solely for your own use (as permitted by the applicable agreements), provided you agree
+      to be bound by our end user license agreement for such applications.
+    </li>
+  </ul>
+  <br />
+  <li>You must not:</li>
+  <br />
+  <ul>
+    <li>Modify or make copies of any materials in the Software or in the Terms of Use, the Privacy Policy, or the Youth
+      Privacy Policy
+    </li>
+    <li>Use any illustrations, photographs, video or audio sequences or any graphics separately from the accompanying
+      text.
+    </li>
+    <li>Delete or alter any copyright, patent, trademark or other proprietary rights notices from copies of the Software
+      or materials from the Terms of Use, the Privacy Policy, or the Youth Privacy Policy.
+    </li>
+    <li>Decompile, disassemble, reverse engineer, or otherwise attempt to discover the source code of the Software.</li>
+    <li>Disclose to any person other than an authorized User of the Software any part of the Software or defeat or
+      attempt to defeat or suffer any person to defeat or attempt to defeat any security measures with respect to the
+      Software.
+    </li>
+  </ul>
+
+  <p>You must not access or use for any purposes beyond that permitted in the applicable agreements any part of the
+    Software or any services or materials available through the Software. </p>
+
+  <p>If you print, copy, modify, download or otherwise use or provide any other person with access to any part of the
+    Software in breach of the Terms of Use, your right to use the Software will cease immediately and you must, at our
+    option, return or destroy any copies of the materials you have made. No right, title or interest in or to the
+    Software or any content on the Software is transferred to you, and all rights not expressly granted are reserved by
+    the Company. Any use of the Software not expressly permitted by these Terms of Use is prohibited and constitutes a
+    breach of these Terms of Use and may violate copyright, trademark, patent, and other laws.</p>
+
+
+  <li>Trademarks</li>
+
+  <p>The Company name, the term InnerZone<sup>®</sup> and all related names, logos, product and service names, designs and slogans
+    are trademarks of the Company or its affiliates or licensors. You must not use such marks without the prior written
+    permission of the Company. All other names, logos, product and service names, designs and slogans on this Software
+    are the trademarks of their respective owners.</p>
+
+  <li>Prohibited Uses</li>
+
+  <p>You may use the Software only for lawful purposes and in accordance with these Terms of Use. You agree not to use
+    the Software:</p>
+
+  <ul>
+    <li>In any way that violates any applicable federal, state, local or international law or regulation (including,
+      without limitation, any laws regarding the export of data or software to and from the US or other countries).
+    </li>
+    <li>For the purpose of exploiting, harming or attempting to exploit or harm minors in any way by exposing them to
+      inappropriate content, by asking for personally identifiable information, or by otherwise engaging in intrusive,
+      abusive, or exploitive behavior.
+    </li>
+    <li>To send, knowingly receive, upload, download, use or re-use any material which does not comply with the Content
+      Standards set out in these Terms of Use.
+    </li>
+    <li>To transmit, or procure the sending of, any advertising or promotional material without our prior written
+      consent, including any "junk mail", "chain letter" or "spam" or any other similar solicitation.
+    </li>
+    <li>To impersonate or attempt to impersonate the Company, a Company employee, another user, or any other person or
+      entity (including, without limitation, by using e-mail addresses or screen names associated with any of the
+      foregoing).
+    </li>
+    <li>To engage in any other conduct that restricts or inhibits anyone's use or enjoyment of the Software, or which,
+      as determined by us in our sole discretion, may harm the Company or Users of the Software or expose them to
+      liability.
+    </li>
+  </ul>
+  <br />
+  <li>Additionally, you agree not to:</li>
+  <br />
+  <ul>
+    <li>Use the Software in any manner that could disable, overburden, damage, or impair the Software or interfere with
+      any other party's use of the Software, including their ability to engage in real time activities through the
+      Software.
+    </li>
+    <li>Use any robot, spider or other automatic device, process or means to access the Software for any purpose,
+      including monitoring or copying any of the material on the Software.
+    </li>
+    <li>Use any manual process to monitor or copy any of the material on the Software or for any other unauthorized
+      purpose without our prior written consent.
+    </li>
+    <li>Use any device, software or routine that interferes with the proper working of the Software.</li>
+    <li>Introduce any viruses, trojan horses, worms, logic bombs or other material which is malicious or technologically
+      harmful.
+    </li>
+    <li>Attempt to gain unauthorized access to, interfere with, damage or disrupt any parts of the Software, the server
+      on which the Software is stored, or any server, computer or database connected to the Software.
+    </li>
+    <li>Attack the Software via a denial-of-service attack or a distributed denial-of-service attack.
+    </li>
+    <li>Otherwise attempt to interfere with or affect the proper working of the Software.</li>
+  </ul>
+  <br />
+  <li>User Contributions</li>
+  <p>The Software may contain message boards, chat rooms, personal web pages or profiles, forums, bulletin boards, Email
+    lists and other interactive features (collectively, "<b>Interactive Services</b>") that allow Users to post, submit,
+    publish, display or transmit to other Users or other persons (hereinafter, "<b>post</b>") content or materials
+    (collectively, "<b>User Contributions</b>") on or through the Software.</p>
+
+  <p>All User Contributions must comply with the Content Standards set out in these Terms of Use.</p>
+
+  <p>Any User Contribution you post to or through the Software will be considered non-confidential and non-proprietary.
+    By providing any User Contribution to or through the Software, you grant us and our affiliates and service
+    providers, and each of their and our respective licensees, successors and assigns the right to use, reproduce,
+    modify, perform, display, distribute and otherwise disclose to third parties any such material for any purpose.</p>
+
+  <li>You represent and warrant that: </li>
+  <br />
+  <ul>
+    <li>You own or control all rights in and to the User Contributions and have the right to grant the license granted
+      above to us and our affiliates and service providers, and each of their and our respective licensees, successors
+      and assigns.
+    </li>
+    <li>All of your User Contributions do and will comply with these Terms of Use.</li>
+  </ul>
+
+  <p>You understand and acknowledge that you are responsible for any User Contributions you submit or contribute, and
+    you, not the Company, have full responsibility for such content, including its legality, reliability, accuracy, and
+    appropriateness.</p>
+
+  <p>We are not responsible, or liable to any third party, for the content or accuracy of any User Contributions posted
+    by you or any other user of the Software.</p>
+
+  <li>Monitoring and Enforcement; Termination</li>
+
+  <p>We have the right (but not the obligation) to:</p>
+  <ul>
+    <li>Remove or refuse to post any User Contributions for any or no reason in our sole discretion.</li>
+    <li>Take any action with respect to any User Contribution that we deem necessary or appropriate in our sole
+      discretion, including if we believe that such User Contribution violates the Terms of Use, including the Content
+      Standards, infringes any intellectual property right or other right of any person or entity, threatens the
+      personal safety of users of the Software or the public or could create liability for the Company.
+    </li>
+    <li>Disclose your identity or other information about you to any third party who claims that material posted by you
+      violates their rights, including their intellectual property rights or their right to privacy.
+    </li>
+    <li>Take appropriate legal action, including without limitation, referral to law enforcement, for any illegal or
+      unauthorized use of the Software.
+    </li>
+    <li>Terminate or suspend your access to all or part of the Software for any or no reason, including without
+      limitation, any violation of these Terms of Use.
+    </li>
+
+  </ul>
+
+  <p>Without limiting the foregoing, we have the right to cooperate fully with any law enforcement authorities or court
+    order requesting or directing us to disclose the identity or other information of anyone posting any materials on or
+    through the Software. <span class="capital"> YOU AGREE TO (AND HEREBY DO) WAIVE AND HOLD HARMLESS THE COMPANY AND ITS AFFILIATES, LICENSEES AND SERVICE PROVIDERS FROM ANY CLAIMS RESULTING FROM ANY ACTION TAKEN BY ANY OF THE FOREGOING PARTIES DURING OR AS A RESULT OF ITS INVESTIGATIONS AND FROM ANY ACTIONS TAKEN AS A CONSEQUENCE OF INVESTIGATIONS BY EITHER SUCH PARTIES OR LAW ENFORCEMENT AUTHORITIES.</span>
+  </p>
+  <p>Nevertheless, we cannot and do not undertake to review all material before it is posted on the Software, and cannot
+    ensure prompt removal of objectionable material after it has been posted. Accordingly, we assume no liability for
+    any action or inaction regarding transmissions, communications or content provided by any user or third party. We
+    have no liability or responsibility to anyone for performance or nonperformance of the activities described in this
+    section.</p>
+
+  <li>Content Standards</li>
+  <p>These content standards apply to any and all User Contributions and use of Interactive Services. User Contributions
+    must in their entirety comply with all applicable federal, state, local and international laws and regulations.
+    Without limiting the foregoing, User Contributions must not:</p>
+  <ul>
+    <li>Contain any material which is defamatory, obscene, indecent, abusive, offensive, harassing, violent, hateful,
+      inflammatory, or otherwise objectionable.
+    </li>
+    <li>Promote sexually explicit or pornographic material, violence, or discrimination based on race, sex, religion,
+      nationality, disability, sexual orientation, or age.
+    </li>
+    <li>Infringe any patent, trademark, trade secret, copyright, or other intellectual property or other rights of any
+      other person.
+    </li>
+    <li>violate the legal rights (including the rights of publicity and privacy) of others or contain any material that
+      could give rise to any civil or criminal liability under applicable laws or regulations or that otherwise may be
+      in conflict with these Terms of Use, our Privacy Policy (found below on this page), or our Youth Privacy Policy
+      (found below on this page).
+    </li>
+    <li>Be likely to deceive any person.</li>
+    <li>Promote any illegal activity, or advocate, promote or assist any unlawful act.</li>
+    <li>Cause annoyance, inconvenience or needless anxiety or be likely to upset, embarrass, alarm or annoy any other
+      person.
+    </li>
+    <li>Impersonate any person, or misrepresent your identity or affiliation with any person or organization.</li>
+    <li>Involve unrelated commercial activities or sales, such as contests, sweepstakes, and other sales promotions,
+      barter, or advertising.
+    </li>
+    <li>Give the impression that they emanate from or are endorsed by us or any other person or entity, if this is not
+      the case.
+    </li>
+  </ul>
+  <br />
+
+  <li>Copyright Infringement</li>
+  <p>If you believe that any User Contributions violate your copyright, please contact us at
+    support@innerzone.com. It is the policy of the Company to terminate the user accounts of repeat
+    infringers.</p>
+
+  <li>Reliance on Information Posted</li>
+  <p>The information presented on or through the Software is made available solely for general information purposes. We
+    do not warrant the accuracy, completeness, or usefulness of this information. Any reliance you place on such
+    information is strictly at your own risk. We disclaim all liability and responsibility arising from any reliance
+    placed on such materials by you or any other visitor to the Software, or by anyone who may be informed of any of its
+    contents.</p>
+
+  <p>This Software may include content provided by third parties, including materials provided by other users, bloggers
+    and third-party licensors, syndicators, aggregators and/or reporting services. All statements and/or opinions
+    expressed in these materials, and all articles and responses to questions and other content, other than the content
+    provided by the Company, are solely the opinions and the responsibility of the person or entity providing those
+    materials. These materials do not necessarily reflect the opinion of the Company, its employees, or its owners. We
+    are not responsible or liable to you or to any third party for the content or accuracy of any materials provided by
+    any third parties.</p>
+
+  <li>Changes to the Software</li>
+  <p>We may update the content these Terms and Conditions, the Privacy Policy, or the Youth Privacy Policy from time to
+    time, but the content thereof is not necessarily complete or up-to-date. Any of the material displayed on or used
+    with the Software may be out of date at any given time, and we are under no obligation to update such material. </p>
+
+  <li>Information About You and Your Visits to and use of the Software</li>
+  <p>All information we collect on or with the Software is subject to our Privacy Policy (found below on this page) and,
+    if applicable, our Youth Privacy Policy (found below on this page). By using the Software, you consent to all
+    actions taken by us with respect to your information in compliance with the Privacy Policy and Youth Privacy
+    Policy. </p>
+
+  <li>Linking to the Software and Social Media Features</li>
+  <p>You may link to our homepage, provided you do so in a way that is fair and legal and does not damage our reputation
+    or take advantage of it, but you must not establish a link in such a way as to suggest any form of association,
+    approval, or endorsement on our part without our express written consent.</p>
+
+  <p>This Software may provide certain social media features that enable you to:</p>
+  <ul>
+    <li>Send e-mails or other communications with certain content, or links to certain content, on this Software.</li>
+    <li>Cause limited portions of content on the Software to be displayed or appear to be displayed on your own or
+      certain third-party websites.
+    </li>
+  </ul>
+
+  <p>You may use these features solely as they are provided by us, and solely with respect to the content they are
+    displayed with. Subject to the foregoing, you must not:</p>
+  <ul>
+    <li>Establish a link from any website that is not owned by you.</li>
+    <li>Cause the Software or portions of it to be displayed, or appear to be displayed by, for example, framing, deep
+      linking or in-line linking, on any other site.
+    </li>
+    <li>Otherwise take any action with respect to the materials on this Software that is inconsistent with any other
+      provision of these Terms of Use
+    </li>
+  </ul>
+  <p>The website from which you are linking, or on which you make certain content accessible, must comply in all
+    respects with the Content Standards set out in these Terms of Use.</p>
+
+  <p>You agree to cooperate with us in causing any unauthorized framing or linking immediately to cease. We reserve the
+    right to withdraw linking permission without notice.</p>
+
+  <p>We may disable all or any social media features and any links at any time without notice in our discretion.</p>
+
+  <li>Links from the Website</li>
+  <p>If the Software contains links to other sites and resources provided by third parties, these links are provided for
+    your convenience only. This includes links contained in advertisements, including banner advertisements and
+    sponsored links. We have no control over the content of those sites or resources, and accept no responsibility for
+    them or for any loss or damage that may arise from your use of them. If you decide to access any of the third party
+    websites linked to this Software, you do so entirely at your own risk and subject to the terms and conditions of use
+    for such websites.</p>
+
+  <li>Geographic Restrictions</li>
+  <p>The owner of the Software is based in the state of Kansas in the United States. We provide this Software for use
+    only by persons located in the United States. We make no claims that the Software or any of its content is
+    accessible or appropriate outside of the United States. Access to the Software may not be legal by certain persons
+    or in certain countries. If you access the Software from outside the United States, you do so on your own initiative
+    and are responsible for compliance with local laws.</p>
+
+  <li>Disclaimer of Warranties</li>
+  <p>You understand that we cannot and do not guarantee or warrant that files available for downloading from the
+    internet or the Software will be free of viruses or other destructive, disabling, or debilitating code. You are
+    responsible for implementing sufficient procedures and checkpoints to satisfy your particular requirements for
+    anti-virus and malware protection and for accuracy and privacy of data input and output, and for maintaining a means
+    external to our site for any reconstruction of any lost data. <span class="capital">WE WILL NOT BE LIABLE FOR ANY LOSS OR DAMAGE CAUSED BY A DISTRIBUTED DENIAL-OF-SERVICE ATTACK, VIRUSES, MALWARE, OR OTHER TECHNOLOGICALLY HARMFUL MATERIAL THAT MAY INFECT YOUR COMPUTER EQUIPMENT, COMPUTER PROGRAMS, DATA, OR OTHER PROPRIETARY MATERIAL RESULTING FROM OR CAUSED BY YOUR USE OF THE WEBSITE OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE WEBSITE OR RESULTING FROM OR CAUSED BY YOUR DOWNLOADING OF ANY MATERIAL POSTED ON IT, OR ON ANY WEBSITE LINKED TO IT.</span>
+  </p>
+  <p><span class="capital">YOUR USE OF THE WEBSITE, ITS CONTENT, AND ANY SERVICES OR ITEMS OBTAINED THROUGH THE WEBSITE IS AT YOUR OWN RISK. THE WEBSITE, ITS CONTENT AND ANY SERVICES OR ITEMS OBTAINED THROUGH THE WEBSITE ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS, WITHOUT ANY WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. NEITHER THE COMPANY NOR ANY PERSON ASSOCIATED WITH THE COMPANY MAKES ANY WARRANTY OR REPRESENTATION WITH RESPECT TO THE COMPLETENESS, SECURITY, RELIABILITY, QUALITY, ACCURACY, OR AVAILABILITY OF THE WEBSITE. WITHOUT LIMITING THE FOREGOING, NEITHER THE COMPANY NOR ANYONE ASSOCIATED WITH THE COMPANY REPRESENTS OR WARRANTS THAT THE WEBSITE, ITS CONTENT, OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE WEBSITE WILL BE ACCURATE, RELIABLE, ERROR-FREE OR UNINTERRUPTED; THAT DEFECTS WILL BE CORRECTED; THAT OUR SITE OR THE SERVER THAT MAKES IT AVAILABLE ARE FREE OF VIRUSES, MALWARE, OR OTHER HARMFUL COMPONENTS; OR THAT THE WEBSITE OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE WEBSITE WILL OTHERWISE MEET YOUR NEEDS OR EXPECTATIONS. </span>
+  </p>
+
+  <p><span class="capital">THE COMPANY HEREBY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, STATUTORY OR OTHERWISE, INCLUDING (BUT NOT LIMITED TO) ANY WARRANTIES OF MERCHANTABILITY, NON-INFRINGEMENT, AND FITNESS FOR ANY PARTICULAR PURPOSE. </span>
+  </p>
+
+  <p><span class="capital">THE FOREGOING DOES NOT AFFECT ANY WARRANTIES WHICH CANNOT BE EXCLUDED OR LIMITED UNDER APPLICABLE LAW.</span>
+  </p>
+  <li>Limitation on Liability</li>
+  <p><span class="capital">IN NO EVENT WILL THE COMPANY, ITS AFFILIATES, OR THEIR LICENSORS, SERVICE PROVIDERS, EMPLOYEES, AGENTS, OFFICERS, OR DIRECTORS BE LIABLE FOR DAMAGES OF ANY KIND, UNDER ANY LEGAL THEORY, ARISING OUT OF OR IN CONNECTION WITH YOUR USE, OR INABILITY TO USE, THE WEBSITE, ANY WEBSITES LINKED TO IT, ANY CONTENT ON THE WEBSITE OR SUCH OTHER WEBSITES OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE WEBSITE OR SUCH OTHER WEBSITES, INCLUDING ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO, PERSONAL INJURY, PAIN AND SUFFERING, EMOTIONAL DISTRESS, LOSS OF REVENUE, LOSS OF PROFITS, LOSS OF BUSINESS OR ANTICIPATED SAVINGS, LOSS OF USE, LOSS OF GOODWILL, LOSS OF DATA, AND WHETHER CAUSED BY TORT (INCLUDING NEGLIGENCE), BREACH OF CONTRACT OR OTHERWISE, EVEN IF FORESEEABLE.</span>
+  </p>
+  <p><span class="capital">THE FOREGOING DOES NOT AFFECT ANY LIABILITY WHICH CANNOT BE EXCLUDED OR LIMITED UNDER APPLICABLE LAW.</span>
+  </p>
+  <li>Indemnification</li>
+  <p>You agree to defend, indemnify, and hold harmless the Company, its affiliates, licensors and service providers, and
+    its and their respective officers, directors, employees, contractors, agents, licensors, suppliers, successors, and
+    assigns from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees
+    (including reasonable attorneys' fees) arising out of or relating to your violation of these Terms of Use or your
+    use of the Software, including, but not limited to, your User Contributions, any use of the Software's content,
+    services and products other than as expressly authorized in these Terms of Use or your use of any information
+    obtained from the Software.</p>
+  <li>Governing Law and Jurisdiction</li>
+  <p>All matters relating to the Software and these Terms of Use and any dispute or claim arising therefrom or related
+    thereto (in each case, including non-contractual disputes or claims), shall be governed by and construed in
+    accordance with the internal laws of the State of Kansas without giving effect to any choice or conflict of law
+    provision or role (whether of the State of Kansas or any other jurisdiction).</p>
+  <p>Any legal suit, action or proceeding arising out of, or related to, these Terms of Use or the Website shall be
+    instituted exclusively in the federal courts of the United States or the courts of the State of Kansas. You waive
+    any and all objections to the exercise of jurisdiction over you by such courts and to venue in such courts.</p>
+
+  <li>Arbitration</li>
+  <p>At Company's sole discretion, it may require You to submit any disputes arising from the use of these Terms of Use
+    or the Software, including disputes arising from or concerning their interpretation, violation, invalidity,
+    non-performance, or termination, to final and binding arbitration in a location designated by Company within Johnson
+    County, Kansas before a panel of three (3) arbitrators. The arbitration shall be administered by JAMS pursuant to
+    its Comprehensive Arbitration Roles and Procedures and in accordance with the Expedited Procedures in those Roles.
+    Judgment on the Award may be entered in any court having jurisdiction.</p>
+
+  <li>Limitation on Time to File Claims</li>
+  <p><span class="capital">ANY CAUSE OF ACTION OR CLAIM YOU MAY HAVE ARISING OUT OF OR RELATING TO THESE TERMS OF USE OR THE WEBSITE MUST BE COMMENCED WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES, OTHERWISE, SUCH CAUSE OF ACTION OR CLAIM IS PERMANENTLY BARRED. </span>
+  </p>
+  <li>Waiver and Severability</li>
+  <p>No waiver of or by the Company of any term or condition set forth in these Terms of Use shall be deemed a further
+    or continuing waiver of such term or condition or a waiver of any other term or condition, and any failure of the
+    Company to assert a right or provision under these Terms of Use shall not constitute a waiver of such right or
+    provision. If any provision of these Terms of Use is held by a court or other tribunal of competent jurisdiction to
+    be invalid, illegal, or unenforceable for any reason, such provision shall be eliminated or limited to the minimum
+    extent such that the remaining provisions of the Terms of Use will continue in full force and effect</p>
+
+  <li>Entire Agreement</li>
+  <p>The Terms of Use, our Privacy Policy, and our Youth Privacy Policy, together with any enabling agreement (whether
+    ink-signed or click-signed) that reference or incorporate Terms of Use, our Privacy Policy, and our Youth Privacy
+    Policy, constitute the sole and entire agreement between you and The New Grant Company, LLC with respect to the
+    Software and supersede all prior and contemporaneous understandings, agreements, representations and warranties,
+    both written and oral, with respect to the Software. </p>
+
+  <li>Your Comments and Concerns</li>
+  <p>The Software is furnished by and the website where the Terms of Use, our Privacy Policy, and our Youth Privacy
+    Policy are located is operated by The New Grant Company, LLC, 10955 Lowell Avenue, Suite 200, Overland Park, Kansas
+    66210.</p>
+  <p>All notices, comments, feedback, requests for technical support and other communications relating to the Software
+    should be directed to: support@innerzone.com.</p>
+
+
+  <h2 class="text-center title">Privacy Policy</h2>
+  <li>Introduction</li>
+  <p>The New Grant Company, LLC ("<b>Company</b>" or "<b>We</b>") respect your privacy and are committed to protecting
+    it through our compliance with this policy.</p>
+  <p>This policy describes the types of information we may collect from you or that you may provide when you visit the
+    website www.innerzone.com (our "<b>Software</b>") and our practices for collecting, using, maintaining,
+    protecting, and disclosing that information.</p>
+
+  <p>This policy applies to information we collect:</p>
+
+  <ul>
+    <li>On this Software.</li>
+    <li>In email, text, and other electronic messages between you or an intermediary and this Software.</li>
+    <li>Through mobile and desktop applications you download from this Software or are otherwise provided by us, which
+      provide dedicated non-browser-based interaction between you or an intermediary and this Software.
+    </li>
+  </ul>
+  <p>It does not apply to information collected by:</p>
+  <ul>
+    <li>us offline or through any other means; or</li>
+    <li>any third party, including through any application or content (including advertising) that may link to or be
+      accessible from the Software.
+    </li>
+  </ul>
+  <p>Please read this policy carefully to understand our policies and practices regarding your information and how we
+    will treat it. If you do not agree with our policies and practices, your choice is not to use our Software. By
+    accessing or using this Software, you agree to this Privacy Policy. This Privacy Policy may change from time to time
+    (see Changes to Our Privacy Policy). Your continued use of this Software after we make changes is deemed to be
+    acceptance of those changes; so, please check the Privacy Policy periodically for updates. If you do not wish to
+    agree to or be bound by any updates, modifications, or alterations to this Privacy Policy, you must cease all use of
+    the Software.</p>
+
+  <li>Children Under the Age of 18</li>
+  <p>Our Software is not intended for children under 18 years of age unless there is a valid and binding agreement to
+    the terms of our Youth Privacy Policy (found below on this page). No one under age 18 may provide any information,
+    and no one may submit any information about anyone under the age of 18, to or on the Software unless they agree to
+    our Youth Privacy Policy (found below on this page). We do not knowingly collect personal information from children
+    under 18 absent verified parental consent. If you are under 18, do not use or provide any information on this
+    Software or on or through any of its features, register on the Software, make any purchases through the Software,
+    use any of the interactive features of this Software, or provide any information about yourself to us, including
+    your name, address, telephone number, email address, or any screen name or user name you may use unless you agree to
+    our Youth Privacy Policy (found below on this page). If we learn we have collected or received personal information
+    from a person under 18 without verification of parental consent, we will delete that information. If you believe we
+    might have any information from or about a child under 18, please contact us at support@innerzone.com.</p>
+
+  <li>Information We Collect About You and How We Collect It</li>
+  <p>We collect several types of information from and about Users of our Software, including information:</p>
+  <ul>
+    <li>by which you may be personally identified, such as name, postal address, e-mail address, telephone number,
+      jersey number, or any other identifier by which you may be contacted online or offline ("<b>personal
+        information</b>");
+    </li>
+    <li>that is about you but individually does not identify you, such as your sport, position, motivators,
+      communication styles and preferences, and other responses to various questionnaires; and/or
+    </li>
+    <li>about your internet connection, the equipment you use to access our Software and usage details.</li>
+  </ul>
+  <p>We collect this information:</p>
+  <ul>
+    <li>Directly from you when you or your intermediary provide it to us.</li>
+    <li>Automatically as you navigate through the site. Information collected automatically may include usage details,
+      IP addresses, and information collected through cookies, web beacons, and other tracking technologies.
+    </li>
+    <li>From third parties, for example, our business partners.</li>
+  </ul>
+  <br />
+
+  <li>Information You Provide to Us.</li>
+  <p>The information we collect on or through our Software may include:</p>
+
+  <ul>
+    <li>Information that you provide by filling in forms on our Software on behalf of yourself or others. This includes
+      information provided at the time of registering to use our Software and/or subscribing to our service. We may also
+      ask you for information when you report a problem with our Software.
+    </li>
+    <li>Records and copies of your correspondence (including email addresses), if you contact us</li>
+    <li>Your responses to surveys that we might ask you to complete for research purposes.</li>
+    <li>Details of transactions you carry out through our Software and of the fulfillment of your orders. You may be
+      required to provide financial information before placing an order through our Software.
+    </li>
+  </ul>
+  <p>You also may provide information to be published or displayed (hereinafter, "<b>posted</b>") on public areas of the
+    Software, or transmitted to other Users of the Software or third parties (collectively, "<b>User Contributions</b>").
+    Your User Contributions are posted on and transmitted to others at your own risk. Although we limit access to
+    certain pages, please be aware that no security measures are perfect or impenetrable. Additionally, we cannot
+    control the actions of other Users of the Software with whom you may choose to share your User Contributions.
+    Therefore, we cannot and do not guarantee that your User Contributions will not be viewed by unauthorized persons.
+  </p>
+
+  <li>Information We Collect Through Automatic Data Collection Technologies.</li>
+  <p>As you navigate through and interact with our Software, we may use automatic data collection technologies to
+    collect certain information about your equipment, browsing actions, and patterns, including:</p>
+
+  <ul>
+    <li>Details of your visits to our Software, including traffic data, location data, logs, and other communication
+      data and the resources that you access and use on the Software.
+    </li>
+    <li>Information about your computer and internet connection, including your IP address, operating system, and
+      browser type.
+    </li>
+  </ul>
+  <p>We also may use these technologies to collect information about your online activities over time and across
+    third-party websites or other online services (behavioral tracking). See Choices About How We Use and Disclose Your
+    Information for information on how you can opt out of behavioral tracking on this website and how we respond to web
+    browser signals and other mechanisms that enable consumers to exercise choice about behavioral tracking</p>
+  <p>The information we collect automatically may include personal information or we may maintain it or associate it
+    with personal information we collect in other ways or receive from third parties. It helps us to improve our
+    Software and to deliver a better and more personalized service, including by enabling us to:</p>
+
+  <ul>
+    <li>Estimate our audience size and usage patterns.</li>
+    <li>Store information about your preferences, allowing us to customize our Software according to your individual
+      interests.
+    </li>
+    <li>Recognize you when you return to our Software.</li>
+  </ul>
+  <p>The technologies we use for this automatic data collection may include:</p>
+  <ul>
+    <li><b>Cookies (or browser cookies).</b> A cookie is a small file placed on the hard drive of your computer. You may
+      refuse to accept browser cookies by activating the appropriate setting on your browser. However, if you select
+      this setting you may be unable to access certain parts of our Software. Unless you have adjusted your browser
+      setting so that it will refuse cookies, our system will issue cookies when you direct your browser to our
+      Software.
+    </li>
+    <li><b>Flash Cookies.</b> Certain features of our Software may use local stored objects (or Flash cookies) to
+      collect and store information about your preferences and navigation to, from, and on our Software. Flash cookies
+      are not managed by the same browser settings as are used for browser cookies. For information about managing your
+      privacy and security settings for Flash cookies, see Choices About How We Use and Disclose Your Information.
+    </li>
+    <li><b>Web Beacons.</b> Pages of the Software and our e-mails may contain small electronic files known as web
+      beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example,
+      to count users who have visited those pages or [opened an email] and for other related website statistics (for
+      example, recording the popularity of certain website content and verifying system and server integrity).
+    </li>
+  </ul>
+  <br />
+  <li>Third-Party Use of Cookies and Other Tracking Technologies.</li>
+  <p>Some content or applications, including advertisements, on the Software are served by third-parties, including
+    advertisers, ad networks and servers, content providers, and application providers. These third parties may use
+    cookies alone or in conjunction with web beacons or other tracking technologies to collect information about you
+    when you use our website. The information they collect may be associated with your personal information or they may
+    collect information, including personal information, about your online activities over time and across different
+    websites and other online services. They may use this information to provide you with interest-based (behavioral)
+    advertising or other targeted content. </p>
+  <p>We do not control these third parties' tracking technologies or how they may be used. If you have any questions
+    about an advertisement or other targeted content, you should contact the responsible provider directly. For
+    information about how you can opt out of receiving targeted advertising from many providers, see Choices About How
+    We Use and Disclose Your Information.</p>
+
+  <li>How We Use Your Information</li>
+  <p>We use information that we collect about you or that you provide to us, including any personal information:</p>
+  <ul>
+    <li>To present our Software and its contents to you.</li>
+    <li>To provide you with information, products, or services that you request from us.</li>
+    <li>To provide you with team or player analytics and communication strategies and preferences</li>
+    <li>To fulfill any other purpose for which you provide it.</li>
+    <li>To provide you with notices about your account or subscription, including expiration and renewal notices.</li>
+    <li>To carry out our obligations and enforce our rights arising from any contracts entered into between you and us,
+      including for billing and collection.
+    </li>
+    <li>To notify you about changes to our Software or any products or services we offer or provide through it.</li>
+    <li>To allow you to participate in interactive features on our Software.</li>
+    <li>In any other way we may describe when you provide the information.</li>
+    <li>For any other purpose with your consent.</li>
+  </ul>
+  <p>We may also use your information to contact you about our own and third-parties' goods and services that may be of
+    interest to you. If you do not want us to use your information in this way, please check the relevant box located on
+    the form on which we collect your data (the registration form). For more information, see Choices About How We Use
+    and Disclose Your Information.</p>
+  <p>We may use the information we have collected from you to enable us to display advertisements to our advertisers'
+    target audiences. Even though we do not disclose your personal information for these purposes without your consent,
+    if you click on or otherwise interact with an advertisement, the advertiser may assume that you meet its target
+    criteria.</p>
+
+  <li>Disclosure of Your Information</li>
+  <p>We may disclose aggregated information about our Users, and information that does not identify any individual,
+    without restriction. </p>
+  <p>We may disclose personal information that we collect or you provide as described in this privacy policy:</p>
+
+  <ul>
+    <li>To our subsidiaries and affiliates.</li>
+    <li>To contractors, service providers, and other third parties we use to support our business.</li>
+    <li>To a buyer or other successor in the event of a merger, divestiture, restructuring, reorganization, dissolution,
+      or other sale or transfer of some or all of The New Grant Company LLC's assets, whether as a going concern or as
+      part of bankruptcy, liquidation, or similar proceeding, in which personal information held by The New Grant
+      Company LLC about our Software Users is among the assets transferred.
+    </li>
+    <li>To third parties to market their products or services to you if you have not opted out of these disclosures. For
+      more information, see Choices About How We Use and Disclose Your Information.
+    </li>
+    <li>To fulfill the purpose for which you provide it. For example, if you give us an email address to use the "email
+      a friend" feature of our Software, we will transmit the contents of that email and your email address to the
+      recipients
+    </li>
+    <li>For any other purpose disclosed by us when you provide the information.</li>
+    <li>With your consent.</li>
+  </ul>
+  We may also disclose your personal information:
+  <ul>
+    <li>To comply with any court order, law, or legal process, including to respond to any government or regulatory
+      request.
+    </li>
+    <li>To enforce or apply our Terms of Use (found above on this page) and other agreements, including for billing and
+      collection purposes.
+    </li>
+    <li>If we believe disclosure is necessary or appropriate to protect the rights, property, or safety of The New Grant
+      Company LLC, our customers, or others. This includes exchanging information with other companies and organizations
+      for the purposes of fraud protection and credit risk reduction.
+    </li>
+  </ul>
+  <br />
+
+  <li>Choices About How We Use and Disclose Your Information</li>
+  <p>We strive to provide you with choices regarding the personal information you provide to us. We have created
+    mechanisms to provide you with the following control over your information: </p>
+
+  <ul>
+    <li><b>Tracking Technologies and Advertising. You can set your browser to refuse all or some browser cookies, or to
+      alert you when cookies are being sent. To learn how you can manage your Flash cookie settings, visit the Flash
+      player settings page on Adobe's website. If you disable or refuse cookies, please note that some parts of the
+      Software may then be inaccessible or not function properly.</b></li>
+    <b>
+      <li><b>Disclosure of Your Information for Third-Party Advertising. If you do not want us to share your personal
+        information with unaffiliated or non-agent third parties for promotional purposes, you can opt-out by indicating
+        your preference on our registration form. You can also always opt-out by logging into the Software and adjusting
+        your user preferences in your account profile.</b></li>
+      <b>
+        <li><b>Promotional Offers from the Company. If you do not wish to have your email address or contact information
+          used by the Company to promote our own or third parties' products or services, you can opt-out by indicating
+          your preference on our registration form or at any other time by logging into the Software and adjusting your
+          user preferences in your account profile. </b></li>
+        <b>
+          <li><b>Targeted Advertising. If you do not want us to use information that we collect or that you provide to
+            us to deliver advertisements according to our advertisers' target-audience preferences, you can opt-out by
+            indicating your preference on our registration form or at any other time by logging into the Software and
+            adjusting your user preferences in your account profile. </b></li>
+          <b>
+          </b></b></b></b></ul>
+  <b><b><b>
+
+    <p>We do not control third parties' collection or use of your information to serve interest-based advertising. </p>
+    <p>These third parties may provide you with ways to choose not to have your information collected or used in this
+      way. You can opt out of receiving targeted ads from members of the Network Advertising Initiative ("NAI") on the
+      NAI's website.</p>
+
+    <li>Accessing and Correcting Your Information</li>
+    <p>You can review and change your personal information by logging into the Software and visiting your account
+      profile page. You may also send us an email at support@innerzone.com to request access to, correct or
+      delete any personal information that you have provided to us. We cannot delete your personal information except by
+      also deleting your User account. We may not accommodate a request to change information if we believe the change
+      would violate any law or legal requirement or cause the information to be incorrect.</p>
+    <p>If you delete your User Contributions from the Software, copies of your User Contributions may remain viewable in
+      cached and archived pages, or might have been copied or stored by other Software users. Proper access and use of
+      information provided on the Software, including User Contributions, is governed by our Terms of Use (found above
+      on this page).</p>
+
+    <li>Your California Privacy Rights</li>
+    <p>California Civil Code Section § 1798.83 permits Users of our Software that are California residents to request
+      certain information regarding our disclosure of personal information to third parties for their direct marketing
+      purposes. To make such a request, please send an email to support@innerzone.com or write to us at 10955
+      Lowell Avenue, Suite 200, Overland Park, KS 66210.</p>
+
+    <li>Data Security</li>
+    <p>We have implemented measures designed to secure your personal information from accidental loss and from
+      unauthorized access, use, alteration, and disclosure. All information you provide to us is stored on our secure
+      servers behind firewalls. Any payment transactions will be encrypted using SSL technology.</p>
+    <p>The safety and security of your information also depends on you. Where we have given you (or where you have
+      chosen) a password for access to certain parts of our Software, you are responsible for keeping this password
+      confidential. We ask you not to share your password with anyone. We urge you to be careful about giving out
+      information in public or User Contribution areas of the Software, like message boards or e-mail lists. The
+      information you share in these areas may be viewed by other Users of the Software.</p>
+    <p>Unfortunately, the transmission of information via the internet is not completely secure. Although we do our best
+      to protect your personal information, we cannot guarantee the security of your personal information transmitted to
+      our Software. Any transmission of personal information is at your own risk. We are not responsible for
+      circumvention of any privacy settings or security measures contained on the Software.</p>
+
+    <li>Changes to Our Privacy Policy</li>
+    <p>It is our policy to post any changes we make to our privacy policy on this page with a notice that the privacy
+      policy has been updated on the Software home page. If we make material changes to how we treat our Users' personal
+      information, we will notify you. The date the privacy policy was last revised is identified at the top of the
+      Privacy Policy. You are responsible for ensuring we have an up-to-date, active, and deliverable email address for
+      you, and for periodically visiting our Software and this privacy policy to check for any changes. </p>
+
+    <li>Contact Information</li>
+    <p>To ask questions or comment about this privacy policy and our privacy practices, contact us via email at
+      support@innerzone.com or via mail at 10955 Lowell Avenue, Suite 200, Overland Park, KS 66210.</p>
+
+    <h2 class="text-center title">Youth Privacy Policy</h2>
+    <h2 class="text-center title-sm">Privacy Policy for Children Under The Age of 18</h2>
+
+    <li>CHILDREN UNDER THE AGE OF 18</li>
+    <p>This policy applies to anyone under the age of 18 (“<b>children</b>”) and supplements the general Privacy Policy
+      (found above on this page) of the New Grant Company, LLC (the “Company,” “we,” “us,” or “our”). </p>
+
+    <p>The Children's Online Privacy Protection Act of 1998 and its roles (collectively, "COPPA") require us to inform
+      parents and legal guardians (as used in this policy, "<b>parents</b>") about our practices for collecting, using,
+      and disclosing personal information from children under the age of 13. It also requires us to obtain verifiable
+      consent from a child's parent for certain collection, use, and disclosure of the child's personal information.
+    </p>
+    <p>This policy notifies parents of:</p>
+
+    <ul>
+      <li>The types of information we may collect from children.</li>
+      <li>How we use the information we collect.</li>
+      <li>Our practices for disclosing that information.</li>
+      <li>Our practices for notifying and obtaining parents' consent when we collect personal information from children,
+        including how a parent may revoke consent.
+      </li>
+      <li>All operators that collect or maintain information from children through this Software.</li>
+
+    </ul>
+
+    <p>Terms that are defined in our Privacy Policy or Software Terms of Use have the same meanings when used in this
+      Youth Privacy Policy.</p>
+    <li>Information We Collect from Children</li>
+    <p>Although it may be possible for children to access many parts of the Software or mobile app without providing us
+      with personal information, full and intended use requires us to collect certain information, including personal
+      information, from them. In addition, we use certain technologies, such as cookies, to collect automatically
+      information from our Users (including children) when they visit or use the Software or our mobile app.</p>
+    <p>We only collect as much information about a child as is reasonably necessary to fulfill the purposes of the
+      Software, and we do not condition his or her participation on the disclosure of more personal information than is
+      reasonably necessary. </p>
+
+    <li>Information We Collect Directly. </li>
+    <p>A child must provide us with the following information to register with this website: the child's first name,
+      last name, gender, sport, team, jersey number, birth date (to verify the child’s coverage under the Youth Privacy
+      Policy, and a parent or guardian’s email address or mailing address to secure their consent to Our collection of
+      their child’s personal information. We also require the child to create a username and password. We may request
+      additional information from your child, but this information is optional. We specify whether information is
+      required or optional when we request it. We also ask that the child complete one or more questionnaires. The
+      questions and User responses thereto are designed to allow us to analyze the User’s communication and interaction
+      styles and preferences. Although providing a response to these questionnaires is optional, the child cannot be
+      included in our services if the questionnaires are not completed.</p>
+    <p>We enable some registered Users such as coaches, team managers, and school staff to communicate with others on or
+      through this Website through email ("<b>Social Features</b>"). The nature of these features allows children to
+      disclose personal information about themselves. We do not monitor or review this content before it is posted or
+      transmitted, and we do not control the actions of third parties with whom your child shares his or her
+      information. We encourage parents to educate their children about safe internet use and to monitor their
+      children's use of Social Features.</p>
+
+    <li>Automatic Information Collection and Tracking. </li>
+    <p>We use technology to automatically collect information from our users, including children, when they access and
+      navigate through the Software or our mobile app and use certain of its or their features. The information we
+      collect through these technologies may include:</p>
+    <ul>
+      <li>One or more persistent identifiers that can be used to recognize a user over time and across different
+        websites and online services.
+      </li>
+      <li>Information that identifies a device's location (geolocation information).</li>
+    </ul>
+    <p>We also may combine non-personal information we collect through these technologies with personal information
+      about you or your child that we collect online. </p>
+    <p>For information about our automatic information collection practices, including how you can opt out of certain
+      information collection, see the Automatic Information collection and Tracking and Choices About How We Use and
+      Disclose Your Information sections of our general Privacy Policy (found above on this page).</p>
+
+    <li>How We Use Your Child's Information</li>
+    <p>We use the personal information we collect from Children to: </p>
+    <ul>
+      <li>register him or her with the Software;</li>
+      <li>communicate with him or her about activities or features of the Software that may be of interest;</li>
+      <li>track his or her performance in games or other activities;</li>
+      <li>Provide the coaching staff, Parents, and/or other Users with team and player analytics and communication
+        strategies and preferences.
+      </li>
+      <li>Other uses.</li>
+    </ul>
+    <p>We use the information we collect automatically through technology (see Automatic Information collection and
+      Tracking) and other non-personal information we collect to improve our Software and mobile app and to deliver a
+      better and more personalized experience by enabling us to:</p>
+    <ul>
+      <li>Estimate our audience size and usage patterns.</li>
+      <li>Store information about the child's preferences, allowing us to customize the content according to individual
+        interests.
+      </li>
+    </ul>
+    <p>We use geolocation information we collect to identify our target markets, market penetration, and response rates
+      for marketing purposes. </p>
+
+    <li>Our Practices for Disclosing Children's Information</li>
+    <p>We do not share, sell, rent, or transfer Children's personal information other than as described in this
+      section.</p>
+    <p>We may disclose aggregated information about many of our Users, and information that does not identify any
+      individual or device. In addition, we may disclose Children's personal information:</p>
+
+    <ul>
+      <li>To third parties we use to support the internal operations of our Software and who are bound by contractual or
+        other obligations to use the information only for such purpose and to keep the information confidential
+      </li>
+      <li>If we are required to do so by law or legal process, such as to comply with any court order or subpoena or to
+        respond to any government or regulatory request.
+      </li>
+      <li>If we believe disclosure is necessary or appropriate to protect the rights, property, or safety of The New
+        Grant Company LLC, our customers or others, including to:
+        <ol>
+          <li>protect the safety of a child;</li>
+          <li>protect the safety and security of the Software; or</li>
+          <li>enable us to take precautions against liability</li>
+        </ol>
+      </li>
+      <li>To law enforcement agencies or for an investigation related to public safety.</li>
+    </ul>
+    <p>In addition, if The New Grant Company LLC is involved in a merger, divestiture, restructuring, reorganization,
+      dissolution, or other sale or transfer of some or all of The Grant Company LLC's assets, whether as a going
+      concern or as part of bankruptcy, liquidation, or similar proceeding or event, we may transfer the personal
+      information we have collected or maintain to the buyer or other successor.</p>
+
+    <li>Social Features </li>
+    <p>The Software offers social features, including email that enable Users (such as coaches, team managers, and
+      school staff) to communicate with Children and others through the Software and mobile app. We do not control the
+      types of information that can be sent to your child and do not control any response your child may make in
+      response to the receipt of such communication. We encourage parents to educate their children about safety online
+      and to monitor carefully their children's use of social features to ensure they do not disclose their personal
+      information through them. </p>
+    <li>Accessing and Correcting Your Child's Personal Information</li>
+    <p>At any time, you may review the child's personal information maintained by us, require us to correct or delete
+      the personal information, and/or refuse to permit us from further collecting or using the child's
+      information. </p>
+    <p>You can review, change, or delete your child's personal information by:</p>
+    <ul>
+      <li>Logging into your child's account and visiting his or her account profile page.</li>
+      <li>Sending us an email at support@innerzone.com. To protect your and your child’s privacy and security,
+        we may require you to take certain steps or provide additional information to verify your identity before we
+        provide any information or make corrections
+      </li>
+    </ul>
+    <br />
+
+    <li>Operators That Collect or Maintain Information from Children</li>
+    <p class="dispaly-block">Please direct your inquiries about our privacy practices and use of children's information
+      via mail to:<br /><br />
+      <span> The New Grant Company, LLC </span>
+      <span> 10955 Lowell Avenue, Suite 200</span>
+      <span>Overland Park, KS 66210 </span><br />
+      <span>via email to: support@innerzone.com</span><br /><span> or via telephone to: 877-547-8055.</span></p>
+  </b>
+  </b>
+  </b>
+</ol>
+
+</div>
+  <!---->
+  <!----><div _ngcontent-c12="" class="button-group">
+      <button _ngcontent-c12="" class="theme--gray size--default icon_position--left decline close" izbutton="" theme="gray" _nghost-c13=""><!---->
+<!---->
+<!----><div _ngcontent-c13="" class="content">
+  CLOSE
+</div>
+</button>
+    </div>  
+</div>
+</app-terms-of-service>
+  </modal-content>
+            </div>
+            <div class="modal-footer">
+                
+                <!---->
+                <!---->
+            </div>
+        </div>
+    </div>
+</div>
+</modal>
+</app-registration>
+</div>
+
+</app-pages>
+<!---->
+</app-root><script>document.documentMode === 11 ? document.documentElement.className += 'ie11' : '';</script><script type="text/javascript" src="https://js.stripe.com/v2/"></script><script type="text/javascript" src="inline.84e63799172a15759353.bundle.js"></script><script type="text/javascript" src="polyfills.262b7edf6a8bd9d75e66.bundle.js"></script><script type="text/javascript" src="main.0c309ecda002097bb6fa.bundle.js"></script><iframe name="stripeXDM_default410411_provider" id="stripeXDM_default410411_provider" aria-hidden="true" src="https://js.stripe.com/v2/channel.html?stripe_xdm_e=http%3A%2F%2Fsports.innerzone.local&amp;stripe_xdm_c=default410411&amp;stripe_xdm_p=1#__stripe_transport__" frameborder="0" style="position: absolute; top: -2000px; left: 0px;"></iframe><iframe src="https://js.stripe.com/v2/m/outer.html#referrer=&amp;title=InnerZone%20Sports&amp;url=http%3A%2F%2Fsports.innerzone.local%2F%23%2Fregistration&amp;muid=976daaae-be97-4203-94e8-7a0f4aa75def&amp;sid=3d2f4f46-ab1e-4fc5-8197-dc297bfe8f0f&amp;preview=false&amp;" frameborder="0" allowtransparency="true" scrolling="no" tabindex="-1" aria-hidden="true" style="width: 1px !important; height: 1px !important; position: fixed !important; visibility: hidden !important; pointer-events: none !important;"></iframe><div class="fade in modal-backdrop"></div></body></html>
